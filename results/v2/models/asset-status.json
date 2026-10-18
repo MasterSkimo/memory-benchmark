@@ -1,0 +1,9 @@
+{
+  "pretrained_status": "blocked",
+  "pretrained_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "official_fastembed_distribution": "Qdrant/paraphrase-multilingual-MiniLM-L12-v2-onnx-Q",
+  "reason": "No model cache existed; allowed proxy returned 403 for Hugging Face API/resolve endpoints; official FastEmbed GitHub release contained no model assets.",
+  "trained_fallback": "See manifest.json; locally optimized contrastive neural encoder is now the Qdrant/Cognee common encoder.",
+  "retrieval_semantics_enabled": true,
+  "caveat": "Trained fallback is a tiny public-development model, not equivalent to a pretrained sentence embedding model."
+}

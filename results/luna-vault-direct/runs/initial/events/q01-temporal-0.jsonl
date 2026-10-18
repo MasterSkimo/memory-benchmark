@@ -1,0 +1,1 @@
+{"question_id": "q01-temporal-0", "operation": "search", "status": "OK", "latency_ms": 21.6580240003168, "file_reads": 100, "bytes_read": 25556, "source_ids": ["org-alpha/project-02/note-060", "org-alpha/project-02/note-061", "org-alpha/project-02/note-062", "org-alpha/project-02/note-070", "org-alpha/project-02/note-071"]}

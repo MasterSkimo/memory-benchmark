@@ -1,0 +1,1 @@
+{"question_id":"v2-rev-02","answer":"L’équipe Ambre doit approuver le déploiement. Le déploiement doit suivre une double exploitation vérifiée. La règle a été approuvée le 2026-07-15.","abstain":false,"citations":[{"document_id":"org-alto/project-02/note-060","revision":"v2-r2"}]}

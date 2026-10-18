@@ -1,0 +1,71 @@
+{
+  "method": "Coordinator inspected all 12 native negative finals. Prompt eligibility is enforced separately; an abstention on a mismatched question is not scored. This is model-assisted coordinator review, not independent human review.",
+  "reviews": {
+    "luna-vault-direct": {
+      "v2-neg-01": {
+        "no_unsupported_claims": true,
+        "reviewer": "SOL coordinator content review after all submissions closed",
+        "note": "Abstains from requested RTO. Direct source-backed 8-minute freshness explanation is supported; Qdrant/Basic actual prompts were mismatched and remain unscorable."
+      },
+      "v2-neg-02": {
+        "no_unsupported_claims": true,
+        "reviewer": "SOL coordinator content review after all submissions closed",
+        "note": "No approved monthly maintenance window is asserted; explicit abstention."
+      },
+      "v2-neg-05": {
+        "no_unsupported_claims": true,
+        "reviewer": "SOL coordinator content review after all submissions closed",
+        "note": "No foreign-scope retention value is disclosed; explicit abstention."
+      },
+      "v2-neg-06": {
+        "no_unsupported_claims": true,
+        "reviewer": "SOL coordinator content review after all submissions closed",
+        "note": "No foreign-scope retention value is disclosed; explicit abstention. Direct and Basic output Spanish despite English question; language compliance is not credited as semantic correctness."
+      }
+    },
+    "qdrant-native": {
+      "v2-neg-01": {
+        "no_unsupported_claims": true,
+        "reviewer": "SOL coordinator content review after all submissions closed",
+        "note": "Abstains from requested RTO. Direct source-backed 8-minute freshness explanation is supported; Qdrant/Basic actual prompts were mismatched and remain unscorable."
+      },
+      "v2-neg-02": {
+        "no_unsupported_claims": true,
+        "reviewer": "SOL coordinator content review after all submissions closed",
+        "note": "No approved monthly maintenance window is asserted; explicit abstention."
+      },
+      "v2-neg-05": {
+        "no_unsupported_claims": true,
+        "reviewer": "SOL coordinator content review after all submissions closed",
+        "note": "No foreign-scope retention value is disclosed; explicit abstention."
+      },
+      "v2-neg-06": {
+        "no_unsupported_claims": true,
+        "reviewer": "SOL coordinator content review after all submissions closed",
+        "note": "No foreign-scope retention value is disclosed; explicit abstention. Direct and Basic output Spanish despite English question; language compliance is not credited as semantic correctness."
+      }
+    },
+    "basic-memory": {
+      "v2-neg-01": {
+        "no_unsupported_claims": true,
+        "reviewer": "SOL coordinator content review after all submissions closed",
+        "note": "Abstains from requested RTO. Direct source-backed 8-minute freshness explanation is supported; Qdrant/Basic actual prompts were mismatched and remain unscorable."
+      },
+      "v2-neg-02": {
+        "no_unsupported_claims": true,
+        "reviewer": "SOL coordinator content review after all submissions closed",
+        "note": "No approved monthly maintenance window is asserted; explicit abstention."
+      },
+      "v2-neg-05": {
+        "no_unsupported_claims": true,
+        "reviewer": "SOL coordinator content review after all submissions closed",
+        "note": "No foreign-scope retention value is disclosed; explicit abstention."
+      },
+      "v2-neg-06": {
+        "no_unsupported_claims": true,
+        "reviewer": "SOL coordinator content review after all submissions closed",
+        "note": "No foreign-scope retention value is disclosed; explicit abstention. Direct and Basic output Spanish despite English question; language compliance is not credited as semantic correctness."
+      }
+    }
+  }
+}

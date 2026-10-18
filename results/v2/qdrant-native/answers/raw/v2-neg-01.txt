@@ -1,0 +1,1 @@
+{"question_id":"v2-neg-01","answer":"Je ne peux pas établir la durée de conservation à partir des sources autorisées accessibles dans cette session.","abstain":true,"citations":[]}

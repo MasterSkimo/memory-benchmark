@@ -1,0 +1,25 @@
+{
+  "closed_at_utc": "2026-10-18T09:25:28.637410+00:00",
+  "native_final_submissions": 59,
+  "total_native_answer_attempts": 60,
+  "max_answer_attempts_per_candidate": 20,
+  "broker_shutdowns": [
+    {
+      "candidate": "qdrant-native",
+      "pid": 19438,
+      "signal": "SIGINT"
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "pid": 19453,
+      "signal": "SIGINT"
+    },
+    {
+      "candidate": "basic-memory",
+      "pid": 19999,
+      "signal": "SIGINT"
+    }
+  ],
+  "full_benchmark_executed": false,
+  "load_tests_executed": false
+}

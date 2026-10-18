@@ -1,0 +1,1 @@
+{"question_id":"v2-rev-02","answer":"La règle actuelle exige l’approbation de l’équipe Ambre, suivie d’une double exploitation vérifiée. Elle a été approuvée le 2026-07-15.","abstain":false,"citations":[{"document_id":"org-alto/project-02/note-060","revision":"v2-r2"}]}

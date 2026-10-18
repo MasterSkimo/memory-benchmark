@@ -1,0 +1,1 @@
+{"question_id":"v2-rev-06","answer":"The Cobalt team approves the deployment. Traffic should be shifted progressively. It was approved on 2026-07-15.","abstain":false,"citations":[{"document_id":"org-boreal/project-02/note-060","revision":"v2-r2"}]}

@@ -1,0 +1,26 @@
+{
+  "candidate": "graphiti",
+  "status": "integration_path_implemented_model_stage_blocked",
+  "observed_at": "2026-10-18",
+  "evidence": {
+    "ollama_binary": false,
+    "llama_server_binary": false,
+    "local_model_files_found": false,
+    "local_llm_api_configured": false,
+    "local_embedding_model": {
+      "status": "available_and_exercised",
+      "model": "codex-public-dev-bilingual-mean-embedding",
+      "revision": "dev-enfr-40pairs-seed20261018",
+      "checkpoint_sha256": "db50044db53237fb6f280a7b0c27eb0be45ff18f7108bcd61ea24640cbb15daf",
+      "dimension": 384,
+      "normalization": "L2"
+    },
+    "local_neo4j": "running: graphiti-neo4j / Neo4j 5.26.0 / port 17687",
+    "fixtures_v2_vault": "present: 80 markdown notes, 10 org/project scopes"
+  },
+  "implemented_stage": "Graphiti Core add_episode and native search_ configured with a loopback-only OpenAI-compatible LLM client plus the shared verified in-process neural embedder; real shared embedding inference and its integrity test passed",
+  "blocked_stage": "actual entity/relation extraction and Graphiti temporal retrieval could not run without a pinned local LLM model/runtime. Ollama and llama.cpp binaries/model files/API are absent. One official GitHub API model-release metadata request returned proxy HTTP 403; no blocked host or alternate mirror was probed.",
+  "model_usage": null,
+  "token_usage": null,
+  "notes": "No canned extraction, fake LLM, external provider, or custom lexical Cypher fallback was used."
+}

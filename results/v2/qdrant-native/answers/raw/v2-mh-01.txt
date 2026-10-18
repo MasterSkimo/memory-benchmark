@@ -1,0 +1,1 @@
+{"question_id":"v2-mh-01","answer":"The Iris relay depends on runbook PB-IRIS. Before recovery is acknowledged, the runbook requires comparing the stored checksums.","abstain":false,"citations":[{"document_id":"org-alto/project-01/note-020","revision":"v2-00-020"},{"document_id":"org-alto/project-01/note-030","revision":"v2-00-030"}]}

@@ -1,0 +1,17 @@
+{
+  "native_tool": "collaboration.spawn_agent",
+  "fork_turns": "none",
+  "configured_model": "gpt-6-luna",
+  "configured_effort": "medium",
+  "served_snapshot": null,
+  "parallel_implementation_workstreams": 5,
+  "agents": [
+    {"agent_name":"/root/v2_cognee","candidate":"cognee"},
+    {"agent_name":"/root/v2_basic_mcp","candidate":"basic-memory"},
+    {"agent_name":"/root/v2_graphiti","candidate":"graphiti"},
+    {"agent_name":"/root/v2_qdrant_models","candidate":"qdrant-native"},
+    {"agent_name":"/root/v2_harness","candidate":"luna-vault-direct and shared harness"}
+  ],
+  "evidence": "Five successful native spawn results and subsequent native messages, backend source, test logs, and checksum manifests. No nested CLI model session was used.",
+  "native_tokens": null
+}

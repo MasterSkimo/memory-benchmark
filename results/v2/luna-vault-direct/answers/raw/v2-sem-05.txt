@@ -1,0 +1,1 @@
+{"question_id":"v2-sem-05","answer":"Le relais Vega reprend au dernier curseur acquitté ; l’expression validée est « reprise du curseur ».","abstain":false,"citations":[{"document_id":"org-alto/project-05/note-020","revision":"v2-04-020"},{"document_id":"org-alto/project-05/note-030","revision":"v2-04-030"}]}

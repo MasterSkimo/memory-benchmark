@@ -1,0 +1,66 @@
+{
+  "benchmark": "BENCH-0002",
+  "question_set": "V2 independent evaluator questions",
+  "question_count": 40,
+  "category_counts": {
+    "semantic_paraphrase": 8,
+    "multihop": 8,
+    "temporal": 8,
+    "revision": 8,
+    "negative": 8
+  },
+  "language_counts": {
+    "en": 20,
+    "fr": 20
+  },
+  "question_sha256": "ce9a1eb825ddcba22998ef689fcfae3ee32ca173b49506e297791e2e11022e81",
+  "corpus_sha256": "05f2501f7e0369a432051f7e4d028f5e71133649f012171695145be51c761885",
+  "frozen_implementations_sha256": "e1c1687c46a34a41376aca180d0654552b65e4a6591ce472be0c11e4b9f49257",
+  "authorship": {
+    "mode": "native agent",
+    "model_alias": "gpt-6-luna",
+    "effort": "medium"
+  },
+  "blindness": "NON_BLIND_DEVELOPMENT: shared filesystem; no actual evaluator access boundary demonstrated; question IDs fixed before pilot answers",
+  "e_question_ids": [
+    "v2-sem-01",
+    "v2-sem-02",
+    "v2-sem-05",
+    "v2-sem-06",
+    "v2-mh-01",
+    "v2-mh-02",
+    "v2-mh-05",
+    "v2-mh-06",
+    "v2-temp-01",
+    "v2-temp-02",
+    "v2-temp-05",
+    "v2-temp-06",
+    "v2-rev-01",
+    "v2-rev-02",
+    "v2-rev-05",
+    "v2-rev-06",
+    "v2-neg-01",
+    "v2-neg-02",
+    "v2-neg-05",
+    "v2-neg-06"
+  ],
+  "e_selection_counts": {
+    "semantic_paraphrase": 4,
+    "multihop": 4,
+    "temporal": 4,
+    "revision": 4,
+    "negative": 4
+  },
+  "e_selection_language_counts": {
+    "en": 10,
+    "fr": 10
+  },
+  "e_selection_negative_counts": {
+    "missing_facts": 2,
+    "explicit_foreign_org_project_requests": 2
+  },
+  "e_selection_temporal_counts": {
+    "historical_before_2026-05-01": 2,
+    "current_on_or_after_2026-05-01": 2
+  }
+}

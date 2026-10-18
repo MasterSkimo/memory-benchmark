@@ -1,0 +1,542 @@
+[
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-sem-01",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "42d983048dcc7ab60d4b49d2a12a3a90b1800c032893bb64cb1bab0da438a161",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-sem-02",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "c00a3719e36281802a832079ab0580f068cb2bac48e49f622edc394c4909fe35",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-sem-05",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-05",
+    "session_capability_sha256": "eefb90dc74f800884cfca0b229294163606c7258e1871ff9b56ebaba6d5ecc96",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-sem-06",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "8d310a17acfd4524879292347e788a6c3232212304f018a0cd41af838e2766d0",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-mh-01",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "d90f2d0b27b48b6870118397376392a45b99915267bb70f126f050b7285f5e0b",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-mh-02",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "df2f52f0a69da28827bfb579999fa5a063d656fd01fc01b078ea566ebebeec70",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-mh-05",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "93cbd1946c0e1339d9b5caef2d6cb0efe100b187905c54d095db100a0ee4679f",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-mh-06",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "210c9e57c697d5210d487dd931f6f57dc22207abacf15f7d2411d390847d6b66",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-temp-01",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "2742a5eb5c35d1895687c5f6de2103d7d50fb29fa2172ff2eb88bbba0bfa0740",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-temp-02",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "739c3bd106a8c6e0cb57f2b5d6145bfc9d9e2f44fa7bd6b969a4b3ea0551efe9",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-temp-05",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-05",
+    "session_capability_sha256": "82b5bb754c96daaba0db440d97792d6404829d601bd950e475a41a6da6a2f561",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-temp-06",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "2893934394284d88bb34e67b38cbc1d7acd392d06c1627a273dd75afae1f0cf7",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-rev-01",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "21adad8fd944addbfc23af3878c87cd9ebe338988e69b1900b0d5d9834751e35",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-rev-02",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "62bf2a1c8ad999893850040e5d244b3c6c066c029d41ae721b9a20eb6df496d9",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-rev-05",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "12cd4e5e9da50389332e4bb60b4bfb3c7814ad9e4035871340bad55be118a32a",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-rev-06",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "b31f8a45dbd9eba8a93cdfe3d9746c4c1fc6b1c72431f4238ff8811bb7a3eeb5",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-neg-01",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "7b5afdf9356eb609eee95e7ac31be3d5a8fbf56f2f74d0d77b03cad948d79f6c",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-neg-02",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "e52c31bbc213100ab4057d62d4326759067577c5a05824e836aa2090a47cfcd9",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-neg-05",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "be3bd8a6e0ae4c188866f04af0d18361883791037bf2d9740c6bd01ec64ed428",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "luna-vault-direct",
+    "port": 8871,
+    "question_id": "v2-neg-06",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "2323429ff5aeb002cac748b24f15e92e948a1d4b941e410fbb6c03fd16743629",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-sem-01",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "c97c34e1ca830f27b111eeb1ddde77abe208a22956a9452aea30253407d936b2",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-sem-02",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "f927a213a1e0d44ab0b6eab925fc7e11592ff63a411cd00b58618fa4a5e9273d",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-sem-05",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-05",
+    "session_capability_sha256": "1fb2c86c1e41641390913b805f5b0e90c307778658253277d6e8e63c96c4779a",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-sem-06",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "7e7bbaf91a4b377aa226f88e600ddf97d51bed9d7ec6b0d2e3d2e11a80015c31",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-mh-01",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "e7e53e5755c78c8c53b2786d5e4dd5dcb8aaf3d5efa616accce78cc5beca6c49",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-mh-02",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "2dd1e7572a37f4a9c52e43537d606f90a7ad1ce754982fcf3125b0c72486a3d4",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-mh-05",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "b6fa9597b1ba653f8856fe88b6d2d903b2d45cf9c697bf886e7c24715139f344",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-mh-06",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "e6702af940a05b9be2807bef2380e4c7fc31a453d588933ce868e718fa4a06f2",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-temp-01",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "eafc754e4b5c80fb5944b7a6c07c468610e6e0a1b3dd6e3a8bd2ad77911ab33c",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-temp-02",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "cbaf321ee0c0bf530d0e2b487a383bb26230b1959e3f5a00c2df471c443f80e9",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-temp-05",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-05",
+    "session_capability_sha256": "36313be256af1296783f8958f14e97aa3e16492abddbbe03f547892e65e46c58",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-temp-06",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "3f096380e1a10ec144544386277b85ef1b306813c7f84b2d41acc032bf1483c6",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-rev-01",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "3f8da9c55ae46b17060688b2cf07824f9df7e2d2ebaf39fad72d1b03ccbf6fb1",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-rev-02",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "35e2456b8e0685404a4e05677143d3e9dfbed3d62ee7c77614c06ebd97d9eb88",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-rev-05",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "903990a793a257a5d4c6697d7d9a40f6b3cfbf772d73bdf141f620e5854ab322",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-rev-06",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "c4662bfa71e367c2a3e5c273f0cddf32e2b661304b3ae0ae35e9023e58660a96",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-neg-01",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "b4f9ce2a99b5d4274713191c101a4fbc4d104fbe355e9e46795e7f0317ae394c",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-neg-02",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "25768df31faf13fe4c94be601d965ad4266ca4f90ddf14da90aa35a6175e11c6",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-neg-05",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "423426f313f4a8859f99a4f25db9a0c895282b8514b492f951f29f8617b9a9ef",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "qdrant-native",
+    "port": 8872,
+    "question_id": "v2-neg-06",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "44f127d26ec4e1be67d896cfcf47de2f2b3259b31ba530135480cf4943491ada",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-sem-01",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "38cafaf9bbaea6f684fcbcbd61b852795954eb8cf71fa806001616a6aeae7487",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-sem-02",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "88982c6f7f06125e2cb4af7e513d3bf189a1bddc64040894e41baa7d3d3b3cd7",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-sem-05",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-05",
+    "session_capability_sha256": "eff776d5e3c5837c020e17cd10532b2bd79eeb1c7f69fbf28224f80ba8d5068c",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-sem-06",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "b4ea60925c7ccdd5cdbac40a37eb273ee0e05b027e7deb60c51df5e367112f7f",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-mh-01",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "5927af20f72f2149ec1650b185a33da0d8ac86302d4cd97d8c8d9626993cc705",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-mh-02",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "c0639df4644aa2fffd3c9b06f97f0dfdc29de33b0062a4324c2af68dac38ca62",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-mh-05",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "e8403b4143c0a1db4140d35bad7786f53cb546ab1dd3d59bb98bf207c94ea649",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-mh-06",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "10f4a55a8a0f0df0a11f6b9a6aa070cdec16680fcca5f3d27f05e5ddf0f1fe74",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-temp-01",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "422a570ece678de4e782ce1df05b57d27effb9b9f0fc08f8c2d986fca421acd6",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-temp-02",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "426f635d7d8059da895ad19df6ba8f0d359864223c56103bf076de628473ccdf",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-temp-05",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-05",
+    "session_capability_sha256": "b4239a5c04ccb2e4b287b3fce4f932d037e9ae99a43687139693476fe82103fd",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-temp-06",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "c4f7c25c6665eee97ee89853e60f888017f5b7be965a162cad64d231c075a3ca",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-rev-01",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "e4ce621119bd2b82e2102d3cc7ac13f2d6679621800a4bd70393699804c1d66e",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-rev-02",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "d190ee61dc9667a77b97a25fae39d31abe2de3cec417134c8c00c0644c5a1fb0",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-rev-05",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "9af7a178e0fad0b2e091f8207b636b2e37ff51badcbe600a88f9026f444d7595",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-rev-06",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "c6994ad807cca55346fa9fce3e8215e4ae58b094b05dd71fa7d30722b9362e31",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-neg-01",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "a3b98c56a4548a319bdbd698bb334b7384c299a50a9d192d85b7a7b46717f9ac",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-neg-02",
+    "organization_id": "org-alto",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "5fd0773c98fd59af07e2c0747659b71a0820692df124934861fc352a8f8c794c",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-neg-05",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-01",
+    "session_capability_sha256": "8dbe261aba4e2703d552d85aea70eca70cae6c2ea4f08c43004a2189828b68fa",
+    "run_id": "v2-pilot-20261018"
+  },
+  {
+    "candidate": "basic-memory",
+    "port": 8873,
+    "question_id": "v2-neg-06",
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-02",
+    "session_capability_sha256": "5a86f727be9f11d47c8709d23d9048159d31d7cd88de18b820eefb0e48abbf6c",
+    "run_id": "v2-pilot-20261018"
+  }
+]

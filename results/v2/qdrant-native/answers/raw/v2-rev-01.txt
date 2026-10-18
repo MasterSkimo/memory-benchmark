@@ -1,0 +1,1 @@
+{"question_id":"v2-rev-01","answer":"L’équipe Cobalt doit valider la mise en production, avec une bascule progressive. Cette version a été approuvée le 15 juillet 2026.","abstain":false,"citations":[{"document_id":"org-alto/project-01/note-060","revision":"v2-r2"}]}

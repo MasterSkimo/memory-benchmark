@@ -1,0 +1,1 @@
+{"question_id":"v2-rev-05","answer":"La dernière version exige la validation de l’équipe Ambre avant toute mise en production, puis une double exploitation vérifiée. Elle a été approuvée le 15 juillet 2026.","abstain":false,"citations":[{"document_id":"org-boreal/project-01/note-060","revision":"v2-r2"}]}

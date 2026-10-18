@@ -1,0 +1,1 @@
+{"question_id":"v2-sem-01","answer":"Écrire les commandes dans une file durable sur disque ; le nom français approuvé est « file persistante sur disque ».","abstain":false,"citations":[{"document_id":"org-alto/project-01/note-010","revision":"v2-00-010"}]}

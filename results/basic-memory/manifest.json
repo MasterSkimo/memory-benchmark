@@ -1,0 +1,38 @@
+{
+  "candidate": "basic-memory",
+  "status": "RETRIEVAL_TESTED",
+  "package": "basic-memory",
+  "version": "0.13.1",
+  "license": "AGPL-3.0-or-later",
+  "source": "https://github.com/basicmachines-co/basic-memory",
+  "python": "3.12",
+  "pins": {
+    "basic-memory": "0.13.1",
+    "SQLAlchemy": "2.0.48",
+    "aiosqlite": "0.21.0"
+  },
+  "backend": "Basic Memory Markdown sync service + project-scoped SQLite FTS5 SearchService",
+  "authorization": "safe org/project path components; SHA-256 project key over the tuple; pre-ingest and return-time canonical document_id/revision/org/project validation; symlinks rejected; private scope copy; mismatched request scope rejected",
+  "pilot": {
+    "questions": 20,
+    "top_k": 5,
+    "successful_queries": 20,
+    "nonempty_queries": 20,
+    "returned_hits": 100,
+    "status_counts": {"ok": 20},
+    "p50_query_ms": 3.473123499588837,
+    "p95_query_ms": 4.3292418000419275,
+    "questions_sha256": "dd64ea2da51246bd9a6ffa7b48d14d70d88bc5ffbbb9231ceb3d4513612a51ac",
+    "corpus_sha256": "644b954c4ffe3dbe255e03fe3c24eb9e7bf7248db3790edfeba3ae2bc311e716",
+    "corpus_integrity": "VERIFIED_BEFORE_SETUP_AFTER_EACH_FACTORY_AND_AFTER_RUN",
+    "adapter_sha256": "e0891fe558731648df3bd4af4a819896851e5059d103a9364e88b3c269f7c825",
+    "model_usage": null,
+    "native_token_coverage": "NOT_AVAILABLE"
+  },
+  "limitations": [
+    "Basic Memory CLI/MCP startup is incompatible with the resolved FastMCP/MCP dependency pair; this implementation uses Basic Memory's supported Python parsing, sync, and search services directly.",
+    "The runner reports ingestion file/byte/backend-call counters as null; Basic Memory's sync service does not expose them.",
+    "Per-question file_reads and bytes_read count original source provenance reads; internal SQLite/FTS I/O is unknown.",
+    "Search uses Basic Memory FTS5; no embedding or external inference stage is used."
+  ]
+}

@@ -1,0 +1,101 @@
+test_rejects_forged_metadata_and_symlinked_markdown (test_mcp_integration.BasicMemoryMCPIntegration.test_rejects_forged_metadata_and_symlinked_markdown) ... /workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+Traceback (most recent call last):
+  File "/workspace/memory-benchmark/implementations/v2/basic-memory/server.py", line 37, in <module>
+    main()
+  File "/workspace/memory-benchmark/implementations/v2/basic-memory/server.py", line 33, in main
+    build_server(Path(args.corpus), args.organization, args.space).run(transport="stdio", show_banner=False)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/memory-benchmark/implementations/v2/basic-memory/server.py", line 15, in build_server
+    backend = create_adapter(corpus, organization_id, knowledge_space_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/memory-benchmark/implementations/v2/basic-memory/backend.py", line 224, in create_adapter
+    return BasicMemoryAdapter(Path(corpus), organization_id, knowledge_space_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/memory-benchmark/implementations/v2/basic-memory/backend.py", line 51, in __init__
+    self._validate_scope_documents()
+  File "/workspace/memory-benchmark/implementations/v2/basic-memory/backend.py", line 94, in _validate_scope_documents
+    raise ValueError(f"document_id is missing or non-canonical: {path.name}")
+ValueError: document_id is missing or non-canonical: forged.md
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+Traceback (most recent call last):
+  File "/workspace/memory-benchmark/implementations/v2/basic-memory/server.py", line 37, in <module>
+    main()
+  File "/workspace/memory-benchmark/implementations/v2/basic-memory/server.py", line 33, in main
+    build_server(Path(args.corpus), args.organization, args.space).run(transport="stdio", show_banner=False)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/memory-benchmark/implementations/v2/basic-memory/server.py", line 15, in build_server
+    backend = create_adapter(corpus, organization_id, knowledge_space_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/memory-benchmark/implementations/v2/basic-memory/backend.py", line 224, in create_adapter
+    return BasicMemoryAdapter(Path(corpus), organization_id, knowledge_space_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/memory-benchmark/implementations/v2/basic-memory/backend.py", line 51, in __init__
+    self._validate_scope_documents()
+  File "/workspace/memory-benchmark/implementations/v2/basic-memory/backend.py", line 86, in _validate_scope_documents
+    raise ValueError("symlink documents are not allowed in the authorized corpus")
+ValueError: symlink documents are not allowed in the authorized corpus
+ok
+test_stdio_protocol_scope_provenance_revision_and_shared_backend (test_mcp_integration.BasicMemoryMCPIntegration.test_stdio_protocol_scope_provenance_revision_and_shared_backend) ... /workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/sqlalchemy/sql/schema.py:4296: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return util.wrap_callable(lambda ctx: fn(), fn)  # type: ignore[call-arg, no-any-return, no-untyped-call]  # noqa: E501
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/aiosqlite/core.py:105: DeprecationWarning: The default datetime adapter is deprecated as of Python 3.12; see the sqlite3 documentation for suggested replacement recipes
+  result = function()
+[10/18/26 06:41:19] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/sqlalchemy/sql/schema.py:4296: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return util.wrap_callable(lambda ctx: fn(), fn)  # type: ignore[call-arg, no-any-return, no-untyped-call]  # noqa: E501
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/aiosqlite/core.py:105: DeprecationWarning: The default datetime adapter is deprecated as of Python 3.12; see the sqlite3 documentation for suggested replacement recipes
+  result = function()
+[10/18/26 06:41:21] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 06:41:23] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/aiosqlite/core.py:105: DeprecationWarning: The default datetime adapter is deprecated as of Python 3.12; see the sqlite3 documentation for suggested replacement recipes
+  result = function()
+[10/18/26 06:41:24] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 06:41:26] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 11.651s
+
+OK

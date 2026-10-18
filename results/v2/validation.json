@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "V1_files_byte_preserved": 189,
+  "frozen_files_verified": 44,
+  "model_and_corpus_and_questions_verified": true,
+  "candidate_checks": {
+    "basic-memory": {
+      "R_queries": 40,
+      "E_submitted": 20,
+      "E_session_attempts": 20,
+      "wrapper_calls": 94,
+      "exact_response_captures_verified": 94
+    },
+    "qdrant-native": {
+      "R_queries": 40,
+      "E_submitted": 20,
+      "E_session_attempts": 20,
+      "wrapper_calls": 90,
+      "exact_response_captures_verified": 90
+    },
+    "luna-vault-direct": {
+      "R_queries": 40,
+      "E_submitted": 19,
+      "E_session_attempts": 20,
+      "wrapper_calls": 95,
+      "exact_response_captures_verified": 95
+    }
+  },
+  "native_token_counts": null
+}

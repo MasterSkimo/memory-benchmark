@@ -1,0 +1,16 @@
+Graphiti V2 verification evidence
+
+Command: PYTHONPATH=implementations/v2/graphiti implementations/v2/graphiti/.venv/bin/python -m unittest implementations/v2/graphiti/test_adapter.py -v
+Result: 2 tests passed; 1 class skipped.
+Passed: shared checkpoint integrity, 384D shape, L2 normalization, actual local encoder inference; remote LLM endpoint rejected.
+Skipped: Graphiti add_episode extraction / temporal retrieval because GRAPHITI_LOCAL_LLM_MODEL and its local server/model are unavailable. No graph extraction result is claimed.
+
+Command: implementations/v2/graphiti/.venv/bin/pip check
+Result: No broken requirements found.
+
+Command: python3 -m py_compile implementations/v2/graphiti/adapter.py implementations/v2/graphiti/test_adapter.py
+Result: passed.
+
+V1 preservation: git diff --quiet -- implementations/graphiti -> unchanged.
+
+Model evidence: shared neural checkpoint SHA-256 db50044db53237fb6f280a7b0c27eb0be45ff18f7108bcd61ea24640cbb15daf; local model test loaded and inferred. LLM usage/tokens are null because no LLM inference occurred.

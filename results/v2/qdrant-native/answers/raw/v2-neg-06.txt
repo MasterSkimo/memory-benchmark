@@ -1,0 +1,1 @@
+{"question_id":"v2-neg-06","answer":"Abstain: Orion in Alto’s project is outside the authorized scope.","abstain":true,"citations":[]}

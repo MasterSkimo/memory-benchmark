@@ -1,0 +1,38 @@
+{
+  "candidate": "graphiti-v2",
+  "source_freeze_status": "frozen_for_independent_40_question_set",
+  "source_bundle_sha256": "f2efa818b519e318599f837e5935142d3205a7f0402e5cb34708701551db389e",
+  "files_sha256": {
+    "implementations/v2/graphiti/adapter.py": "9106e0493402a8b77f83ecf6270bf1a8a2291a9cc7c1df00b711a7dc2c24f791",
+    "implementations/v2/graphiti/test_adapter.py": "b9204e63bed0e4e059228025f81a4a7db48cca89a06b0c74cccd0c0508cc8f48",
+    "implementations/v2/graphiti/README.md": "bc78a5657a964e865d52b21a7e7448512bc787c101ac013698d50228f0f9ddd4",
+    "implementations/v2/graphiti/requirements.txt": "3ff807310da7a0e96d1cd85e5d00d735a5f36600da2ece3f3bb06825486d4f96",
+    "implementations/v2/graphiti/requirements-lock.txt": "72bd884a7d28efd2475e20f57440fce0b83288cc76118abb4a4c64e30f839fea",
+    "implementations/v2/common-models/embedder.py": "8002493ee4958bde84592b3d550620f334b7c9c3ce5090dbd98574a183373a1d",
+    ".models/v2/trained-multilingual/manifest.json": "53803a2642b0f6daaa6c347916edfc637fce01f256d11265d8e016515c118950",
+    ".models/v2/trained-multilingual/checkpoint.pt": "db50044db53237fb6f280a7b0c27eb0be45ff18f7108bcd61ea24640cbb15daf"
+  },
+  "graphiti_core": "0.17.9",
+  "neo4j_python_driver": "6.4.1",
+  "python": "3.12.14",
+  "shared_embedder": {
+    "id": "codex-public-dev-bilingual-mean-embedding",
+    "revision": "dev-enfr-40pairs-seed20261018",
+    "checkpoint_sha256": "db50044db53237fb6f280a7b0c27eb0be45ff18f7108bcd61ea24640cbb15daf",
+    "dimension": 384,
+    "normalization": "L2",
+    "actual_test": "passed"
+  },
+  "local_llm": {
+    "model_revision": null,
+    "checkpoint_sha256": null,
+    "usage": null,
+    "status": "blocked_no_local_model_or_runtime_in_authorized_cache"
+  },
+  "test_status": {
+    "shared_neural_embedding": "passed",
+    "loopback_endpoint_boundary": "passed",
+    "graphiti_extraction_temporal_integration": "skipped_local_llm_unavailable"
+  },
+  "official_distribution_check": "No local GGUF/model weights or Ollama/llama-server binary found in inspected caches. One GitHub API release metadata request failed with proxy HTTP 403; no host or mirror bypass attempted."
+}

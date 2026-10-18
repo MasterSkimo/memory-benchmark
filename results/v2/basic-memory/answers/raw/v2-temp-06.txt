@@ -1,0 +1,1 @@
+{"question_id":"v2-temp-06","answer":"118 jours.","abstain":false,"citations":[{"document_id":"org-boreal/project-01/note-050","revision":"v2-05-050"}]}

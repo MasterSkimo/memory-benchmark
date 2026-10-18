@@ -1,0 +1,13 @@
+test_constructor_scope_rejects_org_and_project_tampering (test_adapter.QdrantAdapterTests.test_constructor_scope_rejects_org_and_project_tampering) ... /workspace/memory-benchmark/implementations/qdrant-native/adapter.py:84: UserWarning: Payload indexes have no effect in the local Qdrant. Please use server Qdrant if you need payload indexes.
+  self.client.create_payload_index(self.collection, field, models.PayloadSchemaType.KEYWORD)
+ok
+test_dense_sparse_and_rrf_queries_are_indexed_and_scoped (test_adapter.QdrantAdapterTests.test_dense_sparse_and_rrf_queries_are_indexed_and_scoped) ... ok
+test_ingestion_rejects_empty_scope_metadata (test_adapter.QdrantAdapterTests.test_ingestion_rejects_empty_scope_metadata) ... ok
+test_ingestion_rejects_forged_document_id_scope (test_adapter.QdrantAdapterTests.test_ingestion_rejects_forged_document_id_scope) ... ok
+test_revision_update_replaces_current_document_and_returns_citation (test_adapter.QdrantAdapterTests.test_revision_update_replaces_current_document_and_returns_citation) ... ok
+test_search_rejects_invalid_top_k (test_adapter.QdrantAdapterTests.test_search_rejects_invalid_top_k) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.040s
+
+OK

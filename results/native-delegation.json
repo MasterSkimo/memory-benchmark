@@ -1,0 +1,38 @@
+{
+  "benchmark": "BENCH-0001",
+  "native_tool": "collaboration.spawn_agent",
+  "requested_model": "gpt-6-luna",
+  "requested_effort": "medium",
+  "context_fork": "none",
+  "implementation_workers": [
+    {
+      "task": "basic_memory",
+      "candidate": "basic-memory"
+    },
+    {
+      "task": "cognee",
+      "candidate": "cognee"
+    },
+    {
+      "task": "graphiti",
+      "candidate": "graphiti"
+    },
+    {
+      "task": "qdrant",
+      "candidate": "qdrant-native"
+    },
+    {
+      "task": "direct_vault",
+      "candidate": "luna-vault-direct"
+    }
+  ],
+  "implementation_workers_spawned": 5,
+  "implementation_peak_concurrency": 5,
+  "served_immutable_model_version": null,
+  "native_usage_counters": null,
+  "tool_schema_has_filesystem_selector": false,
+  "synthetic_trusted_implementation_workers_authorized": true,
+  "nested_cli_sessions": 0,
+  "external_inference_calls": 0,
+  "source": "Actual collaboration.spawn_agent invocations and successful task-name responses in this chat; counters not supplied"
+}

@@ -1,0 +1,176 @@
+{
+  "basic-memory": {
+    "questions": 40,
+    "logical_cache": {
+      "first_scope_query": {
+        "n": 10,
+        "latency_ms": {
+          "p50": 2267.4450055001216,
+          "p95": 2423.837335100052
+        },
+        "backend_search_latency_ms": {
+          "p50": 2259.8633849997896,
+          "p95": 2416.3223301499784
+        }
+      },
+      "reused_scope_adapter": {
+        "n": 30,
+        "latency_ms": {
+          "p50": 1762.9932310001095,
+          "p95": 1891.8830779000928
+        },
+        "backend_search_latency_ms": {
+          "p50": 1756.048180000107,
+          "p95": 1884.5786374499767
+        }
+      }
+    },
+    "physical_cache": "uncontrolled, no cache eviction",
+    "setup_factory_total_ms": 1.4046370015421417,
+    "setup_factory_scope_count": 10,
+    "setup_excludes_module_import": true,
+    "query_adapter_mean_ms": 1905.5771417249161,
+    "query_guarded_mean_ms": 1913.0951185249614,
+    "observed_setup_amortized_over_all_scopes_ms_per_query": {
+      "20": 0.07023185007710708,
+      "200": 0.007023185007710708,
+      "2000": 0.0007023185007710708,
+      "20000": 7.023185007710708e-05
+    },
+    "projected_setup_plus_adapter_mean_ms_per_query": {
+      "20": 1905.6473735749933,
+      "200": 1905.5841649099239,
+      "2000": 1905.577844043417,
+      "20000": 1905.5772119567662
+    },
+    "projection_note": "Arithmetic amortization of measured scoped factories and observed mean only, not a measured run at larger scale; excludes model training and process imports. Basic Memory indexes within every search, whose entire cost stays in adapter mean.",
+    "query_own_cpu_user_seconds": 0.4902890000000001,
+    "query_own_cpu_system_seconds": 0.06314400000000002,
+    "query_child_cpu_user_seconds": 68.004244,
+    "query_child_cpu_system_seconds": 7.178268,
+    "own_process_peak_rss_kib": 54604,
+    "backend_reported_search_source_reads": 179,
+    "backend_reported_search_source_bytes": 75997,
+    "provenance_validation_source_bytes": 75997,
+    "local_query_encoder_calls": 0,
+    "local_query_encoder_input_units": 0,
+    "native_tokens": null,
+    "native_tool_calls": null
+  },
+  "qdrant-native": {
+    "questions": 40,
+    "logical_cache": {
+      "first_scope_query": {
+        "n": 10,
+        "latency_ms": {
+          "p50": 8.89320299938845,
+          "p95": 11.256129099956521
+        },
+        "backend_search_latency_ms": {
+          "p50": 1.5594575002069178,
+          "p95": 2.260597150143439
+        }
+      },
+      "reused_scope_adapter": {
+        "n": 30,
+        "latency_ms": {
+          "p50": 8.754237499942974,
+          "p95": 13.33051700034957
+        },
+        "backend_search_latency_ms": {
+          "p50": 1.578464999965945,
+          "p95": 1.8346420003126687
+        }
+      }
+    },
+    "physical_cache": "uncontrolled, no cache eviction",
+    "setup_factory_total_ms": 197.2040519995062,
+    "setup_factory_scope_count": 10,
+    "setup_excludes_module_import": true,
+    "query_adapter_mean_ms": 1.6953845749185348,
+    "query_guarded_mean_ms": 9.349376649925034,
+    "observed_setup_amortized_over_all_scopes_ms_per_query": {
+      "20": 9.86020259997531,
+      "200": 0.986020259997531,
+      "2000": 0.0986020259997531,
+      "20000": 0.00986020259997531
+    },
+    "projected_setup_plus_adapter_mean_ms_per_query": {
+      "20": 11.555587174893844,
+      "200": 2.6814048349160657,
+      "2000": 1.7939866009182879,
+      "20000": 1.70524477751851
+    },
+    "projection_note": "Arithmetic amortization of measured scoped factories and observed mean only, not a measured run at larger scale; excludes model training and process imports. Basic Memory indexes within every search, whose entire cost stays in adapter mean.",
+    "query_own_cpu_user_seconds": 0.6988779999999992,
+    "query_own_cpu_system_seconds": 0.03733700000000001,
+    "query_child_cpu_user_seconds": 0.0,
+    "query_child_cpu_system_seconds": 0.0,
+    "own_process_peak_rss_kib": 299440,
+    "backend_reported_search_source_reads": 0,
+    "backend_reported_search_source_bytes": 0,
+    "provenance_validation_source_bytes": 88257,
+    "local_query_encoder_calls": 40,
+    "local_query_encoder_input_units": 733,
+    "native_tokens": null,
+    "native_tool_calls": null
+  },
+  "luna-vault-direct": {
+    "questions": 40,
+    "logical_cache": {
+      "first_scope_query": {
+        "n": 10,
+        "latency_ms": {
+          "p50": 8.693484500327031,
+          "p95": 11.908022200032063
+        },
+        "backend_search_latency_ms": {
+          "p50": 1.5918985000098473,
+          "p95": 1.776389900715003
+        }
+      },
+      "reused_scope_adapter": {
+        "n": 30,
+        "latency_ms": {
+          "p50": 8.190377500341128,
+          "p95": 8.99278235001475
+        },
+        "backend_search_latency_ms": {
+          "p50": 1.5109060000213503,
+          "p95": 1.678539400018053
+        }
+      }
+    },
+    "physical_cache": "uncontrolled, no cache eviction",
+    "setup_factory_total_ms": 0.8817450006972649,
+    "setup_factory_scope_count": 10,
+    "setup_excludes_module_import": true,
+    "query_adapter_mean_ms": 1.546156675021848,
+    "query_guarded_mean_ms": 8.506603575051486,
+    "observed_setup_amortized_over_all_scopes_ms_per_query": {
+      "20": 0.044087250034863246,
+      "200": 0.004408725003486325,
+      "2000": 0.00044087250034863246,
+      "20000": 4.408725003486324e-05
+    },
+    "projected_setup_plus_adapter_mean_ms_per_query": {
+      "20": 1.5902439250567113,
+      "200": 1.5505654000253344,
+      "2000": 1.5465975475221967,
+      "20000": 1.546200762271883
+    },
+    "projection_note": "Arithmetic amortization of measured scoped factories and observed mean only, not a measured run at larger scale; excludes model training and process imports. Basic Memory indexes within every search, whose entire cost stays in adapter mean.",
+    "query_own_cpu_user_seconds": 0.3066579999999999,
+    "query_own_cpu_system_seconds": 0.032256,
+    "query_child_cpu_user_seconds": 0.0,
+    "query_child_cpu_system_seconds": 0.0,
+    "own_process_peak_rss_kib": 13368,
+    "backend_reported_search_source_reads": 320,
+    "backend_reported_search_source_bytes": 140618,
+    "provenance_validation_source_bytes": 86654,
+    "local_query_encoder_calls": 0,
+    "local_query_encoder_input_units": 0,
+    "native_tokens": null,
+    "native_tool_calls": null
+  }
+}

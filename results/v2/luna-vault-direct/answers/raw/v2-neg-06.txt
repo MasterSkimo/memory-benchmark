@@ -1,0 +1,1 @@
+{"question_id":"v2-neg-06","answer":"Abstengo: Alto no pertenece al ámbito autorizado de esta sesión.","abstain":true,"citations":[]}

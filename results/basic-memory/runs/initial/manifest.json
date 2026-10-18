@@ -1,0 +1,31 @@
+{
+  "candidate": "basic-memory",
+  "status": "RETRIEVAL_TESTED",
+  "package": "basic-memory",
+  "version": "0.13.1",
+  "license": "AGPL-3.0-or-later",
+  "source": "https://github.com/basicmachines-co/basic-memory",
+  "python": "3.12",
+  "pins": {
+    "basic-memory": "0.13.1",
+    "SQLAlchemy": "2.0.48",
+    "aiosqlite": "0.21.0"
+  },
+  "backend": "Basic Memory Markdown sync service + project-scoped SQLite FTS5 SearchService",
+  "authorization": "fixed organization_id and knowledge_space_id mapped to a Basic Memory project_id; reject mismatched request scope; validate source path",
+  "pilot": {
+    "questions": 20,
+    "top_k": 5,
+    "successful_queries": 20,
+    "status_counts": {"ok": 20},
+    "p50_query_ms": 1.8271039998580818,
+    "p95_query_ms": 2.8836204496201394,
+    "model_usage": null,
+    "native_token_coverage": "NOT_AVAILABLE"
+  },
+  "limitations": [
+    "Basic Memory CLI/MCP startup is incompatible with the resolved FastMCP/MCP dependency pair; this implementation uses Basic Memory's supported Python parsing, sync, and search services directly.",
+    "Basic Memory does not expose ingestion file/byte/backend-call counters; those setup fields are null.",
+    "Search uses Basic Memory FTS5; no embedding or external inference stage is used."
+  ]
+}

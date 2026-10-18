@@ -1,0 +1,1 @@
+{"question_id":"v2-sem-06","answer":"Aster should open the circuit and stop forwarding requests when its supplier stops answering. The French term for this mode is « disjoncteur applicatif ».","abstain":false,"citations":[{"document_id":"org-boreal/project-01/note-010","revision":"v2-05-010"}]}

@@ -1,0 +1,57 @@
+{
+  "passed": 30,
+  "skipped": 1,
+  "failed": 0,
+  "suites": {
+    "qdrant-and-local-encoder": {
+      "passed": 8,
+      "skipped": 0,
+      "evidence": "results/v2/qdrant-native/integration-test.log"
+    },
+    "basic-memory-MCP": {
+      "passed": 2,
+      "skipped": 0,
+      "evidence": "results/v2/basic-memory/integration-test.log"
+    },
+    "cognee-real-add-and-boundaries": {
+      "passed": 6,
+      "skipped": 0,
+      "evidence": "results/v2/cognee/integration-test.log"
+    },
+    "graphiti-encoder-and-local-endpoint": {
+      "passed": 2,
+      "skipped": 1,
+      "evidence": "results/v2/graphiti/test-evidence.txt",
+      "skip": "genuine graph extraction/temporal integration requires local LLM weights"
+    },
+    "direct-and-neutral-harness": {
+      "passed": 6,
+      "skipped": 0,
+      "evidence": "results/v2/harness/direct-integration-test.log"
+    },
+    "live-session-broker": {
+      "passed": 1,
+      "skipped": 0,
+      "evidence": "results/v2/harness/broker-integration-test.log"
+    },
+    "post-submission-grader": {
+      "passed": 2,
+      "skipped": 0,
+      "evidence": "results/v2/harness/grader-test.log"
+    },
+    "post-pilot-quality-safeguards": {
+      "passed": 2,
+      "skipped": 0,
+      "evidence": "results/v2/harness/quality-safeguard-test.log"
+    },
+    "native-assignment-repair": {
+      "passed": 1,
+      "skipped": 0,
+      "evidence": "results/v2/harness/native-assignment-repair-test.log",
+      "scope": "post-pilot repair; no additional model session"
+    }
+  },
+  "offline_v1_tests_also_observed_passed": 9,
+  "offline_v1_command": "python3 -m unittest discover -s tests -v",
+  "pilot_queries_are_separate_from_these_tests": true
+}

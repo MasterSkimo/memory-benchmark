@@ -1,0 +1,1 @@
+{"question_id": "q00-exact-0", "native_child_task": "luna_e_q00_exact_0", "model": "gpt-6-luna", "effort": "medium", "fork_turns": "none", "status": "SETUP_ATTEMPT_NO_WRAPPER_CALL", "answer": null, "citations": [], "wrapper_calls": 0, "included_in_p1e_baseline": false, "note": "Initial no-tool abstention; retried as a fresh successful answer session luna_e_q00_retry."}

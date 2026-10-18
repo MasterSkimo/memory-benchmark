@@ -1,0 +1,32 @@
+{
+  "retrieval": {
+    "axes": [
+      "adapter p50 latency ms",
+      "macro source recall@5"
+    ],
+    "points": [
+      {
+        "candidate": "luna-vault-direct",
+        "latency_ms": 1.5254214995366056,
+        "quality": 0.84375
+      },
+      {
+        "candidate": "qdrant-native",
+        "latency_ms": 1.5744729998914408,
+        "quality": 0.734375
+      },
+      {
+        "candidate": "basic-memory",
+        "latency_ms": 1778.7976399999934,
+        "quality": 0.96875
+      }
+    ],
+    "frontier": [
+      "luna-vault-direct",
+      "basic-memory"
+    ]
+  },
+  "native_tokens": null,
+  "native_latency_frontier": null,
+  "limitations": "Observational tiny development pilot; no uncertainty intervals or causal neural attribution. Native latency/token frontier unavailable."
+}

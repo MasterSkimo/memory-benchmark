@@ -1,0 +1,55 @@
+{
+  "selected_model": "codex-public-dev-bilingual-mean-embedding",
+  "status": "trained_and_locally_exercised",
+  "pretrained_alternative": {
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "official_distribution": "Qdrant/paraphrase-multilingual-MiniLM-L12-v2-onnx-Q",
+    "status": "blocked by allowed proxy 403 to Hugging Face"
+  },
+  "architecture": "PyTorch token embedding 128d, mean pooling, learned linear projection to 384d, L2 normalization",
+  "training": {
+    "seed": 20261018,
+    "torch": "2.5.1+cpu",
+    "optimizer": "AdamW",
+    "loss": "symmetric in-batch contrastive cross entropy",
+    "epochs": 500,
+    "pairs": 40,
+    "dev_pair_file": "implementations/v2/common-models/dev-pairs.jsonl",
+    "dev_pair_sha256": "76a84ad2c32fbf3d501f8499e0e5dda4c4e90628f40f06bafb7e1f49d0d7dee4",
+    "vocabulary_size": 323,
+    "framework": "torch 2.5.1+cpu",
+    "vocabulary_sha256": "a9e63abbfa60ff0820ff225d1aa10e94d11109e3fd2da4bd6bb81174ece64385"
+  },
+  "dimension": 384,
+  "normalization": "L2",
+  "checkpoint_path_ignored": ".models/v2/trained-multilingual/checkpoint.pt",
+  "checkpoint_sha256": "db50044db53237fb6f280a7b0c27eb0be45ff18f7108bcd61ea24640cbb15daf",
+  "integration_check": {
+    "file": "implementations/v2/common-models/public-integration-check.jsonl",
+    "pairs": 4,
+    "pair_sha256": "f624f2359aefce8244913b257bc8f4659e1a94d40d9f872714ac7d73f3b56886",
+    "same_pair_cosine": [
+      0.6131,
+      0.5321,
+      0.5271,
+      0.8862
+    ],
+    "best_other_french_cosine": [
+      0.1555,
+      0.0181,
+      -0.0033,
+      -0.1056
+    ],
+    "all_crosslingual_pairs_ranked_above_other_french_examples": true
+  },
+  "limits": [
+    "This is a genuinely optimized neural encoder trained on only 40 authored phrase pairs, not a pretrained general sentence model.",
+    "Word-level vocabulary maps unseen tokens to zero; generalization is limited and benchmark outcomes cannot establish broad multilingual semantic quality.",
+    "The small integration check is a development smoke test, not independent benchmark evidence."
+  ],
+  "revision": "dev-enfr-40pairs-seed20261018",
+  "vocabulary_sha256": "a9e63abbfa60ff0820ff225d1aa10e94d11109e3fd2da4bd6bb81174ece64385",
+  "tokenizer": "Unicode alphanumeric word tokens; casefold; OOV mapped to index 0",
+  "framework": "torch 2.5.1+cpu",
+  "dependency_lock": "implementations/v2/common-models/requirements.lock"
+}

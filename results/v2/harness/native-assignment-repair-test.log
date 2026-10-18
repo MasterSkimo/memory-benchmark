@@ -1,0 +1,6 @@
+test_immutable_question_scope_and_client_schema (benchkit.v2.test_native_prompt.NativeAssignmentIntegration.test_immutable_question_scope_and_client_schema) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK

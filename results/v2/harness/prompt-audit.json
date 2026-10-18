@@ -1,0 +1,441 @@
+{
+  "audited_at_utc": "2026-10-18T09:27:39.848299+00:00",
+  "source": "Exact saved prompts, frozen question text/principal, native task identity, private config capabilities and recorded full-prompt SHA256. Only capability digests are exported.",
+  "captured_unique_prompts": 41,
+  "prepared_prompt_records": 42,
+  "prompt_quality_eligible_count": 38,
+  "common_verified_question_ids": [
+    "v2-mh-06",
+    "v2-neg-02",
+    "v2-neg-05",
+    "v2-neg-06",
+    "v2-rev-01",
+    "v2-rev-02",
+    "v2-rev-05",
+    "v2-temp-01",
+    "v2-temp-02",
+    "v2-temp-05",
+    "v2-temp-06"
+  ],
+  "common_unassisted_question_ids": [
+    "v2-neg-02",
+    "v2-neg-05",
+    "v2-neg-06",
+    "v2-rev-01",
+    "v2-rev-02",
+    "v2-rev-05",
+    "v2-temp-01",
+    "v2-temp-02",
+    "v2-temp-05",
+    "v2-temp-06"
+  ],
+  "sessions": {
+    "qdrant-native": {
+      "v2-sem-01": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-sem-02": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-sem-05": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-sem-06": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-mh-01": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-mh-02": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-mh-05": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 108.453364
+      },
+      "v2-mh-06": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 62.703396
+      },
+      "v2-temp-01": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 77.035006
+      },
+      "v2-temp-02": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 71.275387
+      },
+      "v2-temp-05": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 97.51313
+      },
+      "v2-temp-06": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 58.572758
+      },
+      "v2-rev-01": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 67.642919
+      },
+      "v2-rev-02": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 140.997758
+      },
+      "v2-rev-05": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 72.580418
+      },
+      "v2-rev-06": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 89.187102
+      },
+      "v2-neg-01": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "question_text_mismatch",
+          "scope_label_mismatch",
+          "capability_or_prompt_hash_mismatch"
+        ],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 77.900414
+      },
+      "v2-neg-02": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 84.885832
+      },
+      "v2-neg-05": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 42.975736
+      },
+      "v2-neg-06": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 40.535575
+      }
+    },
+    "basic-memory": {
+      "v2-sem-05": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-sem-06": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-sem-01": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-sem-02": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-mh-01": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-mh-02": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-mh-05": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 44.296758
+      },
+      "v2-mh-06": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 62.703396
+      },
+      "v2-temp-01": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 77.035006
+      },
+      "v2-temp-02": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 71.275387
+      },
+      "v2-temp-05": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 97.51313
+      },
+      "v2-temp-06": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 58.572758
+      },
+      "v2-rev-01": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 67.642919
+      },
+      "v2-rev-02": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 140.997758
+      },
+      "v2-rev-05": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 72.580418
+      },
+      "v2-rev-06": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 89.187102
+      },
+      "v2-neg-01": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "question_text_mismatch",
+          "scope_label_mismatch",
+          "capability_or_prompt_hash_mismatch"
+        ],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 77.900414
+      },
+      "v2-neg-02": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 69.076858
+      },
+      "v2-neg-05": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 88.128102
+      },
+      "v2-neg-06": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 52.802836
+      }
+    },
+    "luna-vault-direct": {
+      "v2-sem-02": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-sem-05": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-sem-06": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-mh-01": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-mh-02": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-mh-05": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "v2-mh-06": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 108.453364
+      },
+      "v2-temp-01": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 62.703396
+      },
+      "v2-temp-02": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 77.035006
+      },
+      "v2-temp-05": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 71.275387
+      },
+      "v2-temp-06": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 97.51313
+      },
+      "v2-rev-01": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 58.572758
+      },
+      "v2-rev-02": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 67.642919
+      },
+      "v2-rev-05": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 140.997758
+      },
+      "v2-rev-06": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "question_text_mismatch",
+          "scope_label_mismatch"
+        ],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 72.580418
+      },
+      "v2-neg-01": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 89.187102
+      },
+      "v2-neg-02": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 77.900414
+      },
+      "v2-neg-05": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 69.076858
+      },
+      "v2-neg-06": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 35.186682
+      }
+    }
+  }
+}

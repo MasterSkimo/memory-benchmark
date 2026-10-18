@@ -1,0 +1,68 @@
+{
+  "candidate": "graphiti",
+  "status": "RETRIEVAL_TESTED",
+  "questions_executed": 20,
+  "successful_queries": 20,
+  "status_counts": {
+    "ok": 20
+  },
+  "latency_ms": {
+    "p50": 5.765357999962362,
+    "p95": 7.793566399891463
+  },
+  "cache_groups": {
+    "first_scope_query": {
+      "queries": 4,
+      "p50_ms": 6.753550999974323
+    },
+    "reused_scope_adapter": {
+      "queries": 16,
+      "p50_ms": 5.741615500028274
+    }
+  },
+  "setups": [
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-01",
+      "factory_elapsed_ms": 2026.5242260002196,
+      "ingest_file_reads": 1000,
+      "ingest_bytes_read": 254560,
+      "ingest_backend_calls": 320,
+      "ingest_embedding_calls": 0
+    },
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-02",
+      "factory_elapsed_ms": 1473.6392549998527,
+      "ingest_file_reads": 1000,
+      "ingest_bytes_read": 254560,
+      "ingest_backend_calls": 320,
+      "ingest_embedding_calls": 0
+    },
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-03",
+      "factory_elapsed_ms": 1608.212870999978,
+      "ingest_file_reads": 1000,
+      "ingest_bytes_read": 254560,
+      "ingest_backend_calls": 320,
+      "ingest_embedding_calls": 0
+    },
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-04",
+      "factory_elapsed_ms": 1483.2671499998469,
+      "ingest_file_reads": 1000,
+      "ingest_bytes_read": 254560,
+      "ingest_backend_calls": 320,
+      "ingest_embedding_calls": 0
+    }
+  ],
+  "setup_excluded_from_query_latency": true,
+  "process_peak_rss_kib": 102344,
+  "native_token_coverage": 0,
+  "native_token_counter_source": "NOT_AVAILABLE",
+  "questions_sha256": "dd64ea2da51246bd9a6ffa7b48d14d70d88bc5ffbbb9231ceb3d4513612a51ac",
+  "adapter_sha256": "e4b3b1989c8300c72cfe4faf9cae5e2624a13e3687a3709529391c211a5c8950",
+  "scoring": "NOT_RUN: traces must close before separate evaluation"
+}

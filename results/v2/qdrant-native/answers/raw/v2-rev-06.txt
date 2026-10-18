@@ -1,0 +1,1 @@
+{"question_id":"v2-rev-06","answer":"La validation de l’équipe Cobalt est requise, le trafic doit être basculé progressivement, et la révision a été approuvée le 2026-07-15.","abstain":false,"citations":[{"document_id":"org-boreal/project-02/note-060","revision":"v2-r2"}]}

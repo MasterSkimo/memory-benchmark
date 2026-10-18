@@ -1,0 +1,53 @@
+{
+  "candidate": "basic-memory",
+  "mode": "private Markdown working copy; Basic Memory parser/SyncService + SQLite FTS",
+  "setups": [
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-01",
+      "factory_elapsed_ms": 4582.97070899971,
+      "ingest_file_reads": null,
+      "ingest_bytes_read": null,
+      "ingest_backend_calls": null,
+      "ingest_embedding_calls": null
+    },
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-02",
+      "factory_elapsed_ms": 4448.151820999556,
+      "ingest_file_reads": null,
+      "ingest_bytes_read": null,
+      "ingest_backend_calls": null,
+      "ingest_embedding_calls": null
+    },
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-03",
+      "factory_elapsed_ms": 3972.81004100023,
+      "ingest_file_reads": null,
+      "ingest_bytes_read": null,
+      "ingest_backend_calls": null,
+      "ingest_embedding_calls": null
+    },
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-04",
+      "factory_elapsed_ms": 3956.8972920005763,
+      "ingest_file_reads": null,
+      "ingest_bytes_read": null,
+      "ingest_backend_calls": null,
+      "ingest_embedding_calls": null
+    }
+  ],
+  "factory_elapsed_ms_total": 16960.82986300007,
+  "file_reads": null,
+  "bytes_read": null,
+  "backend_calls": null,
+  "llm_extraction_calls": 0,
+  "embedding_model_calls": 0,
+  "rerank_model_calls": 0,
+  "input_tokens": null,
+  "output_tokens": null,
+  "cost_usd": null,
+  "note": "SDK internal sync/index I/O is not exposed; factory timings include private-copy validation and setup. No model inference is used."
+}

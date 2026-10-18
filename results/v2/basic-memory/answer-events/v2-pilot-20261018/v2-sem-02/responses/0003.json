@@ -1,0 +1,1 @@
+{"error":"PermissionError: unsupported tool request fields: query_text","audit":{"question_id":"v2-sem-02","wrapper_call":3,"operation":"search","status":"error","timestamp_utc":"2026-10-18T08:55:50.799Z","wrapper_latency_ms":0.05358199996408075,"error":"PermissionError: unsupported tool request fields: query_text"}}

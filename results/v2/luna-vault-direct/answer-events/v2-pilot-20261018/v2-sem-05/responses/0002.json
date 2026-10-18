@@ -1,0 +1,1 @@
+{"error":"ValueError: operation must be list, read, or search","audit":{"question_id":"v2-sem-05","wrapper_call":2,"operation":null,"status":"error","timestamp_utc":"2026-10-18T08:53:19.440Z","wrapper_latency_ms":0.034437000067555346,"error":"ValueError: operation must be list, read, or search"}}

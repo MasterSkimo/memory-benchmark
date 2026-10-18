@@ -1,0 +1,71 @@
+{
+  "candidate": "cognee",
+  "status": "INCOMPLETE",
+  "questions_executed": 20,
+  "successful_queries": 0,
+  "status_counts": {
+    "error": 20
+  },
+  "latency_ms": {
+    "p50": null,
+    "p95": null
+  },
+  "cache_groups": {
+    "first_scope_query": {
+      "queries": 4,
+      "p50_ms": null
+    },
+    "reused_scope_adapter": {
+      "queries": 16,
+      "p50_ms": null
+    }
+  },
+  "setups": [
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-01",
+      "factory_elapsed_ms": 3413.0031179997786,
+      "ingest_file_reads": 100,
+      "ingest_bytes_read": 27456,
+      "ingest_backend_calls": null,
+      "ingest_embedding_calls": null
+    },
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-02",
+      "factory_elapsed_ms": 19.406191000143735,
+      "ingest_file_reads": 100,
+      "ingest_bytes_read": 27456,
+      "ingest_backend_calls": null,
+      "ingest_embedding_calls": null
+    },
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-03",
+      "factory_elapsed_ms": 15.961913999944954,
+      "ingest_file_reads": 100,
+      "ingest_bytes_read": 27456,
+      "ingest_backend_calls": null,
+      "ingest_embedding_calls": null
+    },
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-04",
+      "factory_elapsed_ms": 18.64211800011617,
+      "ingest_file_reads": 100,
+      "ingest_bytes_read": 27456,
+      "ingest_backend_calls": null,
+      "ingest_embedding_calls": null
+    }
+  ],
+  "setup_excluded_from_query_latency": true,
+  "process_peak_rss_kib": 291240,
+  "native_token_coverage": 0,
+  "native_token_counter_source": "NOT_AVAILABLE",
+  "questions_sha256": "dd64ea2da51246bd9a6ffa7b48d14d70d88bc5ffbbb9231ceb3d4513612a51ac",
+  "adapter_sha256": "49225170e4d1625d9b6a6631e3aed23261fa59c58a243f8ea27f47d98cd99bcb",
+  "scoring": "NOT_RUN: traces must close before separate evaluation",
+  "validity": "INVALID_FOR_COMPARATIVE_RETRIEVAL",
+  "validity_reason": "Shared fixture corpus was modified before this attempt; see pilot-validity.json. The adapter did not modify it.",
+  "failure_attempt_adapter_sha256": "49225170e4d1625d9b6a6631e3aed23261fa59c58a243f8ea27f47d98cd99bcb"
+}

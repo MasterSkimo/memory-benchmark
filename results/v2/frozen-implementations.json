@@ -1,0 +1,94 @@
+{
+  "benchmark": "BENCH-0002",
+  "frozen_at_utc": "2026-10-18T06:52:53.099141+00:00",
+  "phase": "implementations_and_models_frozen_before_independent_question_authoring",
+  "corpus_sha256": "05f2501f7e0369a432051f7e4d028f5e71133649f012171695145be51c761885",
+  "source_sha256": {
+    "basic-memory": {
+      "adapter.py": "da7ac222bb5ab505fe7f46bb4820903ce19aa3db14828989375cea3c57f6e7f0",
+      "backend.py": "e0891fe558731648df3bd4af4a819896851e5059d103a9364e88b3c269f7c825",
+      "runner.py": "f84ba68ff40703b9449d6483d9e1a98845646763a1ab6c96544decc8f2e9cdbe",
+      "server.py": "858ff7ccad6c446937a95ff9242d654dd6459379840847b258515e3d6d6f894e",
+      "test_mcp_integration.py": "a042e2c7a56fbaaf5c5559cde22ba3ae69d99cb738fea1bef0698a2b67533b83"
+    },
+    "cognee": {
+      "adapter.py": "d72b86bdb51f3f8a6ccc76142c366058881ba9833120673e61788d2f44cf0ff9",
+      "prepare_tokenizer.py": "ea463ccaba62642bdf44d3778678df79e443a29206911ea164379e414f9ca7e4",
+      "test_adapter.py": "ad32d97c803af0135c1d1dfb431df93f045c85015e3eb1ea52d0316d6ace45f9"
+    },
+    "graphiti": {
+      "adapter.py": "9106e0493402a8b77f83ecf6270bf1a8a2291a9cc7c1df00b711a7dc2c24f791",
+      "test_adapter.py": "b9204e63bed0e4e059228025f81a4a7db48cca89a06b0c74cccd0c0508cc8f48"
+    },
+    "qdrant-native": {
+      "adapter.py": "0d6a612979913097dcfd15898d60849ad5bcc48f9e7ff0b63fe8823270beb4a0",
+      "test_adapter.py": "93d9481a472e9ac9cd466290644efa31f82023c0e32f268fa1c7e342ce6dcc43"
+    },
+    "luna-vault-direct": {
+      "native_tool.py": "7502b9ce4dded67a9f4ca263658f946740bb5f70ddbfa9db65b8a8b2cd0f0f7d",
+      "scoped_vault.py": "fc8f4943eec5cfcf0cc741eac59518c83de8f449cdd3d4093a1fb50d2e1d7d1d",
+      "tests/test_harness.py": "ddb85045167b49fa466fa8f56e7a6b13c7ff5e05aeba996d53a39f84bd805a35",
+      "tests/test_scope.py": "b306d8057b39e1bac8577d57d20def5799aa0f5aec66f171799c9e98e26e1972"
+    }
+  },
+  "file_sha256": {
+    "benchkit/v2/answer-prompt.txt": "5218cc11d726dae474ca4e1cd76f27c15ff69f224573b58cbf6bf2ecc2f81df9",
+    "benchkit/v2/answer_tool.py": "e875676ced4d9da601a25e5d13e2cadb2c4a1607c3e3439b3d24817e5c436847",
+    "benchkit/v2/development_corpus.py": "ad21a7198a63ca69d3fa6ffddec1135412b4ce7c70a01026182d478aec50ec37",
+    "benchkit/v2/evaluate.py": "15a2c7b3e6a025c9961e180d98253a7c3b5e6e43df2292c391fc374e67872161",
+    "benchkit/v2/harness.py": "5b0a772429f4311905a572e399ce41cbf0157a38c63662c58c7fadf7a8227542",
+    "benchkit/v2/integrity.py": "8b3eeb5eccb72f001f23d9fe40aad0dcc8364b7959bcc236b21df3d35df7cdef",
+    "benchkit/v2/session_client.py": "f8902b782d347884d36a3c6caabab05ac59cc92ed34fb3ad66ea39fa9b39ecc0",
+    "benchkit/v2/session_server.py": "192950839e3e688057127e68360c1f677e1571c3b63417aa2af6f2d7cebcc7aa",
+    "benchkit/v2/source_validation.py": "1311e8d853a737e16e7e42173557693365dbbfe39e2b16304d369d59ca9a9357",
+    "benchkit/v2/test_evaluate.py": "6f63873031f3bfedb55344ac5417bbb39025b1f19f5e08468ea384a86f5e637c",
+    "benchkit/v2/test_session_server.py": "43ecef0472bc7542996a0bea8400e8d11d76ac7d36105e5e320a636c13a01234",
+    "implementations/v2/basic-memory/adapter.py": "da7ac222bb5ab505fe7f46bb4820903ce19aa3db14828989375cea3c57f6e7f0",
+    "implementations/v2/basic-memory/backend.py": "e0891fe558731648df3bd4af4a819896851e5059d103a9364e88b3c269f7c825",
+    "implementations/v2/basic-memory/requirements.lock": "f6d54f4f70f53d1151c85265b07d52ccac03e851ebc3ef4c0f0c9c29b9b70fad",
+    "implementations/v2/basic-memory/requirements.txt": "72aa020ef00266f81f680d950ca0a561a7249555f9134b19133d4dad64c13125",
+    "implementations/v2/basic-memory/runner.py": "f84ba68ff40703b9449d6483d9e1a98845646763a1ab6c96544decc8f2e9cdbe",
+    "implementations/v2/basic-memory/server.py": "858ff7ccad6c446937a95ff9242d654dd6459379840847b258515e3d6d6f894e",
+    "implementations/v2/basic-memory/test_mcp_integration.py": "a042e2c7a56fbaaf5c5559cde22ba3ae69d99cb738fea1bef0698a2b67533b83",
+    "implementations/v2/cognee/adapter.py": "d72b86bdb51f3f8a6ccc76142c366058881ba9833120673e61788d2f44cf0ff9",
+    "implementations/v2/cognee/prepare_tokenizer.py": "ea463ccaba62642bdf44d3778678df79e443a29206911ea164379e414f9ca7e4",
+    "implementations/v2/cognee/requirements-lock.txt": "d29dcf16c9a879eaf6f9cc8205716805f78b321dc19df3a9766bb0dff65edb51",
+    "implementations/v2/cognee/requirements.txt": "d51e6c927d9ffd37b1a468aaa6be82af2a683edfeddd8db8223a190576b8d98a",
+    "implementations/v2/cognee/test_adapter.py": "ad32d97c803af0135c1d1dfb431df93f045c85015e3eb1ea52d0316d6ace45f9",
+    "implementations/v2/common-models/dev-pairs.jsonl": "76a84ad2c32fbf3d501f8499e0e5dda4c4e90628f40f06bafb7e1f49d0d7dee4",
+    "implementations/v2/common-models/embedder.py": "8002493ee4958bde84592b3d550620f334b7c9c3ce5090dbd98574a183373a1d",
+    "implementations/v2/common-models/public-integration-check.jsonl": "f624f2359aefce8244913b257bc8f4659e1a94d40d9f872714ac7d73f3b56886",
+    "implementations/v2/common-models/requirements.lock": "701bf232bc03a0dc26b645f75fe3562f3ff8a9edfd0a996f627213c2b12115d2",
+    "implementations/v2/common-models/requirements.txt": "def6ce9c5d47fc176283e5353d3e973e51d16ec6d37be30552b506f7937f2212",
+    "implementations/v2/common-models/server.py": "3e04b141bf462b1e13e446f0aff54c2493df05c06f8a0bc6bd7d3c1990f9c91e",
+    "implementations/v2/common-models/test_server.py": "718e5fd9d1b16687eb692bccabd35e1d3b768561723fc6624a35b15524f79860",
+    "implementations/v2/common-models/train.py": "db87c0478f440bec343888112d3e877716b8222bdad64ac6363aede12e42d107",
+    "implementations/v2/graphiti/adapter.py": "9106e0493402a8b77f83ecf6270bf1a8a2291a9cc7c1df00b711a7dc2c24f791",
+    "implementations/v2/graphiti/requirements-lock.txt": "72bd884a7d28efd2475e20f57440fce0b83288cc76118abb4a4c64e30f839fea",
+    "implementations/v2/graphiti/requirements.txt": "3ff807310da7a0e96d1cd85e5d00d735a5f36600da2ece3f3bb06825486d4f96",
+    "implementations/v2/graphiti/test_adapter.py": "b9204e63bed0e4e059228025f81a4a7db48cca89a06b0c74cccd0c0508cc8f48",
+    "implementations/v2/luna-vault-direct/native_tool.py": "7502b9ce4dded67a9f4ca263658f946740bb5f70ddbfa9db65b8a8b2cd0f0f7d",
+    "implementations/v2/luna-vault-direct/scoped_vault.py": "fc8f4943eec5cfcf0cc741eac59518c83de8f449cdd3d4093a1fb50d2e1d7d1d",
+    "implementations/v2/luna-vault-direct/tests/test_harness.py": "ddb85045167b49fa466fa8f56e7a6b13c7ff5e05aeba996d53a39f84bd805a35",
+    "implementations/v2/luna-vault-direct/tests/test_scope.py": "b306d8057b39e1bac8577d57d20def5799aa0f5aec66f171799c9e98e26e1972",
+    "implementations/v2/qdrant-native/adapter.py": "0d6a612979913097dcfd15898d60849ad5bcc48f9e7ff0b63fe8823270beb4a0",
+    "implementations/v2/qdrant-native/requirements.lock": "094a71478aacb707a50657a7c59c0ae1ea053ddcb77ee756b5ae7c87f57abb73",
+    "implementations/v2/qdrant-native/requirements.txt": "470370098311f56760ca7f6d9d99cb66721717103b555296cbb4b282b7fb78bd",
+    "implementations/v2/qdrant-native/test_adapter.py": "93d9481a472e9ac9cd466290644efa31f82023c0e32f268fa1c7e342ce6dcc43",
+    "scripts/v2-retrieval-pilot.sh": "c09b816f61c56869cf4db1d1f09e87afd9136ae9736e2bc4da435e11d3374dbb"
+  },
+  "model_checkpoint_sha256": "db50044db53237fb6f280a7b0c27eb0be45ff18f7108bcd61ea24640cbb15daf",
+  "answer_prompt_sha256": "5218cc11d726dae474ca4e1cd76f27c15ff69f224573b58cbf6bf2ecc2f81df9",
+  "policy": {
+    "retrieval_questions": 40,
+    "top_k": 5,
+    "answer_sessions_max_per_candidate": 20,
+    "wrapper_operations_max_per_question": 12,
+    "answer_model_alias": "gpt-6-luna",
+    "answer_effort": "medium",
+    "model_retries": 0,
+    "external_inference": false,
+    "physical_cache": "uncontrolled; first-scope/reused-adapter measured separately"
+  },
+  "blindness": "NON_BLIND_DEVELOPMENT: sharedfilesystem; no demonstrated evaluator access boundary. Expected answers withheld procedurally until E submissions."
+}
