@@ -1,8 +1,0 @@
-test_constructor_reads_only_authorized_project_and_records_revisions (test_adapter.CogneeIntegrationTests.test_constructor_reads_only_authorized_project_and_records_revisions) ... ok
-test_cross_project_and_cross_org_queries_rejected_before_retrieval (test_adapter.CogneeIntegrationTests.test_cross_project_and_cross_org_queries_rejected_before_retrieval) ... ok
-test_real_cognee_vector_retrieval_when_ingestion_available (test_adapter.CogneeIntegrationTests.test_real_cognee_vector_retrieval_when_ingestion_available) ... skipped 'Cognee add could not fetch its static tiktoken encoding asset from openaipublic.blob.core.windows.net: HTTP 403 Forbidden'
-test_frontmatter_provenance_fields_are_preserved (test_adapter.ProvenanceTests.test_frontmatter_provenance_fields_are_preserved) ... ok
-test_local_inference_requires_opt_in_and_both_loopback_endpoints (test_adapter.ProvenanceTests.test_local_inference_requires_opt_in_and_both_loopback_endpoints) ... ok
-test_scope_mismatch_in_document_id_is_rejected_before_cognee (test_adapter.ProvenanceTests.test_scope_mismatch_in_document_id_is_rejected_before_cognee) ... ok
-Ran 6 tests in 3.998s
-OK (skipped=1)

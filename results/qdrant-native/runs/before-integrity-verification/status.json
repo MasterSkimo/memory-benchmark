@@ -1,5 +1,0 @@
-{
-  "status": "SUPERSEDED_BY_HASH_VERIFIED_RERUN",
-  "reason": "Original setup counts consistent with pristine corpus but new neutral runner verifies actual digest around every adapter setup and finalrun",
-  "unique_question_ids": 20
-}

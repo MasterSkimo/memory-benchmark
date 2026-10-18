@@ -1,1 +1,0 @@
-{"question_id": "q00-isolation-0", "operation": "search", "status": "OK", "latency_ms": 18.07710599996426, "file_reads": 100, "bytes_read": 25556, "source_ids": ["org-alpha/project-01/note-000", "org-alpha/project-01/note-010", "org-alpha/project-01/note-011", "org-alpha/project-01/note-012", "org-alpha/project-01/note-013"]}

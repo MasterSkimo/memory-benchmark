@@ -1,9 +1,0 @@
-{
-  "container_name": "graphiti-neo4j",
-  "configured_image": "neo4j:5.26.0",
-  "image_digest": "neo4j@sha256:5a015e53de1895e7eee1574ae0325cf8c4b89587222778108c594bdd45a474b5",
-  "local_image_id": "sha256:3b9cf65b6cae8b166d5091969e80a5600028aa2e8676a45a925dcc15c379024e",
-  "license": "GPL-3.0",
-  "retrieval_pilot_questions": 20,
-  "question_set_sha256": "dd64ea2da51246bd9a6ffa7b48d14d70d88bc5ffbbb9231ceb3d4513612a51ac"
-}
