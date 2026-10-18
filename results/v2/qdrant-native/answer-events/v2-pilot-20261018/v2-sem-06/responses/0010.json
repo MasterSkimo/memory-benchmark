@@ -1,0 +1,1 @@
+{"error":"PermissionError: unsupported tool request fields: args","audit":{"question_id":"v2-sem-06","wrapper_call":10,"operation":"search","status":"error","timestamp_utc":"2026-10-18T08:57:03.436Z","wrapper_latency_ms":0.08209000043279957,"error":"PermissionError: unsupported tool request fields: args"}}

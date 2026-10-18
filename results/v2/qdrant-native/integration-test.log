@@ -1,0 +1,8 @@
+........                                                                 [100%]
+=============================== warnings summary ===============================
+implementations/v2/qdrant-native/test_adapter.py::test_real_qdrant_dense_sparse_scope_provenance_and_counters
+  /workspace/memory-benchmark/implementations/v2/qdrant-native/adapter.py:91: UserWarning: Payload indexes have no effect in the local Qdrant. Please use server Qdrant if you need payload indexes.
+    self.client.create_payload_index(self.collection, field, models.PayloadSchemaType.KEYWORD)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+8 passed, 1 warning in 2.90s

@@ -1,0 +1,111 @@
+{
+  "candidate": "luna-vault-direct",
+  "run_id": "v2-pilot-20261018",
+  "corpus_sha256": "05f2501f7e0369a432051f7e4d028f5e71133649f012171695145be51c761885",
+  "adapter_path": "/workspace/memory-benchmark/implementations/v2/luna-vault-direct/scoped_vault.py",
+  "source_sha256": {
+    "native_tool.py": "7502b9ce4dded67a9f4ca263658f946740bb5f70ddbfa9db65b8a8b2cd0f0f7d",
+    "scoped_vault.py": "fc8f4943eec5cfcf0cc741eac59518c83de8f449cdd3d4093a1fb50d2e1d7d1d",
+    "tests/test_harness.py": "ddb85045167b49fa466fa8f56e7a6b13c7ff5e05aeba996d53a39f84bd805a35",
+    "tests/test_scope.py": "b306d8057b39e1bac8577d57d20def5799aa0f5aec66f171799c9e98e26e1972"
+  },
+  "loaded_scopes": [
+    {
+      "organization_id": "org-alto",
+      "knowledge_space_id": "project-01"
+    },
+    {
+      "organization_id": "org-alto",
+      "knowledge_space_id": "project-02"
+    },
+    {
+      "organization_id": "org-alto",
+      "knowledge_space_id": "project-05"
+    },
+    {
+      "organization_id": "org-boreal",
+      "knowledge_space_id": "project-01"
+    },
+    {
+      "organization_id": "org-boreal",
+      "knowledge_space_id": "project-02"
+    }
+  ],
+  "scope_setups": [
+    {
+      "organization_id": "org-alto",
+      "knowledge_space_id": "project-01",
+      "adapter_setup_ms": 0.18124799953511683,
+      "own_cpu_user_seconds": 0.0001510000000000053,
+      "own_cpu_system_seconds": 3.399999999999931e-05,
+      "own_peak_rss_kib": 15744,
+      "own_block_input_delta": 0,
+      "own_block_output_delta": 0,
+      "child_cpu_user_seconds": 0.0,
+      "child_cpu_system_seconds": 0.0,
+      "child_block_input_delta": 0,
+      "child_block_output_delta": 0
+    },
+    {
+      "organization_id": "org-alto",
+      "knowledge_space_id": "project-02",
+      "adapter_setup_ms": 0.1037479996739421,
+      "own_cpu_user_seconds": 0.00010700000000000293,
+      "own_cpu_system_seconds": 0.0,
+      "own_peak_rss_kib": 15872,
+      "own_block_input_delta": 0,
+      "own_block_output_delta": 0,
+      "child_cpu_user_seconds": 0.0,
+      "child_cpu_system_seconds": 0.0,
+      "child_block_input_delta": 0,
+      "child_block_output_delta": 0
+    },
+    {
+      "organization_id": "org-alto",
+      "knowledge_space_id": "project-05",
+      "adapter_setup_ms": 0.06743699941580417,
+      "own_cpu_user_seconds": 7.000000000000062e-05,
+      "own_cpu_system_seconds": 0.0,
+      "own_peak_rss_kib": 15872,
+      "own_block_input_delta": 0,
+      "own_block_output_delta": 0,
+      "child_cpu_user_seconds": 0.0,
+      "child_cpu_system_seconds": 0.0,
+      "child_block_input_delta": 0,
+      "child_block_output_delta": 0
+    },
+    {
+      "organization_id": "org-boreal",
+      "knowledge_space_id": "project-01",
+      "adapter_setup_ms": 0.06428000051528215,
+      "own_cpu_user_seconds": 5.4999999999999494e-05,
+      "own_cpu_system_seconds": 1.1000000000000593e-05,
+      "own_peak_rss_kib": 15872,
+      "own_block_input_delta": 0,
+      "own_block_output_delta": 0,
+      "child_cpu_user_seconds": 0.0,
+      "child_cpu_system_seconds": 0.0,
+      "child_block_input_delta": 0,
+      "child_block_output_delta": 0
+    },
+    {
+      "organization_id": "org-boreal",
+      "knowledge_space_id": "project-02",
+      "adapter_setup_ms": 0.06020999990141718,
+      "own_cpu_user_seconds": 6.199999999999262e-05,
+      "own_cpu_system_seconds": 0.0,
+      "own_peak_rss_kib": 15872,
+      "own_block_input_delta": 0,
+      "own_block_output_delta": 0,
+      "child_cpu_user_seconds": 0.0,
+      "child_cpu_system_seconds": 0.0,
+      "child_block_input_delta": 0,
+      "child_block_output_delta": 0
+    }
+  ],
+  "module_load_ms": 8.184131000234629,
+  "adapter_setup_excluded_from_session_time": true,
+  "native_input_tokens": null,
+  "native_output_tokens": null,
+  "native_tool_calls": null
+}

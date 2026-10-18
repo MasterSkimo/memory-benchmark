@@ -1,0 +1,1 @@
+{"question_id":"v2-mh-01","answer":"Le relais Iris dépend du runbook PB-IRIS. Avant d’accuser réception de la récupération, il faut comparer les sommes de contrôle stockées (« contrôle de somme »).","abstain":false,"citations":[{"document_id":"org-alto/project-01/note-020","revision":"v2-00-020"},{"document_id":"org-alto/project-01/note-030","revision":"v2-00-030"}]}

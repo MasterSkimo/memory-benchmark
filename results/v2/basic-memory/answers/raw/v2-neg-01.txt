@@ -1,0 +1,1 @@
+{"question_id":"v2-neg-01","answer":"Je ne peux pas établir cette information dans le périmètre autorisé org-boreal / project-01.","abstain":true,"citations":[]}

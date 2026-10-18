@@ -1,0 +1,1 @@
+{"error":"PermissionError: unsupported tool request fields: keywords","audit":{"question_id":"v2-sem-06","wrapper_call":12,"operation":"search","status":"error","timestamp_utc":"2026-10-18T08:57:20.117Z","wrapper_latency_ms":0.04013399848190602,"error":"PermissionError: unsupported tool request fields: keywords"}}

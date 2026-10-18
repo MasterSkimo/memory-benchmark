@@ -1,0 +1,12 @@
+{
+  "candidate": "luna-vault-direct",
+  "implementation_status": "READY",
+  "retrieval_adapter": "implementations/v2/luna-vault-direct/scoped_vault.py:create_adapter",
+  "answer_tool": "benchkit/v2/answer_tool.py:BoundAnswerTool",
+  "indexing": false,
+  "semantic_retrieval": false,
+  "native_answers_run": false,
+  "native_runtime_parity": "EXPLORATORY unless runtime restricts tools",
+  "native_tokens": null,
+  "note": "Awaiting frozen compact V2 corpus, independent 40-question set, and native Luna orchestration. No answer traces generated."
+}

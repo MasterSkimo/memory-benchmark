@@ -1,0 +1,1 @@
+{"error":"PermissionError: unsupported tool request fields: search_query","audit":{"question_id":"v2-mh-01","wrapper_call":5,"operation":"search","status":"error","timestamp_utc":"2026-10-18T08:56:11.904Z","wrapper_latency_ms":0.04860199987888336,"error":"PermissionError: unsupported tool request fields: search_query"}}

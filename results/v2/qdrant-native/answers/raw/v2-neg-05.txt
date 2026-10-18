@@ -1,0 +1,1 @@
+{"question_id":"v2-neg-05","answer":"Je ne peux pas établir la durée demandée à partir des sources autorisées pour org-boreal / project-01.","abstain":true,"citations":[]}

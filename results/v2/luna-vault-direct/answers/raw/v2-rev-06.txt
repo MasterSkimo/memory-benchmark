@@ -1,0 +1,1 @@
+{"question_id":"v2-rev-06","answer":"Je ne peux pas établir ces éléments à partir des sources autorisées pour org-boreal / project-03 : la session n’a fourni aucune source Cedar dans ce périmètre.","abstain":true,"citations":[]}

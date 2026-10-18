@@ -1,0 +1,6 @@
+test_bound_list_read_search_and_forgery_rejection (benchkit.v2.test_session_server.SessionBrokerIntegrationTests.test_bound_list_read_search_and_forgery_rejection) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.515s
+
+OK

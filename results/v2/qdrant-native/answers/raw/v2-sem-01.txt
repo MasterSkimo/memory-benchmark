@@ -1,0 +1,1 @@
+{"question_id":"v2-sem-01","answer":"Une file d’attente durable sur disque garde les commandes récupérables ; le nom français approuvé est « file persistante sur disque ».","abstain":false,"citations":[{"document_id":"org-alto/project-01/note-010","revision":"v2-00-010"}]}

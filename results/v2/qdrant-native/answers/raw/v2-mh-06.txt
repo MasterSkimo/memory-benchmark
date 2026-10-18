@@ -1,0 +1,1 @@
+{"question_id":"v2-mh-06","answer":"Le relais Balsa dépend du runbook PB-BALSA. Sa condition préalable à la promotion du secours est que la réplication ait rattrapé son retard.","abstain":false,"citations":[{"document_id":"org-boreal/project-02/note-020","revision":"v2-06-020"},{"document_id":"org-boreal/project-02/note-030","revision":"v2-06-030"}]}

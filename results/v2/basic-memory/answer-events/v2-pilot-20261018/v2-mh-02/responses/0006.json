@@ -1,0 +1,1 @@
+{"error":"ValueError: question must be non-empty text","audit":{"question_id":"v2-mh-02","wrapper_call":6,"operation":"search","status":"error","timestamp_utc":"2026-10-18T09:00:46.948Z","wrapper_latency_ms":4.068791999088717,"error":"ValueError: question must be non-empty text"}}

@@ -1,0 +1,187 @@
+{"event": "ready", "host": "127.0.0.1", "port": 8873, "candidate": "basic-memory", "run_id": "v2-pilot-20261018", "corpus_sha256": "05f2501f7e0369a432051f7e4d028f5e71133649f012171695145be51c761885", "adapter_path": "/workspace/memory-benchmark/implementations/v2/basic-memory/adapter.py", "source_sha256": {"adapter.py": "da7ac222bb5ab505fe7f46bb4820903ce19aa3db14828989375cea3c57f6e7f0", "backend.py": "e0891fe558731648df3bd4af4a819896851e5059d103a9364e88b3c269f7c825", "runner.py": "f84ba68ff40703b9449d6483d9e1a98845646763a1ab6c96544decc8f2e9cdbe", "server.py": "858ff7ccad6c446937a95ff9242d654dd6459379840847b258515e3d6d6f894e", "test_mcp_integration.py": "a042e2c7a56fbaaf5c5559cde22ba3ae69d99cb738fea1bef0698a2b67533b83"}, "loaded_scopes": [{"organization_id": "org-alto", "knowledge_space_id": "project-01"}, {"organization_id": "org-alto", "knowledge_space_id": "project-02"}, {"organization_id": "org-alto", "knowledge_space_id": "project-05"}, {"organization_id": "org-boreal", "knowledge_space_id": "project-01"}, {"organization_id": "org-boreal", "knowledge_space_id": "project-02"}], "scope_setups": [{"organization_id": "org-alto", "knowledge_space_id": "project-01", "adapter_setup_ms": 0.2556470008130418, "own_cpu_user_seconds": 0.00018799999999996597, "own_cpu_system_seconds": 7.30000000000175e-05, "own_peak_rss_kib": 50084, "own_block_input_delta": 0, "own_block_output_delta": 0, "child_cpu_user_seconds": 0.0, "child_cpu_system_seconds": 0.0, "child_block_input_delta": 0, "child_block_output_delta": 0}, {"organization_id": "org-alto", "knowledge_space_id": "project-02", "adapter_setup_ms": 0.1738740011205664, "own_cpu_user_seconds": 0.00017800000000001148, "own_cpu_system_seconds": 0.0, "own_peak_rss_kib": 50084, "own_block_input_delta": 0, "own_block_output_delta": 0, "child_cpu_user_seconds": 0.0, "child_cpu_system_seconds": 0.0, "child_block_input_delta": 0, "child_block_output_delta": 0}, {"organization_id": "org-alto", "knowledge_space_id": "project-05", "adapter_setup_ms": 0.09627899999031797, "own_cpu_user_seconds": 9.899999999996023e-05, "own_cpu_system_seconds": 0.0, "own_peak_rss_kib": 50084, "own_block_input_delta": 0, "own_block_output_delta": 0, "child_cpu_user_seconds": 0.0, "child_cpu_system_seconds": 0.0, "child_block_input_delta": 0, "child_block_output_delta": 0}, {"organization_id": "org-boreal", "knowledge_space_id": "project-01", "adapter_setup_ms": 0.09673999920778442, "own_cpu_user_seconds": 9.900000000007125e-05, "own_cpu_system_seconds": 0.0, "own_peak_rss_kib": 50084, "own_block_input_delta": 0, "own_block_output_delta": 0, "child_cpu_user_seconds": 0.0, "child_cpu_system_seconds": 0.0, "child_block_input_delta": 0, "child_block_output_delta": 0}, {"organization_id": "org-boreal", "knowledge_space_id": "project-02", "adapter_setup_ms": 0.09685399891168345, "own_cpu_user_seconds": 7.2000000000072e-05, "own_cpu_system_seconds": 2.8000000000000247e-05, "own_peak_rss_kib": 50084, "own_block_input_delta": 0, "own_block_output_delta": 0, "child_cpu_user_seconds": 0.0, "child_cpu_system_seconds": 0.0, "child_block_input_delta": 0, "child_block_output_delta": 0}], "module_load_ms": 463.5763839996798, "adapter_setup_excluded_from_session_time": true, "native_input_tokens": null, "native_output_tokens": null, "native_tool_calls": null}
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 08:52:28] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 08:53:39] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 08:54:48] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 08:56:05] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 08:56:20] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:00:55] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:04:06] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:05:18] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:06:22] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:07:56] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:10:59] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:12:07] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:13:36] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:16:11] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:17:54] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:19:13] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:20:41] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:20:52] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:22:26] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:22:35] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/fastmcp/server/auth/providers/jwt.py:10: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose import JsonWebKey, JsonWebToken
+/workspace/memory-benchmark/implementations/v2/basic-memory/v2env/lib/python3.12/site-packages/authlib/integrations/httpx_client/assertion_client.py:5: AuthlibDeprecationWarning: The httpx module is deprecated; please use httpx2 instead.
+  from ._compat import httpx2
+[10/18/26 09:23:33] INFO     Starting MCP server                  server.py:2506
+                             'basic-memory-scoped' with transport               
+                             'stdio'                                            
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/memory-benchmark/benchkit/v2/session_server.py", line 190, in <module>
+    if __name__=="__main__": main()
+                             ^^^^^^
+  File "/workspace/memory-benchmark/benchkit/v2/session_server.py", line 189, in main
+    args=parser.parse_args(); serve(args.config,args.host,args.port)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/memory-benchmark/benchkit/v2/session_server.py", line 183, in serve
+    server.serve_forever()
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/socketserver.py", line 235, in serve_forever
+    ready = selector.select(poll_interval)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

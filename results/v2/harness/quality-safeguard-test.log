@@ -1,0 +1,7 @@
+test_negative_flag_cannot_replace_content_review (benchkit.v2.test_quality.SafeguardTests.test_negative_flag_cannot_replace_content_review) ... ok
+test_precision_definitions_are_distinct (benchkit.v2.test_quality.SafeguardTests.test_precision_definitions_are_distinct) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK

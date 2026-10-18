@@ -1,0 +1,1 @@
+{"question_id":"v2-neg-01","answer":"Je ne peux pas établir l’objectif RTO approuvé à partir des sources autorisées. La note disponible précise que les 8 minutes concernent la fraîcheur des données, pas le temps de remise en service.","abstain":true,"citations":[{"document_id":"org-alto/project-01/note-000","revision":"v2-00-000"}]}

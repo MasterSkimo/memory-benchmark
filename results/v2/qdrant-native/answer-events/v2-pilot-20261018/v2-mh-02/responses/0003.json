@@ -1,0 +1,1 @@
+{"error":"PermissionError: unsupported tool request fields: q","audit":{"question_id":"v2-mh-02","wrapper_call":3,"operation":"search","status":"error","timestamp_utc":"2026-10-18T09:00:13.570Z","wrapper_latency_ms":0.04123899998376146,"error":"PermissionError: unsupported tool request fields: q"}}

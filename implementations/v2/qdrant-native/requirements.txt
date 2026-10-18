@@ -1,0 +1,2 @@
+-r ../common-models/requirements.txt
+qdrant-client==1.15.1

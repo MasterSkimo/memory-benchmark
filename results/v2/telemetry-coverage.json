@@ -1,0 +1,218 @@
+{
+  "native_tokens": null,
+  "native_tool_calls": null,
+  "native_token_coverage": 0,
+  "submitted_native_finals": 59,
+  "prompt_captures": 41,
+  "verified_prompt_quality_coverage_count": 38,
+  "dispatcher_elapsed_coverage_count": 41,
+  "dispatcher_elapsed_intervals": [
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-mh-06",
+      "elapsed_seconds": 108.453364
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-mh-05",
+      "elapsed_seconds": 108.453364
+    },
+    {
+      "candidate": "basic-memory",
+      "question_id": "v2-mh-05",
+      "elapsed_seconds": 44.296758
+    },
+    {
+      "candidate": "basic-memory",
+      "question_id": "v2-mh-06",
+      "elapsed_seconds": 62.703396
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-temp-01",
+      "elapsed_seconds": 62.703396
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-mh-06",
+      "elapsed_seconds": 62.703396
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-temp-01",
+      "elapsed_seconds": 77.035006
+    },
+    {
+      "candidate": "basic-memory",
+      "question_id": "v2-temp-01",
+      "elapsed_seconds": 77.035006
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-temp-02",
+      "elapsed_seconds": 77.035006
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-temp-05",
+      "elapsed_seconds": 71.275387
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-temp-02",
+      "elapsed_seconds": 71.275387
+    },
+    {
+      "candidate": "basic-memory",
+      "question_id": "v2-temp-02",
+      "elapsed_seconds": 71.275387
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-temp-05",
+      "elapsed_seconds": 97.51313
+    },
+    {
+      "candidate": "basic-memory",
+      "question_id": "v2-temp-05",
+      "elapsed_seconds": 97.51313
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-temp-06",
+      "elapsed_seconds": 97.51313
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-rev-01",
+      "elapsed_seconds": 58.572758
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-temp-06",
+      "elapsed_seconds": 58.572758
+    },
+    {
+      "candidate": "basic-memory",
+      "question_id": "v2-temp-06",
+      "elapsed_seconds": 58.572758
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-rev-01",
+      "elapsed_seconds": 67.642919
+    },
+    {
+      "candidate": "basic-memory",
+      "question_id": "v2-rev-01",
+      "elapsed_seconds": 67.642919
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-rev-02",
+      "elapsed_seconds": 67.642919
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-rev-05",
+      "elapsed_seconds": 140.997758
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-rev-02",
+      "elapsed_seconds": 140.997758
+    },
+    {
+      "candidate": "basic-memory",
+      "question_id": "v2-rev-02",
+      "elapsed_seconds": 140.997758
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-rev-06",
+      "elapsed_seconds": 72.580418
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-rev-05",
+      "elapsed_seconds": 72.580418
+    },
+    {
+      "candidate": "basic-memory",
+      "question_id": "v2-rev-05",
+      "elapsed_seconds": 72.580418
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-neg-01",
+      "elapsed_seconds": 89.187102
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-rev-06",
+      "elapsed_seconds": 89.187102
+    },
+    {
+      "candidate": "basic-memory",
+      "question_id": "v2-rev-06",
+      "elapsed_seconds": 89.187102
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-neg-02",
+      "elapsed_seconds": 77.900414
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-neg-01",
+      "elapsed_seconds": 77.900414
+    },
+    {
+      "candidate": "basic-memory",
+      "question_id": "v2-neg-01",
+      "elapsed_seconds": 77.900414
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-neg-05",
+      "elapsed_seconds": 69.076858
+    },
+    {
+      "candidate": "basic-memory",
+      "question_id": "v2-neg-02",
+      "elapsed_seconds": 69.076858
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-neg-02",
+      "elapsed_seconds": 84.885832
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-neg-06",
+      "elapsed_seconds": 35.186682
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-neg-05",
+      "elapsed_seconds": 42.975736
+    },
+    {
+      "candidate": "basic-memory",
+      "question_id": "v2-neg-05",
+      "elapsed_seconds": 88.128102
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-neg-06",
+      "elapsed_seconds": 40.535575
+    },
+    {
+      "candidate": "basic-memory",
+      "question_id": "v2-neg-06",
+      "elapsed_seconds": 52.802836
+    }
+  ],
+  "native_serving_latency": null,
+  "native_snapshot": null
+}

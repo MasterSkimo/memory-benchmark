@@ -1,0 +1,1 @@
+{"question_id":"v2-mh-02","answer":"Le relais Orion dépend du runbook PB-ORION. Sa dernière étape obligatoire est la « promotion du secours », après rattrapage de la réplication.","abstain":false,"citations":[{"document_id":"org-alto/project-02/note-020","revision":"v2-01-020"},{"document_id":"org-alto/project-02/note-030","revision":"v2-01-030"}]}

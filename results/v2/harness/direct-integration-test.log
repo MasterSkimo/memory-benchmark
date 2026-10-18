@@ -1,0 +1,11 @@
+test_frozen_manifest_requires_exact_40_question_ids (test_harness.HarnessIntegrationTests.test_frozen_manifest_requires_exact_40_question_ids) ... ok
+test_neutral_adapter_contract (test_harness.HarnessIntegrationTests.test_neutral_adapter_contract) ... ok
+test_answer_interface_scope_and_top_k (test_scope.DirectV2SecurityTests.test_answer_interface_scope_and_top_k) ... ok
+test_handle_token_and_scope_forgery_rejected (test_scope.DirectV2SecurityTests.test_handle_token_and_scope_forgery_rejected) ... ok
+test_result_mapping_rejects_stale_revision (test_scope.DirectV2SecurityTests.test_result_mapping_rejects_stale_revision) ... ok
+test_scope_and_source_metadata (test_scope.DirectV2SecurityTests.test_scope_and_source_metadata) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.032s
+
+OK

@@ -1,0 +1,41 @@
+{
+  "benchmark": "BENCH-0002",
+  "python": "3.12.14",
+  "native_delegation": {
+    "available": true,
+    "implementation_workstreams": 5,
+    "peak_implementation_parallelism": 5,
+    "configured_worker_alias": "gpt-6-luna",
+    "configured_effort": "medium",
+    "served_snapshot": null,
+    "available_concurrency_slots_including_coordinator": 7
+  },
+  "coordinator_requested": "SOL/high",
+  "coordinator_served_identity": null,
+  "network": "Managed package-host policy; PyPI/npm/official PyTorch usable; official Hugging Face model downloads denied HTTP403. No bypass.",
+  "docker": "Existing local Neo4j V1 daemon available; no V2 graph extraction measured",
+  "native_tokens": {
+    "input": null,
+    "cached": null,
+    "output": null,
+    "reasoning": null
+  },
+  "native_tool_counter_export": null,
+  "subscription_quota": null,
+  "nested_authenticated_codex_sessions": 0,
+  "external_inference_providers": [],
+  "observability": "Configured native aliases and agent identifiers are observable; immutable served snapshot, per-session tokens and native tool export are not.",
+  "hardware": {
+    "visible_logical_cpus": 3,
+    "cpu_affinity_count": 3,
+    "architecture": "x86_64",
+    "cgroup_cpu_max": "200000 100000",
+    "cgroup_memory_max": "8589934592"
+  },
+  "native_trace_tool_discovery": {
+    "supported_agent_spawn_and_final_messages": true,
+    "native_token_or_tool_counter_export_tool_found": false,
+    "query": "subagent|token usage|model usage|agent trace|usage counter",
+    "matching_catalog_tools": []
+  }
+}

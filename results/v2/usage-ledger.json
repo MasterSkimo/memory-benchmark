@@ -1,0 +1,45 @@
+{
+  "native_subscription_usage": {
+    "coordinator_tokens": null,
+    "implementation_worker_tokens": null,
+    "question_author_tokens": null,
+    "answer_input_tokens": null,
+    "answer_cached_tokens": null,
+    "answer_output_tokens": null,
+    "answer_reasoning_tokens": null,
+    "native_tool_calls": null,
+    "subscription_spend": null
+  },
+  "qdrant_R_ingest": {
+    "embedding_batch_calls": 10,
+    "encoder_input_word_units": 2769,
+    "SDK_upserts": 10,
+    "counter_boundary": "Upserts only; collection/index-management SDK calls and internal operations are not counted by this field."
+  },
+  "qdrant_R_search": {
+    "embedding_calls": 40,
+    "encoder_input_word_units": 733,
+    "SDK_query_points_calls": 40
+  },
+  "qdrant_E_captured_successful_searches": {
+    "embedding_calls": 20,
+    "encoder_input_word_units": 271,
+    "search_responses": 20,
+    "E_ingest_embeddings": null,
+    "note": "E startup exports factory resources, not embedding counters; no estimates are substituted."
+  },
+  "cognee": {
+    "actual_add_completed": true,
+    "embedding_readiness_calls_on_recorded_corpus_add": 1,
+    "source_chunk_vector_index_calls": null,
+    "graph_extraction_calls": null,
+    "stage": "cognify not executed; extraction LLM unavailable"
+  },
+  "graphiti": {
+    "shared_encoder_test_exercised": true,
+    "genuine_extraction_calls": null,
+    "temporal_retrieval_calls": null,
+    "stage": "model-dependent integration skipped"
+  },
+  "definitions": "Local encoder units count actual Unicode-word inputs, including OOV tokens; they are not native Codex, tiktoken or billing tokens. SDK counters are application calls, not database statements/transport messages. Development failures remain in separate integration/blocker evidence."
+}

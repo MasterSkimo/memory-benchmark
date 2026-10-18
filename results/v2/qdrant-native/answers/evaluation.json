@@ -1,0 +1,1235 @@
+{
+  "candidate": "qdrant-native",
+  "planned_sessions": 20,
+  "submitted_answers": 20,
+  "scorable_answers": 13,
+  "interrupted_sessions": 0,
+  "strict_grounded_correct": 11,
+  "strict_grounded_rate_completed": 0.8461538461538461,
+  "strict_grounded_rate_planned_20": null,
+  "full_set_quality_status": "INCOMPLETE: uncaptured or mismatched actual prompts are not scored",
+  "component_correct_rate": 0.8,
+  "citation_complete_rate": 0.8,
+  "negative_abstention_rate": 1,
+  "obsolete_citations": 0,
+  "paired_question_count": 10,
+  "paired_question_ids": [
+    "v2-neg-02",
+    "v2-neg-05",
+    "v2-neg-06",
+    "v2-rev-01",
+    "v2-rev-02",
+    "v2-rev-05",
+    "v2-temp-01",
+    "v2-temp-02",
+    "v2-temp-05",
+    "v2-temp-06"
+  ],
+  "paired_definition": "Intersection of verified actual prompts for all engines, excluding documented same-session advice and launcher cohort; post-dispatch audit subset",
+  "paired_strict_grounded_rate": 0.9,
+  "paired_wrapper_calls_mean": 4.1,
+  "paired_response_bytes_mean": 4526.8,
+  "wrapper_calls_total": 90,
+  "wrapper_errors": 55,
+  "transport_response_bytes_total": 82814,
+  "wrapper_operations": {
+    "list": 2,
+    "read": 13,
+    "search": 64,
+    "other_or_missing": 11
+  },
+  "native_token_coverage": 0,
+  "native_tool_export_coverage": 0,
+  "native_tokens": null,
+  "native_tool_calls": null,
+  "causal_status": "EXPLORATORY: shared filesystem and unrestricted native tools; equivalent policy/API but no enforced native capability parity",
+  "scores": [
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-sem-01",
+      "status": "submitted",
+      "score": null,
+      "error": "NOT_SCORED: prompt_not_captured",
+      "prompt_audit": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "wrapper_calls": 4,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 3
+      },
+      "wrapper_errors": 3,
+      "transport_response_bytes": 3454,
+      "transport_request_bytes": 777,
+      "verified_response_captures": 4,
+      "wrapper_operation_latency_ms": 32.81083900037629,
+      "wrapper_total_latency_ms": 45.976596002219594,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-01/note-000",
+          "revision": "v2-00-000"
+        },
+        {
+          "document_id": "org-alto/project-01/note-010",
+          "revision": "v2-00-010"
+        },
+        {
+          "document_id": "org-alto/project-01/note-030",
+          "revision": "v2-00-030"
+        },
+        {
+          "document_id": "org-alto/project-01/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-alto/project-01/note-070",
+          "revision": "v2-00-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-sem-02",
+      "status": "submitted",
+      "score": null,
+      "error": "NOT_SCORED: prompt_not_captured",
+      "prompt_audit": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "wrapper_calls": 7,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 2,
+        "search": 4
+      },
+      "wrapper_errors": 2,
+      "transport_response_bytes": 10235,
+      "transport_request_bytes": 918,
+      "verified_response_captures": 7,
+      "wrapper_operation_latency_ms": 9.795224998015328,
+      "wrapper_total_latency_ms": 46.393825998165994,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-02/note-000",
+          "revision": "v2-01-000"
+        },
+        {
+          "document_id": "org-alto/project-02/note-010",
+          "revision": "v2-01-010"
+        },
+        {
+          "document_id": "org-alto/project-02/note-020",
+          "revision": "v2-01-020"
+        },
+        {
+          "document_id": "org-alto/project-02/note-030",
+          "revision": "v2-01-030"
+        },
+        {
+          "document_id": "org-alto/project-02/note-050",
+          "revision": "v2-01-050"
+        },
+        {
+          "document_id": "org-alto/project-02/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-alto/project-02/note-070",
+          "revision": "v2-01-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-sem-05",
+      "status": "submitted",
+      "score": null,
+      "error": "NOT_SCORED: prompt_not_captured",
+      "prompt_audit": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "wrapper_calls": 3,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 2
+      },
+      "wrapper_errors": 2,
+      "transport_response_bytes": 3144,
+      "transport_request_bytes": 562,
+      "verified_response_captures": 3,
+      "wrapper_operation_latency_ms": 4.422042999067344,
+      "wrapper_total_latency_ms": 13.700471999982256,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-05/note-000",
+          "revision": "v2-04-000"
+        },
+        {
+          "document_id": "org-alto/project-05/note-010",
+          "revision": "v2-04-010"
+        },
+        {
+          "document_id": "org-alto/project-05/note-050",
+          "revision": "v2-04-050"
+        },
+        {
+          "document_id": "org-alto/project-05/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-alto/project-05/note-070",
+          "revision": "v2-04-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-sem-06",
+      "status": "submitted",
+      "score": null,
+      "error": "NOT_SCORED: prompt_not_captured",
+      "prompt_audit": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "wrapper_calls": 12,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 11
+      },
+      "wrapper_errors": 12,
+      "transport_response_bytes": 3716,
+      "transport_request_bytes": 1268,
+      "verified_response_captures": 12,
+      "wrapper_operation_latency_ms": 0,
+      "wrapper_total_latency_ms": 0.869787996634841,
+      "observed_citations": [],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-mh-01",
+      "status": "submitted",
+      "score": null,
+      "error": "NOT_SCORED: prompt_not_captured",
+      "prompt_audit": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "wrapper_calls": 10,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 8
+      },
+      "wrapper_errors": 9,
+      "transport_response_bytes": 5267,
+      "transport_request_bytes": 1131,
+      "verified_response_captures": 10,
+      "wrapper_operation_latency_ms": 3.28123399958713,
+      "wrapper_total_latency_ms": 15.218810998703702,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-01/note-000",
+          "revision": "v2-00-000"
+        },
+        {
+          "document_id": "org-alto/project-01/note-020",
+          "revision": "v2-00-020"
+        },
+        {
+          "document_id": "org-alto/project-01/note-030",
+          "revision": "v2-00-030"
+        },
+        {
+          "document_id": "org-alto/project-01/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-alto/project-01/note-070",
+          "revision": "v2-00-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-mh-02",
+      "status": "submitted",
+      "score": null,
+      "error": "NOT_SCORED: prompt_not_captured",
+      "prompt_audit": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "wrapper_calls": 8,
+      "wrapper_operations": {
+        "list": 1,
+        "read": 4,
+        "search": 3
+      },
+      "wrapper_errors": 3,
+      "transport_response_bytes": 5838,
+      "transport_request_bytes": 384,
+      "verified_response_captures": 8,
+      "wrapper_operation_latency_ms": 1.649416000873316,
+      "wrapper_total_latency_ms": 38.105413997982396,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-02/note-000",
+          "revision": "v2-01-000"
+        },
+        {
+          "document_id": "org-alto/project-02/note-010",
+          "revision": "v2-01-010"
+        },
+        {
+          "document_id": "org-alto/project-02/note-020",
+          "revision": "v2-01-020"
+        },
+        {
+          "document_id": "org-alto/project-02/note-030",
+          "revision": "v2-01-030"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-mh-05",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-mh-05",
+        "category": "multihop",
+        "abstain_expected": false,
+        "abstain_observed": true,
+        "component_correct": false,
+        "component_checks": [
+          false,
+          false
+        ],
+        "citation_complete": false,
+        "citation_errors": [],
+        "strict_grounded_correct": false,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 108.453364
+      },
+      "wrapper_calls": 0,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 0
+      },
+      "wrapper_errors": 0,
+      "transport_response_bytes": 0,
+      "transport_request_bytes": 0,
+      "verified_response_captures": 0,
+      "wrapper_operation_latency_ms": 0,
+      "wrapper_total_latency_ms": 0,
+      "observed_citations": [],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-mh-06",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-mh-06",
+        "category": "multihop",
+        "abstain_expected": false,
+        "abstain_observed": false,
+        "component_correct": true,
+        "component_checks": [
+          true,
+          true
+        ],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 62.703396
+      },
+      "wrapper_calls": 3,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 2
+      },
+      "wrapper_errors": 2,
+      "transport_response_bytes": 3029,
+      "transport_request_bytes": 346,
+      "verified_response_captures": 3,
+      "wrapper_operation_latency_ms": 4.7195080005622,
+      "wrapper_total_latency_ms": 12.543183998786844,
+      "observed_citations": [
+        {
+          "document_id": "org-boreal/project-02/note-000",
+          "revision": "v2-06-000"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-020",
+          "revision": "v2-06-020"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-030",
+          "revision": "v2-06-030"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-050",
+          "revision": "v2-06-050"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-060",
+          "revision": "v2-r2"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-temp-01",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-temp-01",
+        "category": "temporal",
+        "abstain_expected": false,
+        "abstain_observed": false,
+        "component_correct": true,
+        "component_checks": [
+          true
+        ],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 77.035006
+      },
+      "wrapper_calls": 4,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 1,
+        "search": 2
+      },
+      "wrapper_errors": 2,
+      "transport_response_bytes": 4243,
+      "transport_request_bytes": 419,
+      "verified_response_captures": 4,
+      "wrapper_operation_latency_ms": 2.731758000663831,
+      "wrapper_total_latency_ms": 17.467931000282988,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-01/note-010",
+          "revision": "v2-00-010"
+        },
+        {
+          "document_id": "org-alto/project-01/note-030",
+          "revision": "v2-00-030"
+        },
+        {
+          "document_id": "org-alto/project-01/note-040",
+          "revision": "v2-00-040"
+        },
+        {
+          "document_id": "org-alto/project-01/note-050",
+          "revision": "v2-00-050"
+        },
+        {
+          "document_id": "org-alto/project-01/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-alto/project-01/note-070",
+          "revision": "v2-00-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-temp-02",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-temp-02",
+        "category": "temporal",
+        "abstain_expected": false,
+        "abstain_observed": false,
+        "component_correct": true,
+        "component_checks": [
+          true
+        ],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 71.275387
+      },
+      "wrapper_calls": 3,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 1,
+        "search": 2
+      },
+      "wrapper_errors": 1,
+      "transport_response_bytes": 3879,
+      "transport_request_bytes": 285,
+      "verified_response_captures": 3,
+      "wrapper_operation_latency_ms": 5.150068000148167,
+      "wrapper_total_latency_ms": 20.851764998951694,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-02/note-000",
+          "revision": "v2-01-000"
+        },
+        {
+          "document_id": "org-alto/project-02/note-010",
+          "revision": "v2-01-010"
+        },
+        {
+          "document_id": "org-alto/project-02/note-050",
+          "revision": "v2-01-050"
+        },
+        {
+          "document_id": "org-alto/project-02/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-alto/project-02/note-070",
+          "revision": "v2-01-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-temp-05",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-temp-05",
+        "category": "temporal",
+        "abstain_expected": false,
+        "abstain_observed": false,
+        "component_correct": true,
+        "component_checks": [
+          true
+        ],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 97.51313
+      },
+      "wrapper_calls": 3,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 1,
+        "search": 2
+      },
+      "wrapper_errors": 1,
+      "transport_response_bytes": 3929,
+      "transport_request_bytes": 246,
+      "verified_response_captures": 3,
+      "wrapper_operation_latency_ms": 5.022502999054268,
+      "wrapper_total_latency_ms": 25.84103000117466,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-05/note-020",
+          "revision": "v2-04-020"
+        },
+        {
+          "document_id": "org-alto/project-05/note-030",
+          "revision": "v2-04-030"
+        },
+        {
+          "document_id": "org-alto/project-05/note-040",
+          "revision": "v2-04-040"
+        },
+        {
+          "document_id": "org-alto/project-05/note-050",
+          "revision": "v2-04-050"
+        },
+        {
+          "document_id": "org-alto/project-05/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-alto/project-05/note-070",
+          "revision": "v2-04-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-temp-06",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-temp-06",
+        "category": "temporal",
+        "abstain_expected": false,
+        "abstain_observed": false,
+        "component_correct": true,
+        "component_checks": [
+          true
+        ],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 58.572758
+      },
+      "wrapper_calls": 3,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 1,
+        "search": 2
+      },
+      "wrapper_errors": 1,
+      "transport_response_bytes": 3902,
+      "transport_request_bytes": 273,
+      "verified_response_captures": 3,
+      "wrapper_operation_latency_ms": 4.517239001870621,
+      "wrapper_total_latency_ms": 20.06929500021215,
+      "observed_citations": [
+        {
+          "document_id": "org-boreal/project-01/note-000",
+          "revision": "v2-05-000"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-030",
+          "revision": "v2-05-030"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-050",
+          "revision": "v2-05-050"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-070",
+          "revision": "v2-05-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-rev-01",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-rev-01",
+        "category": "revision",
+        "abstain_expected": false,
+        "abstain_observed": false,
+        "component_correct": true,
+        "component_checks": [
+          true,
+          true,
+          true
+        ],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 67.642919
+      },
+      "wrapper_calls": 5,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 1,
+        "search": 2
+      },
+      "wrapper_errors": 3,
+      "transport_response_bytes": 4581,
+      "transport_request_bytes": 530,
+      "verified_response_captures": 5,
+      "wrapper_operation_latency_ms": 6.555807000040659,
+      "wrapper_total_latency_ms": 23.581186000228627,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-01/note-000",
+          "revision": "v2-00-000"
+        },
+        {
+          "document_id": "org-alto/project-01/note-020",
+          "revision": "v2-00-020"
+        },
+        {
+          "document_id": "org-alto/project-01/note-050",
+          "revision": "v2-00-050"
+        },
+        {
+          "document_id": "org-alto/project-01/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-alto/project-01/note-070",
+          "revision": "v2-00-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-rev-02",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-rev-02",
+        "category": "revision",
+        "abstain_expected": false,
+        "abstain_observed": true,
+        "component_correct": false,
+        "component_checks": [
+          false,
+          false,
+          false
+        ],
+        "citation_complete": false,
+        "citation_errors": [],
+        "strict_grounded_correct": false,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 140.997758
+      },
+      "wrapper_calls": 9,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 8
+      },
+      "wrapper_errors": 9,
+      "transport_response_bytes": 2806,
+      "transport_request_bytes": 1039,
+      "verified_response_captures": 9,
+      "wrapper_operation_latency_ms": 0,
+      "wrapper_total_latency_ms": 0.8701109982212074,
+      "observed_citations": [],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-rev-05",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-rev-05",
+        "category": "revision",
+        "abstain_expected": false,
+        "abstain_observed": false,
+        "component_correct": true,
+        "component_checks": [
+          true,
+          true,
+          true
+        ],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 72.580418
+      },
+      "wrapper_calls": 2,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 2
+      },
+      "wrapper_errors": 1,
+      "transport_response_bytes": 2878,
+      "transport_request_bytes": 347,
+      "verified_response_captures": 2,
+      "wrapper_operation_latency_ms": 10.238804999971762,
+      "wrapper_total_latency_ms": 22.974121997322072,
+      "observed_citations": [
+        {
+          "document_id": "org-boreal/project-01/note-000",
+          "revision": "v2-05-000"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-010",
+          "revision": "v2-05-010"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-020",
+          "revision": "v2-05-020"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-070",
+          "revision": "v2-05-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-rev-06",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-rev-06",
+        "category": "revision",
+        "abstain_expected": false,
+        "abstain_observed": false,
+        "component_correct": true,
+        "component_checks": [
+          true,
+          true,
+          true
+        ],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 89.187102
+      },
+      "wrapper_calls": 2,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 2
+      },
+      "wrapper_errors": 1,
+      "transport_response_bytes": 2863,
+      "transport_request_bytes": 240,
+      "verified_response_captures": 2,
+      "wrapper_operation_latency_ms": 10.407063000457129,
+      "wrapper_total_latency_ms": 25.159363001876045,
+      "observed_citations": [
+        {
+          "document_id": "org-boreal/project-02/note-010",
+          "revision": "v2-06-010"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-020",
+          "revision": "v2-06-020"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-050",
+          "revision": "v2-06-050"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-070",
+          "revision": "v2-06-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-neg-01",
+      "status": "submitted",
+      "score": null,
+      "error": "NOT_SCORED: question_text_mismatch,scope_label_mismatch,capability_or_prompt_hash_mismatch",
+      "prompt_audit": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "question_text_mismatch",
+          "scope_label_mismatch",
+          "capability_or_prompt_hash_mismatch"
+        ],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 77.900414
+      },
+      "wrapper_calls": 0,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 0
+      },
+      "wrapper_errors": 0,
+      "transport_response_bytes": 0,
+      "transport_request_bytes": 0,
+      "verified_response_captures": 0,
+      "wrapper_operation_latency_ms": 0,
+      "wrapper_total_latency_ms": 0,
+      "observed_citations": [],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-neg-02",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-neg-02",
+        "category": "negative",
+        "abstain_expected": true,
+        "abstain_observed": true,
+        "component_correct": true,
+        "component_checks": [],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0,
+        "abstention_flag_score": true,
+        "claim_review": {
+          "no_unsupported_claims": true,
+          "reviewer": "SOL coordinator content review after all submissions closed",
+          "note": "No approved monthly maintenance window is asserted; explicit abstention."
+        }
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 84.885832
+      },
+      "wrapper_calls": 7,
+      "wrapper_operations": {
+        "list": 1,
+        "read": 2,
+        "search": 4
+      },
+      "wrapper_errors": 1,
+      "transport_response_bytes": 10823,
+      "transport_request_bytes": 513,
+      "verified_response_captures": 7,
+      "wrapper_operation_latency_ms": 12.191814999823691,
+      "wrapper_total_latency_ms": 63.818012004048796,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-02/note-000",
+          "revision": "v2-01-000"
+        },
+        {
+          "document_id": "org-alto/project-02/note-010",
+          "revision": "v2-01-010"
+        },
+        {
+          "document_id": "org-alto/project-02/note-020",
+          "revision": "v2-01-020"
+        },
+        {
+          "document_id": "org-alto/project-02/note-030",
+          "revision": "v2-01-030"
+        },
+        {
+          "document_id": "org-alto/project-02/note-050",
+          "revision": "v2-01-050"
+        },
+        {
+          "document_id": "org-alto/project-02/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-alto/project-02/note-070",
+          "revision": "v2-01-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-neg-05",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-neg-05",
+        "category": "negative",
+        "abstain_expected": true,
+        "abstain_observed": true,
+        "component_correct": true,
+        "component_checks": [],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0,
+        "abstention_flag_score": true,
+        "claim_review": {
+          "no_unsupported_claims": true,
+          "reviewer": "SOL coordinator content review after all submissions closed",
+          "note": "No foreign-scope retention value is disclosed; explicit abstention."
+        }
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 42.975736
+      },
+      "wrapper_calls": 3,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 3
+      },
+      "wrapper_errors": 1,
+      "transport_response_bytes": 5396,
+      "transport_request_bytes": 318,
+      "verified_response_captures": 3,
+      "wrapper_operation_latency_ms": 13.73873999909847,
+      "wrapper_total_latency_ms": 29.075959999318002,
+      "observed_citations": [
+        {
+          "document_id": "org-boreal/project-01/note-000",
+          "revision": "v2-05-000"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-020",
+          "revision": "v2-05-020"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-030",
+          "revision": "v2-05-030"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-050",
+          "revision": "v2-05-050"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-070",
+          "revision": "v2-05-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "qdrant-native",
+      "question_id": "v2-neg-06",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-neg-06",
+        "category": "negative",
+        "abstain_expected": true,
+        "abstain_observed": true,
+        "component_correct": true,
+        "component_checks": [],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0,
+        "abstention_flag_score": true,
+        "claim_review": {
+          "no_unsupported_claims": true,
+          "reviewer": "SOL coordinator content review after all submissions closed",
+          "note": "No foreign-scope retention value is disclosed; explicit abstention. Direct and Basic output Spanish despite English question; language compliance is not credited as semantic correctness."
+        }
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 40.535575
+      },
+      "wrapper_calls": 2,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 2
+      },
+      "wrapper_errors": 1,
+      "transport_response_bytes": 2831,
+      "transport_request_bytes": 163,
+      "verified_response_captures": 2,
+      "wrapper_operation_latency_ms": 2.929053000116255,
+      "wrapper_total_latency_ms": 10.814130000653677,
+      "observed_citations": [
+        {
+          "document_id": "org-boreal/project-02/note-010",
+          "revision": "v2-06-010"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-020",
+          "revision": "v2-06-020"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-050",
+          "revision": "v2-06-050"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-070",
+          "revision": "v2-06-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    }
+  ]
+}

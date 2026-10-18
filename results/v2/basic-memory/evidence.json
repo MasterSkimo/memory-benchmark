@@ -1,0 +1,36 @@
+{
+  "candidate": "basic-memory-v2",
+  "backend": "Basic Memory Markdown sync + SQLite FTS5",
+  "transport": "official MCP Python SDK stdio; initialize, list_tools, call_tool",
+  "versions": {
+    "basic-memory": "0.13.1",
+    "fastmcp": "2.14.4",
+    "mcp": "1.26.0",
+    "fakeredis": "2.32.1",
+    "pydocket": "0.16.6",
+    "aiosqlite": "0.21.0"
+  },
+  "tests": {
+    "command": "PYTHONPATH=implementations/v2/basic-memory implementations/v2/basic-memory/v2env/bin/python -m unittest discover -s implementations/v2/basic-memory -p test_mcp_integration.py -v",
+    "result": "PASS",
+    "cases": 2,
+    "elapsed_seconds": 11.651
+  },
+  "sha256": {
+    "adapter.py": "da7ac222bb5ab505fe7f46bb4820903ce19aa3db14828989375cea3c57f6e7f0",
+    "server.py": "858ff7ccad6c446937a95ff9242d654dd6459379840847b258515e3d6d6f894e",
+    "runner.py": "f84ba68ff40703b9449d6483d9e1a98845646763a1ab6c96544decc8f2e9cdbe",
+    "backend.py": "e0891fe558731648df3bd4af4a819896851e5059d103a9364e88b3c269f7c825",
+    "test_mcp_integration.py": "a042e2c7a56fbaaf5c5559cde22ba3ae69d99cb738fea1bef0698a2b67533b83",
+    "requirements.txt": "72aa020ef00266f81f680d950ca0a561a7249555f9134b19133d4dad64c13125",
+    "requirements.lock": "f6d54f4f70f53d1151c85265b07d52ccac03e851ebc3ef4c0f0c9c29b9b70fad"
+  },
+  "v1_adapter_sha256": "e0891fe558731648df3bd4af4a819896851e5059d103a9364e88b3c269f7c825",
+  "notes": "Integration tests use synthetic cases; one actual MCP setup/search was run against the public 80-note V2 dev vault. No evaluation questions, scorer, gold, or generator inspected.",
+  "dev_corpus_smoke": {
+    "result": "PASS",
+    "corpus_sha256": "05f2501f7e0369a432051f7e4d028f5e71133649f012171695145be51c761885",
+    "evidence": "results/v2/basic-memory/dev-smoke.json",
+    "heldout_questions_used": false
+  }
+}

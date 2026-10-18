@@ -1,0 +1,1 @@
+{"question_id":"v2-neg-06","answer":"No puedo establecer ese dato dentro del ámbito autorizado.","abstain":true,"citations":[]}

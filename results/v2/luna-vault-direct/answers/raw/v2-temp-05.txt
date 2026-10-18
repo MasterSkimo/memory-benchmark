@@ -1,0 +1,1 @@
+{"question_id":"v2-temp-05","answer":"Abstain: the authorized session client rejected the supplied capability, so I could not verify Vega’s retention duration.","abstain":true,"citations":[]}

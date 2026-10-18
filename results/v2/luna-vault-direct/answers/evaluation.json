@@ -1,0 +1,1243 @@
+{
+  "candidate": "luna-vault-direct",
+  "planned_sessions": 20,
+  "submitted_answers": 19,
+  "scorable_answers": 12,
+  "interrupted_sessions": 1,
+  "strict_grounded_correct": 10,
+  "strict_grounded_rate_completed": 0.8333333333333334,
+  "strict_grounded_rate_planned_20": null,
+  "full_set_quality_status": "INCOMPLETE: uncaptured or mismatched actual prompts are not scored",
+  "component_correct_rate": 0.75,
+  "citation_complete_rate": 0.75,
+  "negative_abstention_rate": 1,
+  "obsolete_citations": 0,
+  "paired_question_count": 10,
+  "paired_question_ids": [
+    "v2-neg-02",
+    "v2-neg-05",
+    "v2-neg-06",
+    "v2-rev-01",
+    "v2-rev-02",
+    "v2-rev-05",
+    "v2-temp-01",
+    "v2-temp-02",
+    "v2-temp-05",
+    "v2-temp-06"
+  ],
+  "paired_definition": "Intersection of verified actual prompts for all engines, excluding documented same-session advice and launcher cohort; post-dispatch audit subset",
+  "paired_strict_grounded_rate": 0.9,
+  "paired_wrapper_calls_mean": 3.4,
+  "paired_response_bytes_mean": 4437.8,
+  "wrapper_calls_total": 95,
+  "wrapper_errors": 48,
+  "transport_response_bytes_total": 106767,
+  "wrapper_operations": {
+    "list": 6,
+    "read": 20,
+    "search": 56,
+    "other_or_missing": 13
+  },
+  "native_token_coverage": 0,
+  "native_tool_export_coverage": 0,
+  "native_tokens": null,
+  "native_tool_calls": null,
+  "causal_status": "EXPLORATORY: shared filesystem and unrestricted native tools; equivalent policy/API but no enforced native capability parity",
+  "scores": [
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-sem-01",
+      "status": "interrupted",
+      "score": null,
+      "error": "No submitted answer; see interrupted-session evidence when present",
+      "prompt_audit": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "no_submitted_final"
+        ]
+      },
+      "wrapper_calls": 0,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 0
+      },
+      "wrapper_errors": 0,
+      "transport_response_bytes": 0,
+      "transport_request_bytes": 0,
+      "verified_response_captures": 0,
+      "wrapper_operation_latency_ms": 0,
+      "wrapper_total_latency_ms": 0,
+      "observed_citations": [],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-sem-02",
+      "status": "submitted",
+      "score": null,
+      "error": "NOT_SCORED: prompt_not_captured",
+      "prompt_audit": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "wrapper_calls": 7,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 1,
+        "search": 5
+      },
+      "wrapper_errors": 3,
+      "transport_response_bytes": 11856,
+      "transport_request_bytes": 883,
+      "verified_response_captures": 7,
+      "wrapper_operation_latency_ms": 8.177879000868415,
+      "wrapper_total_latency_ms": 44.17509599988989,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-02/note-000",
+          "revision": "v2-01-000"
+        },
+        {
+          "document_id": "org-alto/project-02/note-010",
+          "revision": "v2-01-010"
+        },
+        {
+          "document_id": "org-alto/project-02/note-020",
+          "revision": "v2-01-020"
+        },
+        {
+          "document_id": "org-alto/project-02/note-030",
+          "revision": "v2-01-030"
+        },
+        {
+          "document_id": "org-alto/project-02/note-050",
+          "revision": "v2-01-050"
+        },
+        {
+          "document_id": "org-alto/project-02/note-070",
+          "revision": "v2-01-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-sem-05",
+      "status": "submitted",
+      "score": null,
+      "error": "NOT_SCORED: prompt_not_captured",
+      "prompt_audit": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "wrapper_calls": 12,
+      "wrapper_operations": {
+        "list": 1,
+        "read": 6,
+        "search": 3
+      },
+      "wrapper_errors": 5,
+      "transport_response_bytes": 8742,
+      "transport_request_bytes": 1092,
+      "verified_response_captures": 12,
+      "wrapper_operation_latency_ms": 1.6258570012723794,
+      "wrapper_total_latency_ms": 52.464812999460264,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-05/note-000",
+          "revision": "v2-04-000"
+        },
+        {
+          "document_id": "org-alto/project-05/note-020",
+          "revision": "v2-04-020"
+        },
+        {
+          "document_id": "org-alto/project-05/note-030",
+          "revision": "v2-04-030"
+        },
+        {
+          "document_id": "org-alto/project-05/note-050",
+          "revision": "v2-04-050"
+        },
+        {
+          "document_id": "org-alto/project-05/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-alto/project-05/note-070",
+          "revision": "v2-04-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-sem-06",
+      "status": "submitted",
+      "score": null,
+      "error": "NOT_SCORED: prompt_not_captured",
+      "prompt_audit": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "wrapper_calls": 3,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 2
+      },
+      "wrapper_errors": 2,
+      "transport_response_bytes": 3913,
+      "transport_request_bytes": 319,
+      "verified_response_captures": 3,
+      "wrapper_operation_latency_ms": 1.600860001417459,
+      "wrapper_total_latency_ms": 13.136247000147705,
+      "observed_citations": [
+        {
+          "document_id": "org-boreal/project-01/note-000",
+          "revision": "v2-05-000"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-010",
+          "revision": "v2-05-010"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-020",
+          "revision": "v2-05-020"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-030",
+          "revision": "v2-05-030"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-040",
+          "revision": "v2-05-040"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-mh-01",
+      "status": "submitted",
+      "score": null,
+      "error": "NOT_SCORED: prompt_not_captured",
+      "prompt_audit": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "wrapper_calls": 10,
+      "wrapper_operations": {
+        "list": 1,
+        "read": 4,
+        "search": 5
+      },
+      "wrapper_errors": 5,
+      "transport_response_bytes": 6465,
+      "transport_request_bytes": 690,
+      "verified_response_captures": 10,
+      "wrapper_operation_latency_ms": 1.6617970013612648,
+      "wrapper_total_latency_ms": 49.90028199426888,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-01/note-000",
+          "revision": "v2-00-000"
+        },
+        {
+          "document_id": "org-alto/project-01/note-010",
+          "revision": "v2-00-010"
+        },
+        {
+          "document_id": "org-alto/project-01/note-020",
+          "revision": "v2-00-020"
+        },
+        {
+          "document_id": "org-alto/project-01/note-030",
+          "revision": "v2-00-030"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-mh-02",
+      "status": "submitted",
+      "score": null,
+      "error": "NOT_SCORED: prompt_not_captured",
+      "prompt_audit": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "wrapper_calls": 4,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 4
+      },
+      "wrapper_errors": 3,
+      "transport_response_bytes": 4099,
+      "transport_request_bytes": 285,
+      "verified_response_captures": 4,
+      "wrapper_operation_latency_ms": 1.5741980005259393,
+      "wrapper_total_latency_ms": 12.28096599879791,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-02/note-000",
+          "revision": "v2-01-000"
+        },
+        {
+          "document_id": "org-alto/project-02/note-010",
+          "revision": "v2-01-010"
+        },
+        {
+          "document_id": "org-alto/project-02/note-020",
+          "revision": "v2-01-020"
+        },
+        {
+          "document_id": "org-alto/project-02/note-030",
+          "revision": "v2-01-030"
+        },
+        {
+          "document_id": "org-alto/project-02/note-040",
+          "revision": "v2-01-040"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-mh-05",
+      "status": "submitted",
+      "score": null,
+      "error": "NOT_SCORED: prompt_not_captured",
+      "prompt_audit": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "prompt_not_captured"
+        ],
+        "prompt_captured": false,
+        "dispatcher_elapsed_seconds": null
+      },
+      "wrapper_calls": 12,
+      "wrapper_operations": {
+        "list": 1,
+        "read": 4,
+        "search": 7
+      },
+      "wrapper_errors": 7,
+      "transport_response_bytes": 7143,
+      "transport_request_bytes": 629,
+      "verified_response_captures": 12,
+      "wrapper_operation_latency_ms": 1.3842399985151133,
+      "wrapper_total_latency_ms": 51.000258998101344,
+      "observed_citations": [
+        {
+          "document_id": "org-boreal/project-01/note-000",
+          "revision": "v2-05-000"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-010",
+          "revision": "v2-05-010"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-020",
+          "revision": "v2-05-020"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-030",
+          "revision": "v2-05-030"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-mh-06",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-mh-06",
+        "category": "multihop",
+        "abstain_expected": false,
+        "abstain_observed": true,
+        "component_correct": false,
+        "component_checks": [
+          false,
+          false
+        ],
+        "citation_complete": false,
+        "citation_errors": [],
+        "strict_grounded_correct": false,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 108.453364
+      },
+      "wrapper_calls": 0,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 0
+      },
+      "wrapper_errors": 0,
+      "transport_response_bytes": 0,
+      "transport_request_bytes": 0,
+      "verified_response_captures": 0,
+      "wrapper_operation_latency_ms": 0,
+      "wrapper_total_latency_ms": 0,
+      "observed_citations": [],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-temp-01",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-temp-01",
+        "category": "temporal",
+        "abstain_expected": false,
+        "abstain_observed": false,
+        "component_correct": true,
+        "component_checks": [
+          true
+        ],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 62.703396
+      },
+      "wrapper_calls": 3,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 2
+      },
+      "wrapper_errors": 2,
+      "transport_response_bytes": 3942,
+      "transport_request_bytes": 430,
+      "verified_response_captures": 3,
+      "wrapper_operation_latency_ms": 1.6464389991597272,
+      "wrapper_total_latency_ms": 9.006736998344422,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-01/note-020",
+          "revision": "v2-00-020"
+        },
+        {
+          "document_id": "org-alto/project-01/note-030",
+          "revision": "v2-00-030"
+        },
+        {
+          "document_id": "org-alto/project-01/note-040",
+          "revision": "v2-00-040"
+        },
+        {
+          "document_id": "org-alto/project-01/note-050",
+          "revision": "v2-00-050"
+        },
+        {
+          "document_id": "org-alto/project-01/note-070",
+          "revision": "v2-00-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-temp-02",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-temp-02",
+        "category": "temporal",
+        "abstain_expected": false,
+        "abstain_observed": false,
+        "component_correct": true,
+        "component_checks": [
+          true
+        ],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 77.035006
+      },
+      "wrapper_calls": 4,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 3
+      },
+      "wrapper_errors": 3,
+      "transport_response_bytes": 4337,
+      "transport_request_bytes": 405,
+      "verified_response_captures": 4,
+      "wrapper_operation_latency_ms": 1.5209229986794526,
+      "wrapper_total_latency_ms": 9.235087001798092,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-02/note-000",
+          "revision": "v2-01-000"
+        },
+        {
+          "document_id": "org-alto/project-02/note-010",
+          "revision": "v2-01-010"
+        },
+        {
+          "document_id": "org-alto/project-02/note-040",
+          "revision": "v2-01-040"
+        },
+        {
+          "document_id": "org-alto/project-02/note-050",
+          "revision": "v2-01-050"
+        },
+        {
+          "document_id": "org-alto/project-02/note-060",
+          "revision": "v2-r2"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-temp-05",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-temp-05",
+        "category": "temporal",
+        "abstain_expected": false,
+        "abstain_observed": true,
+        "component_correct": false,
+        "component_checks": [
+          false
+        ],
+        "citation_complete": false,
+        "citation_errors": [],
+        "strict_grounded_correct": false,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 71.275387
+      },
+      "wrapper_calls": 0,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 0
+      },
+      "wrapper_errors": 0,
+      "transport_response_bytes": 0,
+      "transport_request_bytes": 0,
+      "verified_response_captures": 0,
+      "wrapper_operation_latency_ms": 0,
+      "wrapper_total_latency_ms": 0,
+      "observed_citations": [],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-temp-06",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-temp-06",
+        "category": "temporal",
+        "abstain_expected": false,
+        "abstain_observed": false,
+        "component_correct": true,
+        "component_checks": [
+          true
+        ],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 97.51313
+      },
+      "wrapper_calls": 3,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 3
+      },
+      "wrapper_errors": 2,
+      "transport_response_bytes": 3965,
+      "transport_request_bytes": 296,
+      "verified_response_captures": 3,
+      "wrapper_operation_latency_ms": 3.929960999812465,
+      "wrapper_total_latency_ms": 12.718762998702005,
+      "observed_citations": [
+        {
+          "document_id": "org-boreal/project-01/note-000",
+          "revision": "v2-05-000"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-010",
+          "revision": "v2-05-010"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-040",
+          "revision": "v2-05-040"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-050",
+          "revision": "v2-05-050"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-070",
+          "revision": "v2-05-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-rev-01",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-rev-01",
+        "category": "revision",
+        "abstain_expected": false,
+        "abstain_observed": false,
+        "component_correct": true,
+        "component_checks": [
+          true,
+          true,
+          true
+        ],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 58.572758
+      },
+      "wrapper_calls": 4,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 1,
+        "search": 2
+      },
+      "wrapper_errors": 2,
+      "transport_response_bytes": 5182,
+      "transport_request_bytes": 419,
+      "verified_response_captures": 4,
+      "wrapper_operation_latency_ms": 1.6778890003479319,
+      "wrapper_total_latency_ms": 16.503783001098782,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-01/note-000",
+          "revision": "v2-00-000"
+        },
+        {
+          "document_id": "org-alto/project-01/note-010",
+          "revision": "v2-00-010"
+        },
+        {
+          "document_id": "org-alto/project-01/note-020",
+          "revision": "v2-00-020"
+        },
+        {
+          "document_id": "org-alto/project-01/note-040",
+          "revision": "v2-00-040"
+        },
+        {
+          "document_id": "org-alto/project-01/note-060",
+          "revision": "v2-r2"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-rev-02",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-rev-02",
+        "category": "revision",
+        "abstain_expected": false,
+        "abstain_observed": false,
+        "component_correct": true,
+        "component_checks": [
+          true,
+          true,
+          true
+        ],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 67.642919
+      },
+      "wrapper_calls": 3,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 2
+      },
+      "wrapper_errors": 2,
+      "transport_response_bytes": 3944,
+      "transport_request_bytes": 370,
+      "verified_response_captures": 3,
+      "wrapper_operation_latency_ms": 1.7198799996549496,
+      "wrapper_total_latency_ms": 9.923015997628681,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-02/note-000",
+          "revision": "v2-01-000"
+        },
+        {
+          "document_id": "org-alto/project-02/note-010",
+          "revision": "v2-01-010"
+        },
+        {
+          "document_id": "org-alto/project-02/note-020",
+          "revision": "v2-01-020"
+        },
+        {
+          "document_id": "org-alto/project-02/note-050",
+          "revision": "v2-01-050"
+        },
+        {
+          "document_id": "org-alto/project-02/note-060",
+          "revision": "v2-r2"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-rev-05",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-rev-05",
+        "category": "revision",
+        "abstain_expected": false,
+        "abstain_observed": false,
+        "component_correct": true,
+        "component_checks": [
+          true,
+          true,
+          true
+        ],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 140.997758
+      },
+      "wrapper_calls": 2,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 1
+      },
+      "wrapper_errors": 1,
+      "transport_response_bytes": 3777,
+      "transport_request_bytes": 307,
+      "verified_response_captures": 2,
+      "wrapper_operation_latency_ms": 1.6830289987410652,
+      "wrapper_total_latency_ms": 10.145378999368404,
+      "observed_citations": [
+        {
+          "document_id": "org-boreal/project-01/note-000",
+          "revision": "v2-05-000"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-010",
+          "revision": "v2-05-010"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-030",
+          "revision": "v2-05-030"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-040",
+          "revision": "v2-05-040"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-060",
+          "revision": "v2-r2"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-rev-06",
+      "status": "submitted",
+      "score": null,
+      "error": "NOT_SCORED: question_text_mismatch,scope_label_mismatch",
+      "prompt_audit": {
+        "eligible_for_quality_score": false,
+        "issues": [
+          "question_text_mismatch",
+          "scope_label_mismatch"
+        ],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 72.580418
+      },
+      "wrapper_calls": 6,
+      "wrapper_operations": {
+        "list": 1,
+        "read": 0,
+        "search": 4
+      },
+      "wrapper_errors": 2,
+      "transport_response_bytes": 7772,
+      "transport_request_bytes": 706,
+      "verified_response_captures": 6,
+      "wrapper_operation_latency_ms": 5.455356002130429,
+      "wrapper_total_latency_ms": 39.61541199714702,
+      "observed_citations": [
+        {
+          "document_id": "org-boreal/project-02/note-000",
+          "revision": "v2-06-000"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-010",
+          "revision": "v2-06-010"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-030",
+          "revision": "v2-06-030"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-040",
+          "revision": "v2-06-040"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-060",
+          "revision": "v2-r2"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-neg-01",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-neg-01",
+        "category": "negative",
+        "abstain_expected": true,
+        "abstain_observed": true,
+        "component_correct": true,
+        "component_checks": [],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0,
+        "abstention_flag_score": true,
+        "claim_review": {
+          "no_unsupported_claims": true,
+          "reviewer": "SOL coordinator content review after all submissions closed",
+          "note": "Abstains from requested RTO. Direct source-backed 8-minute freshness explanation is supported; Qdrant/Basic actual prompts were mismatched and remain unscorable."
+        }
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 89.187102
+      },
+      "wrapper_calls": 7,
+      "wrapper_operations": {
+        "list": 1,
+        "read": 1,
+        "search": 4
+      },
+      "wrapper_errors": 2,
+      "transport_response_bytes": 12399,
+      "transport_request_bytes": 638,
+      "verified_response_captures": 7,
+      "wrapper_operation_latency_ms": 6.13336099559092,
+      "wrapper_total_latency_ms": 47.71256699677906,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-01/note-000",
+          "revision": "v2-00-000"
+        },
+        {
+          "document_id": "org-alto/project-01/note-010",
+          "revision": "v2-00-010"
+        },
+        {
+          "document_id": "org-alto/project-01/note-020",
+          "revision": "v2-00-020"
+        },
+        {
+          "document_id": "org-alto/project-01/note-030",
+          "revision": "v2-00-030"
+        },
+        {
+          "document_id": "org-alto/project-01/note-040",
+          "revision": "v2-00-040"
+        },
+        {
+          "document_id": "org-alto/project-01/note-050",
+          "revision": "v2-00-050"
+        },
+        {
+          "document_id": "org-alto/project-01/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-alto/project-01/note-070",
+          "revision": "v2-00-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-neg-02",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-neg-02",
+        "category": "negative",
+        "abstain_expected": true,
+        "abstain_observed": true,
+        "component_correct": true,
+        "component_checks": [],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0,
+        "abstention_flag_score": true,
+        "claim_review": {
+          "no_unsupported_claims": true,
+          "reviewer": "SOL coordinator content review after all submissions closed",
+          "note": "No approved monthly maintenance window is asserted; explicit abstention."
+        }
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 77.900414
+      },
+      "wrapper_calls": 9,
+      "wrapper_operations": {
+        "list": 1,
+        "read": 3,
+        "search": 4
+      },
+      "wrapper_errors": 3,
+      "transport_response_bytes": 11556,
+      "transport_request_bytes": 648,
+      "verified_response_captures": 9,
+      "wrapper_operation_latency_ms": 4.056636000314029,
+      "wrapper_total_latency_ms": 46.98663499948452,
+      "observed_citations": [
+        {
+          "document_id": "org-alto/project-02/note-000",
+          "revision": "v2-01-000"
+        },
+        {
+          "document_id": "org-alto/project-02/note-010",
+          "revision": "v2-01-010"
+        },
+        {
+          "document_id": "org-alto/project-02/note-020",
+          "revision": "v2-01-020"
+        },
+        {
+          "document_id": "org-alto/project-02/note-030",
+          "revision": "v2-01-030"
+        },
+        {
+          "document_id": "org-alto/project-02/note-040",
+          "revision": "v2-01-040"
+        },
+        {
+          "document_id": "org-alto/project-02/note-050",
+          "revision": "v2-01-050"
+        },
+        {
+          "document_id": "org-alto/project-02/note-060",
+          "revision": "v2-r2"
+        },
+        {
+          "document_id": "org-alto/project-02/note-070",
+          "revision": "v2-01-070"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-neg-05",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-neg-05",
+        "category": "negative",
+        "abstain_expected": true,
+        "abstain_observed": true,
+        "component_correct": true,
+        "component_checks": [],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0,
+        "abstention_flag_score": true,
+        "claim_review": {
+          "no_unsupported_claims": true,
+          "reviewer": "SOL coordinator content review after all submissions closed",
+          "note": "No foreign-scope retention value is disclosed; explicit abstention."
+        }
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 69.076858
+      },
+      "wrapper_calls": 4,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 3
+      },
+      "wrapper_errors": 3,
+      "transport_response_bytes": 4152,
+      "transport_request_bytes": 353,
+      "verified_response_captures": 4,
+      "wrapper_operation_latency_ms": 1.5252169978339225,
+      "wrapper_total_latency_ms": 8.623234993137885,
+      "observed_citations": [
+        {
+          "document_id": "org-boreal/project-01/note-000",
+          "revision": "v2-05-000"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-010",
+          "revision": "v2-05-010"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-030",
+          "revision": "v2-05-030"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-040",
+          "revision": "v2-05-040"
+        },
+        {
+          "document_id": "org-boreal/project-01/note-050",
+          "revision": "v2-05-050"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    },
+    {
+      "candidate": "luna-vault-direct",
+      "question_id": "v2-neg-06",
+      "status": "submitted",
+      "score": {
+        "question_id": "v2-neg-06",
+        "category": "negative",
+        "abstain_expected": true,
+        "abstain_observed": true,
+        "component_correct": true,
+        "component_checks": [],
+        "citation_complete": true,
+        "citation_errors": [],
+        "strict_grounded_correct": true,
+        "obsolete_citations": 0,
+        "abstention_flag_score": true,
+        "claim_review": {
+          "no_unsupported_claims": true,
+          "reviewer": "SOL coordinator content review after all submissions closed",
+          "note": "No foreign-scope retention value is disclosed; explicit abstention. Direct and Basic output Spanish despite English question; language compliance is not credited as semantic correctness."
+        }
+      },
+      "error": null,
+      "prompt_audit": {
+        "eligible_for_quality_score": true,
+        "issues": [],
+        "prompt_captured": true,
+        "dispatcher_elapsed_seconds": 35.186682
+      },
+      "wrapper_calls": 2,
+      "wrapper_operations": {
+        "list": 0,
+        "read": 0,
+        "search": 2
+      },
+      "wrapper_errors": 1,
+      "transport_response_bytes": 3523,
+      "transport_request_bytes": 190,
+      "verified_response_captures": 2,
+      "wrapper_operation_latency_ms": 1.4711919975525234,
+      "wrapper_total_latency_ms": 8.426707001490286,
+      "observed_citations": [
+        {
+          "document_id": "org-boreal/project-02/note-000",
+          "revision": "v2-06-000"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-010",
+          "revision": "v2-06-010"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-020",
+          "revision": "v2-06-020"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-030",
+          "revision": "v2-06-030"
+        },
+        {
+          "document_id": "org-boreal/project-02/note-050",
+          "revision": "v2-06-050"
+        }
+      ],
+      "native_input_tokens": null,
+      "native_cached_tokens": null,
+      "native_output_tokens": null,
+      "native_reasoning_tokens": null,
+      "native_tool_calls": null
+    }
+  ]
+}

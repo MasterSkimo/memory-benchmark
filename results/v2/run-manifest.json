@@ -1,0 +1,400 @@
+{
+  "benchmark": "BENCH-0002",
+  "status": "PILOT_STOPPED_R_COMPLETE_E_CONTROLLED_COMPARISON_INCOMPLETE",
+  "branch": "codex/bench-0002-semantic-pilot",
+  "target_branch": "codex/bench-0001-real-pilot",
+  "starting_commit": "59df43df69b9347bed7c0ea6c2711bbf39136c3f",
+  "v1_reference_commit": "94a2a4beacf90f6a9640ecd43ebae8b8c9e7a708",
+  "finished_at_utc": "2026-10-18T09:37:03.662800+00:00",
+  "seed": 20261018,
+  "blindness": "NON_BLIND_DEVELOPMENT: sharedfilesystem; no demonstrated evaluator access boundary. Expected answers withheld procedurally until E submissions.",
+  "freeze_manifests": [
+    "results/v2/frozen-implementations.json",
+    "results/v2/frozen-evaluation.json",
+    "results/v2/frozen-postprocessing.json"
+  ],
+  "source_hashes": {
+    "basic-memory": {
+      "adapter.py": "da7ac222bb5ab505fe7f46bb4820903ce19aa3db14828989375cea3c57f6e7f0",
+      "backend.py": "e0891fe558731648df3bd4af4a819896851e5059d103a9364e88b3c269f7c825",
+      "runner.py": "f84ba68ff40703b9449d6483d9e1a98845646763a1ab6c96544decc8f2e9cdbe",
+      "server.py": "858ff7ccad6c446937a95ff9242d654dd6459379840847b258515e3d6d6f894e",
+      "test_mcp_integration.py": "a042e2c7a56fbaaf5c5559cde22ba3ae69d99cb738fea1bef0698a2b67533b83"
+    },
+    "cognee": {
+      "adapter.py": "d72b86bdb51f3f8a6ccc76142c366058881ba9833120673e61788d2f44cf0ff9",
+      "prepare_tokenizer.py": "ea463ccaba62642bdf44d3778678df79e443a29206911ea164379e414f9ca7e4",
+      "test_adapter.py": "ad32d97c803af0135c1d1dfb431df93f045c85015e3eb1ea52d0316d6ace45f9"
+    },
+    "graphiti": {
+      "adapter.py": "9106e0493402a8b77f83ecf6270bf1a8a2291a9cc7c1df00b711a7dc2c24f791",
+      "test_adapter.py": "b9204e63bed0e4e059228025f81a4a7db48cca89a06b0c74cccd0c0508cc8f48"
+    },
+    "qdrant-native": {
+      "adapter.py": "0d6a612979913097dcfd15898d60849ad5bcc48f9e7ff0b63fe8823270beb4a0",
+      "test_adapter.py": "93d9481a472e9ac9cd466290644efa31f82023c0e32f268fa1c7e342ce6dcc43"
+    },
+    "luna-vault-direct": {
+      "native_tool.py": "7502b9ce4dded67a9f4ca263658f946740bb5f70ddbfa9db65b8a8b2cd0f0f7d",
+      "scoped_vault.py": "fc8f4943eec5cfcf0cc741eac59518c83de8f449cdd3d4093a1fb50d2e1d7d1d",
+      "tests/test_harness.py": "ddb85045167b49fa466fa8f56e7a6b13c7ff5e05aeba996d53a39f84bd805a35",
+      "tests/test_scope.py": "b306d8057b39e1bac8577d57d20def5799aa0f5aec66f171799c9e98e26e1972"
+    }
+  },
+  "postprocessing_and_postpilot_repair_sha256": {
+    "benchkit/v2/answer-prompt.txt": "5218cc11d726dae474ca4e1cd76f27c15ff69f224573b58cbf6bf2ecc2f81df9",
+    "benchkit/v2/answer_tool.py": "e875676ced4d9da601a25e5d13e2cadb2c4a1607c3e3439b3d24817e5c436847",
+    "benchkit/v2/audit_prompts.py": "4594f90ee1301911055f7db9f73086d348a48b791290c12ba4b54b1332f601cb",
+    "benchkit/v2/development_corpus.py": "ad21a7198a63ca69d3fa6ffddec1135412b4ce7c70a01026182d478aec50ec37",
+    "benchkit/v2/evaluate.py": "15a2c7b3e6a025c9961e180d98253a7c3b5e6e43df2292c391fc374e67872161",
+    "benchkit/v2/finalize.py": "663f7e626cdeb5bfc76be76b5670b06467bd17b8f26c40b587ef9fa21854e402",
+    "benchkit/v2/harness.py": "5b0a772429f4311905a572e399ce41cbf0157a38c63662c58c7fadf7a8227542",
+    "benchkit/v2/integrity.py": "8b3eeb5eccb72f001f23d9fe40aad0dcc8364b7959bcc236b21df3d35df7cdef",
+    "benchkit/v2/native_prompt.py": "4121f984ed8b33e04c84d62f71d281690a8e32d3b858b2f6f70ff84618017167",
+    "benchkit/v2/quality.py": "ef373a411e8484fd41f2c2a7a1919e07a75ff03194374a41aaa2f490c5bd54f8",
+    "benchkit/v2/report.py": "b28fc089af81378cdabacdd44d23b96562bf5a8bb967eae939630d60f8ffbc37",
+    "benchkit/v2/requirements-report.txt": "12a0a7bc6e1b1254c2f593a250e6ccff4dbd3cf0b27d6819696a9db86f4e530d",
+    "benchkit/v2/session_client.py": "f8902b782d347884d36a3c6caabab05ac59cc92ed34fb3ad66ea39fa9b39ecc0",
+    "benchkit/v2/session_server.py": "192950839e3e688057127e68360c1f677e1571c3b63417aa2af6f2d7cebcc7aa",
+    "benchkit/v2/source_validation.py": "1311e8d853a737e16e7e42173557693365dbbfe39e2b16304d369d59ca9a9357",
+    "benchkit/v2/summarize_answers.py": "d20f3c3eb5066da9d4a08bb4a3a140a5105080f9140b0074e3975e7d421da387",
+    "benchkit/v2/test_evaluate.py": "6f63873031f3bfedb55344ac5417bbb39025b1f19f5e08468ea384a86f5e637c",
+    "benchkit/v2/test_native_prompt.py": "7934965793ff141a6dfe0f83258ecc40bf1f084c114822e87c2f4419708d5c8b",
+    "benchkit/v2/test_quality.py": "b7dfddddd3d90fe8d0c4ee39eb3cdf0a39fd2c2c0eb25928937c095752b032d4",
+    "benchkit/v2/test_session_server.py": "43ecef0472bc7542996a0bea8400e8d11d76ac7d36105e5e320a636c13a01234",
+    "benchkit/v2/validate_run.py": "48413c0a319b936ac0e3ee7605469cf85a5012f852c0e9f99778376553e0227a"
+  },
+  "model": {
+    "selected_model": "codex-public-dev-bilingual-mean-embedding",
+    "status": "trained_and_locally_exercised",
+    "pretrained_alternative": {
+      "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "official_distribution": "Qdrant/paraphrase-multilingual-MiniLM-L12-v2-onnx-Q",
+      "status": "blocked by allowed proxy 403 to Hugging Face"
+    },
+    "architecture": "PyTorch token embedding 128d, mean pooling, learned linear projection to 384d, L2 normalization",
+    "training": {
+      "seed": 20261018,
+      "torch": "2.5.1+cpu",
+      "optimizer": "AdamW",
+      "loss": "symmetric in-batch contrastive cross entropy",
+      "epochs": 500,
+      "pairs": 40,
+      "dev_pair_file": "implementations/v2/common-models/dev-pairs.jsonl",
+      "dev_pair_sha256": "76a84ad2c32fbf3d501f8499e0e5dda4c4e90628f40f06bafb7e1f49d0d7dee4",
+      "vocabulary_size": 323,
+      "framework": "torch 2.5.1+cpu",
+      "vocabulary_sha256": "a9e63abbfa60ff0820ff225d1aa10e94d11109e3fd2da4bd6bb81174ece64385"
+    },
+    "dimension": 384,
+    "normalization": "L2",
+    "checkpoint_path_ignored": ".models/v2/trained-multilingual/checkpoint.pt",
+    "checkpoint_sha256": "db50044db53237fb6f280a7b0c27eb0be45ff18f7108bcd61ea24640cbb15daf",
+    "integration_check": {
+      "file": "implementations/v2/common-models/public-integration-check.jsonl",
+      "pairs": 4,
+      "pair_sha256": "f624f2359aefce8244913b257bc8f4659e1a94d40d9f872714ac7d73f3b56886",
+      "same_pair_cosine": [
+        0.6131,
+        0.5321,
+        0.5271,
+        0.8862
+      ],
+      "best_other_french_cosine": [
+        0.1555,
+        0.0181,
+        -0.0033,
+        -0.1056
+      ],
+      "all_crosslingual_pairs_ranked_above_other_french_examples": true
+    },
+    "limits": [
+      "This is a genuinely optimized neural encoder trained on only 40 authored phrase pairs, not a pretrained general sentence model.",
+      "Word-level vocabulary maps unseen tokens to zero; generalization is limited and benchmark outcomes cannot establish broad multilingual semantic quality.",
+      "The small integration check is a development smoke test, not independent benchmark evidence."
+    ],
+    "revision": "dev-enfr-40pairs-seed20261018",
+    "vocabulary_sha256": "a9e63abbfa60ff0820ff225d1aa10e94d11109e3fd2da4bd6bb81174ece64385",
+    "tokenizer": "Unicode alphanumeric word tokens; casefold; OOV mapped to index 0",
+    "framework": "torch 2.5.1+cpu",
+    "dependency_lock": "implementations/v2/common-models/requirements.lock"
+  },
+  "corpus_sha256": "05f2501f7e0369a432051f7e4d028f5e71133649f012171695145be51c761885",
+  "questions_sha256": "ce9a1eb825ddcba22998ef689fcfae3ee32ca173b49506e297791e2e11022e81",
+  "gold_sha256": "18e83ac1dc0752a65d7b63014cd019d6277f739417b67a90a909ab0ad1faf553",
+  "gold_release": {
+    "benchmark": "BENCH-0002",
+    "artifact": "post-submission independent gold",
+    "released_at_utc": "2026-10-18T09:25:14Z",
+    "authorship": "independent post-pilot evaluator; source-derived expected answers and regex grading patterns",
+    "blindness": "NON_BLIND_DEVELOPMENT: shared filesystem; no demonstrated evaluator access boundary",
+    "question_count": 40,
+    "question_ids_sha256": "d4d0554e4f74c9c2cdf755df37f92e94f5cc9a2f57cb3d7653bb9bc9f1d7cc82",
+    "questions_sha256": "ce9a1eb825ddcba22998ef689fcfae3ee32ca173b49506e297791e2e11022e81",
+    "frozen_evaluation_sha256": "c29446ffc173cd6243c541013bb565577e4899f9c0b77a8373462c0bf976281c",
+    "gold_sha256": "18e83ac1dc0752a65d7b63014cd019d6277f739417b67a90a909ab0ad1faf553",
+    "source_provenance": {
+      "fixtures/v2/vault/org-alto/project-01/note-010.md": "584605bc3c1681a2dbaadb35e1bc5e3e0f02c990aa8a32973498724f36b18b43",
+      "fixtures/v2/vault/org-alto/project-02/note-010.md": "fd93461767e4cffedadd8bfd728f159af5f3a8e87bee6ca092839420e1fc154b",
+      "fixtures/v2/vault/org-alto/project-03/note-010.md": "f7819040e554a756f6aa9425583c75f5a55ceee1ba3ec608278c9d3be24dfd38",
+      "fixtures/v2/vault/org-alto/project-04/note-010.md": "56482cb4cc4b541d459205b6347b8abf11b2d6280b344b0ed59f08782851f26f",
+      "fixtures/v2/vault/org-alto/project-05/note-010.md": "d0b655fefc8468f57063bdb971cdb2aa49160e217428fc20d298935389304432",
+      "fixtures/v2/vault/org-boreal/project-01/note-010.md": "3c60d58f353e8de1fbca8bd4398e69770f192d14ea0994fa11bbf6c5d46230d7",
+      "fixtures/v2/vault/org-boreal/project-02/note-010.md": "d0cbafd9ae3539d31e7a38b61ed3cdd6006480b676c15a9152d0aadac91ed4b4",
+      "fixtures/v2/vault/org-boreal/project-05/note-010.md": "fcd7c2f296aced71568f3120e45a17c85bf3ba5ad3ba151acf0b4b344764ba79",
+      "fixtures/v2/vault/org-alto/project-01/note-020.md": "97e1405bf14053447c42ff283e52d2fc883b8d316e9b3b61cf98f602d2c82ae9",
+      "fixtures/v2/vault/org-alto/project-01/note-030.md": "0ad1780f4cc28724537ca8471a8cfe6c0a91969e73b787a630a79626cd1e68cf",
+      "fixtures/v2/vault/org-alto/project-02/note-020.md": "81446093202c1ef0a1ae46acfca0fc5a643b5099a7400d7cdf3f40d71235949c",
+      "fixtures/v2/vault/org-alto/project-02/note-030.md": "bdc06cbcad6f2faa1de53fafb5b64ca7a2438366d1cbb5d22f53ee7e7bfaceab",
+      "fixtures/v2/vault/org-alto/project-04/note-020.md": "de596535b768786ca460a732f96af0baf92e30c0a99db3b46f8f0d8052f4cf4c",
+      "fixtures/v2/vault/org-alto/project-04/note-030.md": "d1e52b607bf77fe9176ab033c649339c2abaac5ef5b8d743cdec26c408464497",
+      "fixtures/v2/vault/org-alto/project-05/note-020.md": "c3d485abdf753204b0cd247cd88f9c8a1ee78caf34d1f3fbaa527165d30ad193",
+      "fixtures/v2/vault/org-alto/project-05/note-030.md": "aaa938df737d359a14eb72df4304ef426be4abd92d8d89662c8e5e583bca53ab",
+      "fixtures/v2/vault/org-boreal/project-01/note-020.md": "72e3352af68eb96060c7b113599f857ac4602fa69c0d26b6911e09acc0bb2132",
+      "fixtures/v2/vault/org-boreal/project-01/note-030.md": "90737b609a0508e363f3bbba1e0598d2e2d13dc18deda306c4e7184a5a4473b1",
+      "fixtures/v2/vault/org-boreal/project-02/note-020.md": "4cb03194330af24cbe71325cea640d94bf001caf1d9ff7e673f249c085304df7",
+      "fixtures/v2/vault/org-boreal/project-02/note-030.md": "5e1f86e5a651542a07720883e2840d58224b75efa874aeadba52b2234538cb36",
+      "fixtures/v2/vault/org-boreal/project-03/note-020.md": "05ede0a493cef310bc5e91d2110f1ad3374ea9b53428d509cb91cbc0eebcb2e0",
+      "fixtures/v2/vault/org-boreal/project-03/note-030.md": "9fc80a564bd166f21fdaf79cb7cd5e9067cc420cf90c5eff31d01f180fcb425e",
+      "fixtures/v2/vault/org-boreal/project-04/note-020.md": "199d1e4cdd2d5f3755df73851f782e02b3faf5bccf76094066b0cbc6e3851612",
+      "fixtures/v2/vault/org-boreal/project-04/note-030.md": "258dfcd2ed1b174d574cd28a2de59db2dee95d6e2ee288cedd21aae517ae843b",
+      "fixtures/v2/vault/org-alto/project-01/note-040.md": "e2496d3490fdb589b3cebfafe271b60ab5e96299f021f0b48bf59a2cf2453ebe",
+      "fixtures/v2/vault/org-alto/project-02/note-050.md": "ef617dc39151983d6d329f642f9bc01f65664181bf02946c070ba2e84e338317",
+      "fixtures/v2/vault/org-alto/project-03/note-040.md": "1ceada866101c6fc8f67717d370f44054915d598c85a05b3caa3d11c4e7f6932",
+      "fixtures/v2/vault/org-alto/project-04/note-050.md": "190bc9d217aaf15db344c671e79b8f2370ffe1d1c12fd7676b0febbe945988b7",
+      "fixtures/v2/vault/org-alto/project-05/note-040.md": "5ba29eee59977b34bdc6b5976c1016cf8f77dd524d0592973f6b56bb26af68ec",
+      "fixtures/v2/vault/org-boreal/project-01/note-050.md": "8566f8778d306c95412eb3fd7f2ff6c1151ddd56a4a424f70e42aef866d82bf4",
+      "fixtures/v2/vault/org-boreal/project-02/note-040.md": "f174f463dd1fbbded432b0b3e666c09aa01602b41b9b5941aeeb55ae577910bd",
+      "fixtures/v2/vault/org-boreal/project-05/note-050.md": "6c3a7b8d739165ea7528242b720bdf074f0beaa2e8dd74e58ba7e55341df8a62",
+      "fixtures/v2/vault/org-alto/project-01/note-060.md": "5aca73fa3d2e30dc6a251318ca882de34640120764226eda5c58a350a3a4f8b5",
+      "fixtures/v2/vault/org-alto/project-02/note-060.md": "c56d2d4cd055aad355d3c8364a84cc14b75590f6de330c98f2a50382cbfd48f4",
+      "fixtures/v2/vault/org-alto/project-03/note-060.md": "0ced90ef40b11a3657ca94bb6e690b742ff381af4951f47a9829c3518eb72b67",
+      "fixtures/v2/vault/org-alto/project-04/note-060.md": "3a92c153a7fb6788fe2d5482ce0a603db67bdba48f9db5406bce76afcd46267b",
+      "fixtures/v2/vault/org-boreal/project-01/note-060.md": "9b149ecc4d96d296e963e739999075ce15c7393c4866e39cecbfc86e6d4f3d5d",
+      "fixtures/v2/vault/org-boreal/project-02/note-060.md": "cfcf2af7e8686dd683b4a0f6d6c7c63a9f345ad5ca72ee5ddda568bfaf103f50",
+      "fixtures/v2/vault/org-boreal/project-03/note-060.md": "2733f23bed8eec2befd095ddb824bf458f870d8f93b5334f8b50c278a7b06bb3",
+      "fixtures/v2/vault/org-boreal/project-04/note-060.md": "54106235f08ce1c35a6891e9e53192339922da756910ac99b897d49111a04c10"
+    },
+    "source_files_count": 40
+  },
+  "policy": {
+    "retrieval_questions": 40,
+    "top_k": 5,
+    "answer_sessions_max_per_candidate": 20,
+    "wrapper_operations_max_per_question": 12,
+    "answer_model_alias": "gpt-6-luna",
+    "answer_effort": "medium",
+    "model_retries": 0,
+    "external_inference": false,
+    "physical_cache": "uncontrolled; first-scope/reused-adapter measured separately"
+  },
+  "implementation_delegation": {
+    "native_tool": "collaboration.spawn_agent",
+    "fork_turns": "none",
+    "configured_model": "gpt-6-luna",
+    "configured_effort": "medium",
+    "served_snapshot": null,
+    "parallel_implementation_workstreams": 5,
+    "agents": [
+      {
+        "agent_name": "/root/v2_cognee",
+        "candidate": "cognee"
+      },
+      {
+        "agent_name": "/root/v2_basic_mcp",
+        "candidate": "basic-memory"
+      },
+      {
+        "agent_name": "/root/v2_graphiti",
+        "candidate": "graphiti"
+      },
+      {
+        "agent_name": "/root/v2_qdrant_models",
+        "candidate": "qdrant-native"
+      },
+      {
+        "agent_name": "/root/v2_harness",
+        "candidate": "luna-vault-direct and shared harness"
+      }
+    ],
+    "evidence": "Five successful native spawn results and subsequent native messages, backend source, test logs, and checksum manifests. No nested CLI model session was used.",
+    "native_tokens": null
+  },
+  "native_answer_dispatch": "results/v2/harness/native-E-dispatch.json",
+  "native_answer_attempts": {
+    "luna-vault-direct": 20,
+    "qdrant-native": 20,
+    "basic-memory": 20
+  },
+  "native_answer_finals": {
+    "luna-vault-direct": 19,
+    "qdrant-native": 20,
+    "basic-memory": 20
+  },
+  "quality_eligible_verified_prompts": {
+    "luna-vault-direct": 12,
+    "qdrant-native": 13,
+    "basic-memory": 13
+  },
+  "common_verified_unassisted_questions": [
+    "v2-neg-02",
+    "v2-neg-05",
+    "v2-neg-06",
+    "v2-rev-01",
+    "v2-rev-02",
+    "v2-rev-05",
+    "v2-temp-01",
+    "v2-temp-02",
+    "v2-temp-05",
+    "v2-temp-06"
+  ],
+  "native_tokens": {
+    "input": null,
+    "cached": null,
+    "output": null,
+    "reasoning": null
+  },
+  "native_tool_calls": null,
+  "native_served_snapshots": null,
+  "native_token_or_call_savings": null,
+  "candidate_results": {
+    "luna-vault-direct": {
+      "R_status": "RETRIEVAL_TESTED",
+      "R_questions": 40,
+      "R_recall_at_5": 0.84375,
+      "R_backend_latency_ms": {
+        "p50": 1.5254214995366056,
+        "p95": 1.7671409007562033,
+        "definition": "adapter.search call timing; excludes outer corpus guards and revision validation"
+      },
+      "E_status": "INCOMPLETE: uncaptured or mismatched actual prompts are not scored",
+      "E_quality_full20": null,
+      "E_eligible_component_citation_passes": 10,
+      "E_wrapper_calls_observed": 95
+    },
+    "qdrant-native": {
+      "R_status": "RETRIEVAL_TESTED",
+      "R_questions": 40,
+      "R_recall_at_5": 0.734375,
+      "R_backend_latency_ms": {
+        "p50": 1.5744729998914408,
+        "p95": 2.1211806500105004,
+        "definition": "adapter.search call timing; excludes outer corpus guards and revision validation"
+      },
+      "E_status": "INCOMPLETE: uncaptured or mismatched actual prompts are not scored",
+      "E_quality_full20": null,
+      "E_eligible_component_citation_passes": 11,
+      "E_wrapper_calls_observed": 90
+    },
+    "basic-memory": {
+      "R_status": "RETRIEVAL_TESTED",
+      "R_questions": 40,
+      "R_recall_at_5": 0.96875,
+      "R_backend_latency_ms": {
+        "p50": 1778.7976399999934,
+        "p95": 2352.1018260503297,
+        "definition": "adapter.search timing includes child MCP server startup and query-local indexing; excludes outer corpus guards and revision validation"
+      },
+      "E_status": "INCOMPLETE: uncaptured or mismatched actual prompts are not scored",
+      "E_quality_full20": null,
+      "E_eligible_component_citation_passes": 11,
+      "E_wrapper_calls_observed": 94
+    }
+  },
+  "stage_blocked": {
+    "cognee": {
+      "stage": "cognify graph/vector extraction/indexing",
+      "actual_add_verified": true,
+      "evidence": "results/v2/cognee/evidence.json",
+      "quality": null
+    },
+    "graphiti": {
+      "stage": "native extraction and temporal retrieval",
+      "local_encoder_verified": true,
+      "evidence": "results/v2/graphiti/model-blocker.json",
+      "quality": null
+    }
+  },
+  "tests": {
+    "passed": 30,
+    "skipped": 1,
+    "failed": 0,
+    "suites": {
+      "qdrant-and-local-encoder": {
+        "passed": 8,
+        "skipped": 0,
+        "evidence": "results/v2/qdrant-native/integration-test.log"
+      },
+      "basic-memory-MCP": {
+        "passed": 2,
+        "skipped": 0,
+        "evidence": "results/v2/basic-memory/integration-test.log"
+      },
+      "cognee-real-add-and-boundaries": {
+        "passed": 6,
+        "skipped": 0,
+        "evidence": "results/v2/cognee/integration-test.log"
+      },
+      "graphiti-encoder-and-local-endpoint": {
+        "passed": 2,
+        "skipped": 1,
+        "evidence": "results/v2/graphiti/test-evidence.txt",
+        "skip": "genuine graph extraction/temporal integration requires local LLM weights"
+      },
+      "direct-and-neutral-harness": {
+        "passed": 6,
+        "skipped": 0,
+        "evidence": "results/v2/harness/direct-integration-test.log"
+      },
+      "live-session-broker": {
+        "passed": 1,
+        "skipped": 0,
+        "evidence": "results/v2/harness/broker-integration-test.log"
+      },
+      "post-submission-grader": {
+        "passed": 2,
+        "skipped": 0,
+        "evidence": "results/v2/harness/grader-test.log"
+      },
+      "post-pilot-quality-safeguards": {
+        "passed": 2,
+        "skipped": 0,
+        "evidence": "results/v2/harness/quality-safeguard-test.log"
+      },
+      "native-assignment-repair": {
+        "passed": 1,
+        "skipped": 0,
+        "evidence": "results/v2/harness/native-assignment-repair-test.log",
+        "scope": "post-pilot repair; no additional model session"
+      }
+    },
+    "offline_v1_tests_also_observed_passed": 9,
+    "offline_v1_command": "python3 -m unittest discover -s tests -v",
+    "pilot_queries_are_separate_from_these_tests": true
+  },
+  "validation": "results/v2/validation.json",
+  "artifact_hash_index": "results/v2/artifact-sha256.json",
+  "scope_limits": {
+    "R_questions_per_runnable_candidate": 40,
+    "E_attempts_per_runnable_candidate_max": 20,
+    "full_benchmark": false,
+    "load_tests": false,
+    "additional_E_after_prompt_repair": false,
+    "nested_authenticated_cli": false,
+    "external_paid_inference": false,
+    "network_policy_bypass": false
+  },
+  "reproduction_commands": [
+    "python3 -m benchkit.v2.development_corpus",
+    "bash scripts/v2-retrieval-pilot.sh",
+    "python3 -m benchkit.v2.audit_prompts  # requires original private capability configs; exported audit remains immutable evidence",
+    "python3 -m benchkit.v2.summarize_answers --candidate <name> --gold fixtures/v2/gold-after-submission.jsonl",
+    "XDG_CACHE_HOME=/tmp/bench-v2-font-cache python3 -m benchkit.v2.report",
+    "python3 -m benchkit.v2.validate_run",
+    "python3 -m benchkit.v2.finalize"
+  ],
+  "prompt_audit": "results/v2/harness/prompt-audit.json",
+  "telemetry_coverage": "results/v2/telemetry-coverage.json",
+  "local_usage_ledger": "results/v2/usage-ledger.json",
+  "method_amendments": "results/v2/method-amendments.json"
+}

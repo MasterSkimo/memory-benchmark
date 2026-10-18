@@ -1,0 +1,45 @@
+{
+  "recorded_at_utc": "2026-10-18T09:29:39.769899+00:00",
+  "candidate_model_tool_and_question_sources_unchanged": true,
+  "changes": [
+    {
+      "kind": "post-submission provenance filter",
+      "reason": "Actual captured prompts contained three mismatched question/scope assignments; 18 other prompts were not captured. Score only verified assignments. No candidate answers were rerun."
+    },
+    {
+      "kind": "deterministic future native prompt preparation",
+      "reason": "Prevent manual question/scope/capability copying, use absolute client path, include explicit JSON request schema. Implemented/tested after the pilot; NOT used for another answer run."
+    }
+  ],
+  "source_sha256": {
+    "benchkit/v2/audit_prompts.py": "4594f90ee1301911055f7db9f73086d348a48b791290c12ba4b54b1332f601cb",
+    "benchkit/v2/summarize_answers.py": "d20f3c3eb5066da9d4a08bb4a3a140a5105080f9140b0074e3975e7d421da387",
+    "benchkit/v2/native_prompt.py": "4121f984ed8b33e04c84d62f71d281690a8e32d3b858b2f6f70ff84618017167",
+    "benchkit/v2/test_native_prompt.py": "7934965793ff141a6dfe0f83258ecc40bf1f084c114822e87c2f4419708d5c8b",
+    "benchkit/v2/development_corpus.py": "ad21a7198a63ca69d3fa6ffddec1135412b4ce7c70a01026182d478aec50ec37",
+    "benchkit/v2/finalize.py": "663f7e626cdeb5bfc76be76b5670b06467bd17b8f26c40b587ef9fa21854e402",
+    "benchkit/v2/report.py": "b28fc089af81378cdabacdd44d23b96562bf5a8bb967eae939630d60f8ffbc37",
+    "benchkit/v2/session_server.py": "192950839e3e688057127e68360c1f677e1571c3b63417aa2af6f2d7cebcc7aa",
+    "benchkit/v2/answer_tool.py": "e875676ced4d9da601a25e5d13e2cadb2c4a1607c3e3439b3d24817e5c436847",
+    "benchkit/v2/test_session_server.py": "43ecef0472bc7542996a0bea8400e8d11d76ac7d36105e5e320a636c13a01234",
+    "benchkit/v2/answer-prompt.txt": "5218cc11d726dae474ca4e1cd76f27c15ff69f224573b58cbf6bf2ecc2f81df9",
+    "benchkit/v2/harness.py": "5b0a772429f4311905a572e399ce41cbf0157a38c63662c58c7fadf7a8227542",
+    "benchkit/v2/requirements-report.txt": "12a0a7bc6e1b1254c2f593a250e6ccff4dbd3cf0b27d6819696a9db86f4e530d",
+    "benchkit/v2/validate_run.py": "48413c0a319b936ac0e3ee7605469cf85a5012f852c0e9f99778376553e0227a",
+    "benchkit/v2/test_evaluate.py": "6f63873031f3bfedb55344ac5417bbb39025b1f19f5e08468ea384a86f5e637c",
+    "benchkit/v2/integrity.py": "8b3eeb5eccb72f001f23d9fe40aad0dcc8364b7959bcc236b21df3d35df7cdef",
+    "benchkit/v2/quality.py": "ef373a411e8484fd41f2c2a7a1919e07a75ff03194374a41aaa2f490c5bd54f8",
+    "benchkit/v2/session_client.py": "f8902b782d347884d36a3c6caabab05ac59cc92ed34fb3ad66ea39fa9b39ecc0",
+    "benchkit/v2/evaluate.py": "15a2c7b3e6a025c9961e180d98253a7c3b5e6e43df2292c391fc374e67872161",
+    "benchkit/v2/source_validation.py": "1311e8d853a737e16e7e42173557693365dbbfe39e2b16304d369d59ca9a9357",
+    "benchkit/v2/test_quality.py": "b7dfddddd3d90fe8d0c4ee39eb3cdf0a39fd2c2c0eb25928937c095752b032d4"
+  },
+  "scoring_eligibility": {
+    "submitted": 59,
+    "captured_actual_prompts": 41,
+    "uncaptured": 18,
+    "mismatched": 3,
+    "quality_eligible": 38,
+    "common_unassisted": 10
+  }
+}

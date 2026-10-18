@@ -1,0 +1,1 @@
+{"question_id":"v2-temp-01","answer":"14 days.","abstain":false,"citations":[{"document_id":"org-alto/project-01/note-040","revision":"v2-00-040"}]}

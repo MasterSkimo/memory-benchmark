@@ -1,0 +1,1 @@
+{"error":"PermissionError: unsupported tool request fields: needle","audit":{"question_id":"v2-sem-06","wrapper_call":9,"operation":"search","status":"error","timestamp_utc":"2026-10-18T08:56:55.050Z","wrapper_latency_ms":0.04486899888433982,"error":"PermissionError: unsupported tool request fields: needle"}}

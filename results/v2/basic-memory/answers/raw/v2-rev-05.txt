@@ -1,0 +1,1 @@
+{"question_id":"v2-rev-05","answer":"Avant la mise en production, la validation de l’équipe Ambre est requise, suivie d’une double exploitation vérifiée. La version v2-r2 a reçu son approbation le 2026-07-15.","abstain":false,"citations":[{"document_id":"org-boreal/project-01/note-060","revision":"v2-r2"}]}

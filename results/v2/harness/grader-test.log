@@ -1,0 +1,7 @@
+test_correct_value_requires_current_observed_citation_and_abstention_is_explicit (benchkit.v2.test_evaluate.GradingIntegration.test_correct_value_requires_current_observed_citation_and_abstention_is_explicit) ... ok
+test_multihop_requires_both_sources_and_negative_empty_is_separate (benchkit.v2.test_evaluate.GradingIntegration.test_multihop_requires_both_sources_and_negative_empty_is_separate) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK

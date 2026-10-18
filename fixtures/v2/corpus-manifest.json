@@ -1,0 +1,16 @@
+{
+  "benchmark": "BENCH-0002",
+  "corpus_version": "v2-dev-1",
+  "seed": 20261018,
+  "notes": 80,
+  "organizations": 2,
+  "projects_per_organization": 5,
+  "notes_per_scope": 8,
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "evaluation_questions": "NOT_GENERATED: independent author only after implementation freeze",
+  "blindness": "NON_BLIND_DEVELOPMENT: native workers share filesystem; no withheld-access boundary proven",
+  "corpus_sha256": "05f2501f7e0369a432051f7e4d028f5e71133649f012171695145be51c761885"
+}

@@ -1,0 +1,22 @@
+{
+  "frozen_at_utc": "2026-10-18T09:16:20.295724+00:00",
+  "frozen_before_gold_export": true,
+  "reason": "Independent read-only review found negative flag-only grading and ambiguous precision labels. Add separate postprocessing safeguards while preserving every frozen candidate/tool/base-grader byte. No gold or candidate quality scores were available.",
+  "source_sha256": {
+    "benchkit/v2/quality.py": "ef373a411e8484fd41f2c2a7a1919e07a75ff03194374a41aaa2f490c5bd54f8",
+    "benchkit/v2/test_quality.py": "b7dfddddd3d90fe8d0c4ee39eb3cdf0a39fd2c2c0eb25928937c095752b032d4",
+    "benchkit/v2/summarize_answers.py": "20266fe4f58c5d65c24ef374639aba132adc0d1091e911d62d933cc26629879d",
+    "benchkit/v2/report.py": "4c0798cd4aa2db9f73f3089d6a9a64856f4a816eeb661f5619b9ff1ddd22c50b",
+    "benchkit/v2/validate_run.py": "48413c0a319b936ac0e3ee7605469cf85a5012f852c0e9f99778376553e0227a",
+    "benchkit/v2/requirements-report.txt": "12a0a7bc6e1b1254c2f593a250e6ccff4dbd3cf0b27d6819696a9db86f4e530d"
+  },
+  "positive_scoring": "Frozen component patterns plus exact required revisions observed in the same session",
+  "negative_scoring": "Explicit abstention flag plus separate coordinator review of unsupported claims",
+  "precision": "Report correct/returned and correct/5 separately",
+  "secondary_audit_subset_excludes": [
+    "v2-sem-01",
+    "v2-mh-05",
+    "v2-mh-06"
+  ],
+  "audit_subset_limit": "Post-dispatch protocol exclusion, not a preregistered causal comparison"
+}

@@ -1,0 +1,1 @@
+{"question_id":"v2-sem-02","answer":"Open the circuit and stop forwarding requests, while keeping a durable record so commands can be recovered later; the approved French shorthand is « disjoncteur applicatif ».","abstain":false,"citations":[{"document_id":"org-alto/project-02/note-010","revision":"v2-01-010"}]}

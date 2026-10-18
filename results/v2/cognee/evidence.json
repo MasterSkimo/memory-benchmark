@@ -1,0 +1,114 @@
+{
+  "candidate": "cognee-v2",
+  "status": "REAL_ADD_VERIFIED; COGNIFY_AND_RETRIEVAL_BLOCKED_NO_LOCAL_LLM",
+  "sdk": "cognee==0.5.1",
+  "graph_backend": "kuzu==0.11.3",
+  "vector_backend": "lancedb==0.40.0",
+  "source_sha256": {
+    "adapter.py": "d72b86bdb51f3f8a6ccc76142c366058881ba9833120673e61788d2f44cf0ff9",
+    "test_adapter.py": "ad32d97c803af0135c1d1dfb431df93f045c85015e3eb1ea52d0316d6ace45f9",
+    "prepare_tokenizer.py": "ea463ccaba62642bdf44d3778678df79e443a29206911ea164379e414f9ca7e4",
+    "requirements-lock.txt": "d29dcf16c9a879eaf6f9cc8205716805f78b321dc19df3a9766bb0dff65edb51"
+  },
+  "dataset": {
+    "organization_id": "org-boreal",
+    "knowledge_space_id": "project-05",
+    "authorized_source_files": 8,
+    "dataset_id": "bc1b93b7-ca45-5b51-8697-e53b6a2f0ff5",
+    "native_dataset_id": "bc1b93b7ca455b518697e53b6a2f0ff5",
+    "requested_dataset_name": "bench_b4dd6b07f2f35e1824ab4991",
+    "native_dataset_name": "bench_b4dd6b07f2f35e1824ab4991",
+    "native_name_matches_requested": true,
+    "dataset_data_rows": 8,
+    "file_reads": 8,
+    "bytes_read": 3573,
+    "dataset_name_revision_content_scoped": true,
+    "persisted_sources": [
+      {
+        "document_id": "org-boreal/project-05/note-050",
+        "revision": "v2-09-050",
+        "raw_content_hash": "197e6660848ed7800cfff75fc4c7cb7b",
+        "stored_file": "implementations/v2/cognee/.state/data/43f7b47f-75b1-493a-b4d7-cd630ad88cc0/text_197e6660848ed7800cfff75fc4c7cb7b.txt",
+        "provenance_verified": true
+      },
+      {
+        "document_id": "org-boreal/project-05/note-020",
+        "revision": "v2-09-020",
+        "raw_content_hash": "26ecbb195b5a616c4c079df76c719c10",
+        "stored_file": "implementations/v2/cognee/.state/data/43f7b47f-75b1-493a-b4d7-cd630ad88cc0/text_26ecbb195b5a616c4c079df76c719c10.txt",
+        "provenance_verified": true
+      },
+      {
+        "document_id": "org-boreal/project-05/note-010",
+        "revision": "v2-09-010",
+        "raw_content_hash": "36e5bfb1d8482619191f3b63a6fd8285",
+        "stored_file": "implementations/v2/cognee/.state/data/43f7b47f-75b1-493a-b4d7-cd630ad88cc0/text_36e5bfb1d8482619191f3b63a6fd8285.txt",
+        "provenance_verified": true
+      },
+      {
+        "document_id": "org-boreal/project-05/note-030",
+        "revision": "v2-09-030",
+        "raw_content_hash": "90c0973e9cf9ca6160e15ee199e7c838",
+        "stored_file": "implementations/v2/cognee/.state/data/43f7b47f-75b1-493a-b4d7-cd630ad88cc0/text_90c0973e9cf9ca6160e15ee199e7c838.txt",
+        "provenance_verified": true
+      },
+      {
+        "document_id": "org-boreal/project-05/note-040",
+        "revision": "v2-09-040",
+        "raw_content_hash": "a0658b4d65fdf531644821744df39a50",
+        "stored_file": "implementations/v2/cognee/.state/data/43f7b47f-75b1-493a-b4d7-cd630ad88cc0/text_a0658b4d65fdf531644821744df39a50.txt",
+        "provenance_verified": true
+      },
+      {
+        "document_id": "org-boreal/project-05/note-060",
+        "revision": "v2-r2",
+        "raw_content_hash": "a7365733b7f2ddeb87c4d86bb91b2075",
+        "stored_file": "implementations/v2/cognee/.state/data/43f7b47f-75b1-493a-b4d7-cd630ad88cc0/text_a7365733b7f2ddeb87c4d86bb91b2075.txt",
+        "provenance_verified": true
+      },
+      {
+        "document_id": "org-boreal/project-05/note-000",
+        "revision": "v2-09-000",
+        "raw_content_hash": "a9c20fdafc408e16bfc4c4e0e6a125ee",
+        "stored_file": "implementations/v2/cognee/.state/data/43f7b47f-75b1-493a-b4d7-cd630ad88cc0/text_a9c20fdafc408e16bfc4c4e0e6a125ee.txt",
+        "provenance_verified": true
+      },
+      {
+        "document_id": "org-boreal/project-05/note-070",
+        "revision": "v2-09-070",
+        "raw_content_hash": "b56ff6ccc273f4e9f3a53697baed243e",
+        "stored_file": "implementations/v2/cognee/.state/data/43f7b47f-75b1-493a-b4d7-cd630ad88cc0/text_b56ff6ccc273f4e9f3a53697baed243e.txt",
+        "provenance_verified": true
+      }
+    ]
+  },
+  "add": {
+    "status": "COMPLETED",
+    "actual_sdk_api": "cognee.add",
+    "llm_preflight": "SKIPPED_ADD_ONLY_NO_LOCAL_LLM",
+    "telemetry": "disabled with supported TELEMETRY_DISABLED=1",
+    "embedding_readiness_calls": 1,
+    "embedding_readiness_model": "codex-public-dev-bilingual-mean-embedding",
+    "embedding_dimensions": 384,
+    "normalization": "L2",
+    "graph_or_vector_index_written": false
+  },
+  "extraction": "BLOCKED_NO_LOCAL_LLM; cognify was not run",
+  "retrieval": "NOT_RUN; Cognee CHUNKS results and chunk provenance mapping remain unverified",
+  "tokenizer": {
+    "package": "gpt-tokenizer@4.1.0",
+    "package_license": "MIT",
+    "package_tarball_sha256": "ec0f7e3eea8e4f56b30297af68e4a52629707bdc59530f4a82d81ac03aad4447",
+    "encoding": "cl100k_base",
+    "canonical_asset_sha256": "223921b76ee99bde995b7ff738513eef100fb51d18c93597a113bcffe865b2a7",
+    "tiktoken_cache_key": "9b5ad71b2ce5302211f9c61530b329a4922fc6a4",
+    "offline_cache_verified": true
+  },
+  "integration_tests": {
+    "command": "TELEMETRY_DISABLED=1 implementations/v2/cognee/.venv/bin/python -m unittest discover -s implementations/v2/cognee -p 'test_*.py' -v",
+    "tests": 6,
+    "passed": 6,
+    "failed": 0,
+    "log": "results/v2/cognee/integration-test.log"
+  }
+}

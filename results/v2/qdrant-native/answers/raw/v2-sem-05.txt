@@ -1,0 +1,1 @@
+{"question_id":"v2-sem-05","answer":"Vega diffère le traitement des opérations en attente, puis les rejoue lorsque l’amont est rétabli. L’expression validée est « rejeu différé ».","abstain":false,"citations":[{"document_id":"org-alto/project-05/note-010","revision":"v2-04-010"}]}

@@ -1,0 +1,1 @@
+{"question_id":"v2-neg-02","answer":"Les sources autorisées ne précisent pas de fenêtre mensuelle de maintenance approuvée pour Orion.","abstain":true,"citations":[]}

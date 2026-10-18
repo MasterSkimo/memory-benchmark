@@ -1,0 +1,29 @@
+{
+  "candidate": "qdrant-native-v2",
+  "status": "executed_local_neural_r_smoke_and_integration_tests",
+  "backend": "qdrant-client 1.15.1 embedded Qdrant, dense+sparse server-side RRF",
+  "dense_model": "codex-public-dev-bilingual-mean-embedding",
+  "dense_revision": "dev-enfr-40pairs-seed20261018",
+  "dense_checkpoint_sha256": "db50044db53237fb6f280a7b0c27eb0be45ff18f7108bcd61ea24640cbb15daf",
+  "dimension": 384,
+  "normalization": "L2",
+  "dependencies": "implementations/v2/qdrant-native/requirements.txt and implementations/v2/common-models/requirements.txt",
+  "integration_test_log": "results/v2/qdrant-native/integration-test.log",
+  "corpus_smoke": "results/v2/qdrant-native/corpus-integration-smoke.json",
+  "limitations": [
+    "The neural checkpoint is trained on only 40 authored public EN/FR development pairs and is not equivalent to a pretrained general sentence model.",
+    "No 40-question evaluation was run in this candidate worker; coordinator/evaluator must run it after source freeze.",
+    "Qdrant payload index creation emits an expected warning in embedded mode because these indexes only affect server deployments."
+  ],
+  "dependency_lock": "implementations/v2/qdrant-native/requirements.lock",
+  "common_model_lock": "implementations/v2/common-models/requirements.lock",
+  "source_checksums": "results/v2/qdrant-native/source-checksums.json",
+  "integration_test_count": 8,
+  "security_checks": [
+    "path-derived org/project/document_id before read/index",
+    "reject symlink components",
+    "reject forged tenant filters and document/path/revision overrides",
+    "trusted scope prefilter before backend and payload recheck",
+    "drop forged document_id payloads after backend query result mapping"
+  ]
+}

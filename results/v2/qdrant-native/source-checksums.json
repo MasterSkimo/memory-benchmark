@@ -1,0 +1,28 @@
+{
+  "candidate": "qdrant-native-v2 + common-models",
+  "checkpoint_revision": "dev-enfr-40pairs-seed20261018",
+  "checkpoint_sha256": "db50044db53237fb6f280a7b0c27eb0be45ff18f7108bcd61ea24640cbb15daf",
+  "hashes_sha256": {
+    "implementations/v2/common-models/embedder.py": "8002493ee4958bde84592b3d550620f334b7c9c3ce5090dbd98574a183373a1d",
+    "implementations/v2/common-models/server.py": "3e04b141bf462b1e13e446f0aff54c2493df05c06f8a0bc6bd7d3c1990f9c91e",
+    "implementations/v2/common-models/train.py": "db87c0478f440bec343888112d3e877716b8222bdad64ac6363aede12e42d107",
+    "implementations/v2/common-models/dev-pairs.jsonl": "76a84ad2c32fbf3d501f8499e0e5dda4c4e90628f40f06bafb7e1f49d0d7dee4",
+    "implementations/v2/common-models/public-integration-check.jsonl": "f624f2359aefce8244913b257bc8f4659e1a94d40d9f872714ac7d73f3b56886",
+    "implementations/v2/common-models/requirements.txt": "def6ce9c5d47fc176283e5353d3e973e51d16ec6d37be30552b506f7937f2212",
+    "implementations/v2/common-models/requirements.lock": "701bf232bc03a0dc26b645f75fe3562f3ff8a9edfd0a996f627213c2b12115d2",
+    "implementations/v2/common-models/test_server.py": "718e5fd9d1b16687eb692bccabd35e1d3b768561723fc6624a35b15524f79860",
+    "implementations/v2/qdrant-native/adapter.py": "0d6a612979913097dcfd15898d60849ad5bcc48f9e7ff0b63fe8823270beb4a0",
+    "implementations/v2/qdrant-native/test_adapter.py": "93d9481a472e9ac9cd466290644efa31f82023c0e32f268fa1c7e342ce6dcc43",
+    "implementations/v2/qdrant-native/requirements.txt": "470370098311f56760ca7f6d9d99cb66721717103b555296cbb4b282b7fb78bd",
+    "implementations/v2/qdrant-native/requirements.lock": "094a71478aacb707a50657a7c59c0ae1ea053ddcb77ee756b5ae7c87f57abb73",
+    "implementations/v2/qdrant-native/README.md": "9c1bbf78790c1572e5cce85e26be04b1961ef5ab5f4124f641819e63c3fa5ef1",
+    ".models/v2/trained-multilingual/checkpoint.pt": "db50044db53237fb6f280a7b0c27eb0be45ff18f7108bcd61ea24640cbb15daf",
+    ".models/v2/trained-multilingual/manifest.json": "53803a2642b0f6daaa6c347916edfc637fce01f256d11265d8e016515c118950",
+    "results/v2/models/manifest.json": "bdee95fccef534bad5999aa851c36b0ef4c7e88ffb9eebb5c2c57fef32c742d5",
+    "results/v2/qdrant-native/manifest.json": "e17cd88242dc18d1c5a6fe6ae099680d3baad0f3db74ef90e8d05823c9fa55b4",
+    "results/v2/qdrant-native/corpus-integration-smoke.json": "878e4f7b9597d2e2c67e487aed4669e68d7a965d1936972c8fb8ed8d972e8d07",
+    "implementations/v2/common-models/README.md": "1224fcb3a54fefda5cdfb4761acc64c1b750699934cce57c3abf963afe532cee",
+    "results/v2/qdrant-native/integration-test.log": "9722e40a3152d84106800c85dee977c2d6393667e50d7cbc6f32a6671854cbaf",
+    "results/v2/models/server-test.log": "94f637a11e3ab7e202c311d8457e129b32b19795cbf37167b40e870db11bef0b"
+  }
+}

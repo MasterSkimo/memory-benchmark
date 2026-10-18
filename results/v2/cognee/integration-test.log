@@ -1,0 +1,39 @@
+test_filename_and_frontmatter_document_id_must_match_exactly (test_adapter.AuthorizationTests.test_filename_and_frontmatter_document_id_must_match_exactly) ... 
+[2m2026-10-18T06:52:28.969618[0m [[32m[1minfo     [0m] [1mDeleted old log file: /workspace/memory-benchmark/implementations/v2/cognee/.venv/lib/python3.12/site-packages/logs/2026-10-18_06-41-58.log[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+/workspace/memory-benchmark/implementations/v2/cognee/.venv/lib/python3.12/site-packages/cognee/infrastructure/llm/structured_output_framework/litellm_instructor/llm/ollama/adapter.py:73: DeprecationWarning: The 'initial' parameter is deprecated, use 'multiplier' instead
+  wait=wait_exponential_jitter(8, 128),
+/workspace/memory-benchmark/implementations/v2/cognee/.venv/lib/python3.12/site-packages/cognee/infrastructure/llm/structured_output_framework/litellm_instructor/llm/ollama/adapter.py:121: DeprecationWarning: The 'initial' parameter is deprecated, use 'multiplier' instead
+  wait=wait_exponential_jitter(8, 128),
+/workspace/memory-benchmark/implementations/v2/cognee/.venv/lib/python3.12/site-packages/cognee/infrastructure/llm/structured_output_framework/litellm_instructor/llm/ollama/adapter.py:160: DeprecationWarning: The 'initial' parameter is deprecated, use 'multiplier' instead
+  wait=wait_exponential_jitter(2, 128),
+/workspace/memory-benchmark/implementations/v2/cognee/.venv/lib/python3.12/site-packages/pydantic/fields.py:1093: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'env'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  warn(
+
+[2m2026-10-18T06:52:29.515229[0m [[33m[1mwarning  [0m] [1mFrom version 0.5.0 onwards, Cognee will run with multi-user access control mode set to on by default. Data isolation between different users and datasets will be enforced and data created before multi-user access control mode was turned on won't be accessible by default. To disable multi-user access control mode and regain access to old data set the environment variable ENABLE_BACKEND_ACCESS_CONTROL to false before starting Cognee. For more information, please refer to the Cognee documentation.[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-18T06:52:29.515574[0m [[32m[1minfo     [0m] [1mLog file created at: /workspace/memory-benchmark/implementations/v2/cognee/.venv/lib/python3.12/site-packages/logs/2026-10-18_06-52-28.log[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m [36mlog_file[0m=[35m/workspace/memory-benchmark/implementations/v2/cognee/.venv/lib/python3.12/site-packages/logs/2026-10-18_06-52-28.log[0m
+
+[2m2026-10-18T06:52:29.515674[0m [[32m[1minfo     [0m] [1mLogging initialized           [0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m [36mcognee_version[0m=[35m0.5.1[0m [36mdatabase_path[0m=[35m/workspace/memory-benchmark/implementations/v2/cognee/.venv/lib/python3.12/site-packages/cognee/.cognee_system/databases[0m [36mgraph_database_name[0m=[35m[0m [36mos_info[0m=[35m'Linux 6.18.55 (#1 SMP Wed Oct 14 19:45:18 UTC 2026)'[0m [36mpython_version[0m=[35m3.12.14[0m [36mrelational_config[0m=[35mcognee_db[0m [36mstructlog_version[0m=[35m25.5.0[0m [36mvector_config[0m=[35mlancedb[0m
+
+[2m2026-10-18T06:52:29.515779[0m [[32m[1minfo     [0m] [1mDatabase storage: /workspace/memory-benchmark/implementations/v2/cognee/.venv/lib/python3.12/site-packages/cognee/.cognee_system/databases[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+/workspace/memory-benchmark/implementations/v2/cognee/.venv/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:298: PydanticDeprecatedSince20: `json_encoders` is deprecated. See https://docs.pydantic.dev/2.11/concepts/serialization/#custom-serializers for alternatives. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.11/migration/
+  warnings.warn(
+
+[2m2026-10-18T06:52:29.612575[0m [[33m[1mwarning  [0m] [1mFailed to import protego, make sure to install using pip install protego>=0.1[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-18T06:52:29.612914[0m [[33m[1mwarning  [0m] [1mFailed to import playwright, make sure to install using pip install playwright>=1.9.0[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+ok
+test_foreign_scope_metadata_and_forged_document_path_fail_before_add (test_adapter.AuthorizationTests.test_foreign_scope_metadata_and_forged_document_path_fail_before_add) ... ok
+test_local_llm_config_requires_loopback_and_opt_in (test_adapter.AuthorizationTests.test_local_llm_config_requires_loopback_and_opt_in) ... ok
+test_path_components_and_symlink_sources_are_rejected (test_adapter.AuthorizationTests.test_path_components_and_symlink_sources_are_rejected) ... ok
+test_real_add_returns_dataset_and_uses_shared_local_embedding (test_adapter.RealCogneeAddTests.test_real_add_returns_dataset_and_uses_shared_local_embedding) ... 
+[2m2026-10-18T06:52:34.587377[0m [[32m[1minfo     [0m] [1mLoaded JSON extension         [0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+ok
+test_revision_change_creates_a_fresh_backend_dataset (test_adapter.RealCogneeAddTests.test_revision_change_creates_a_fresh_backend_dataset) ... 
+[2m2026-10-18T06:52:34.916437[0m [[32m[1minfo     [0m] [1mLoaded JSON extension         [0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 8.838s
+
+OK

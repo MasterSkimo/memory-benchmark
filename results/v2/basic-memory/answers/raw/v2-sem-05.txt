@@ -1,0 +1,1 @@
+{"question_id":"v2-sem-05","answer":"Vega diffère le traitement et rejoue les opérations après le rétablissement de l’amont. L’expression française validée est « rejeu différé »; les tentatives automatiques sans enregistrement durable sont interdites.","abstain":false,"citations":[{"document_id":"org-alto/project-05/note-010","revision":"v2-04-010"}]}

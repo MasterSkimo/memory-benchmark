@@ -1,0 +1,1 @@
+{"question_id":"v2-sem-06","answer":"I couldn’t retrieve any source material through the allowed session client, so I can’t support an answer or identify the French term.","abstain":true,"citations":[]}

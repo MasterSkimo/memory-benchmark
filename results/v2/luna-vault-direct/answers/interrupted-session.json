@@ -1,0 +1,11 @@
+{
+  "question_id": "v2-sem-01",
+  "agent_name": "/root/v2_harness/v2_e_direct_01",
+  "status": "UNRECOVERED_AFTER_RESUME_NO_OBSERVED_WRAPPER_CALL",
+  "evidence": "Native spawn observed before conversation resumed. Agent tree unavailable on resume, no final response or wrapper event persisted.",
+  "counts_toward_20_session_limit": true,
+  "retry": false,
+  "native_tokens": null,
+  "native_tool_calls": null,
+  "native_completion_status": null
+}
