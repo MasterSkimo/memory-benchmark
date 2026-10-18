@@ -1,0 +1,1 @@
+This initial 20-question retrieval run is quarantined and must not be used for comparison. Basic Memory SyncService wrote its native `permalink` metadata into public fixture Markdown before private-copy hardening was added. Coordinator was notified of the touched scopes: org-alpha/project-01 through project-04. The run is retained only as an audit record.

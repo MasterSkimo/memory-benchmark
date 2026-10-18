@@ -1,0 +1,13 @@
+{
+  "questions": 20,
+  "top_k": 5,
+  "native_model_requested": "gpt-6-luna",
+  "effort_requested": "medium",
+  "external_inference": false,
+  "nested_cli": false,
+  "full_benchmark": false,
+  "load_tests": false,
+  "per_answer_max_file_tool_calls": 12,
+  "per_answer_max_wall_seconds": 90,
+  "token_budget_enforcement": "NOT_AVAILABLE"
+}

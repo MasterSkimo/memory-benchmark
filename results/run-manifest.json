@@ -1,0 +1,127 @@
+{
+  "benchmark": "BENCH-0001",
+  "protocol": "1.1",
+  "status": "PILOT_COMPLETE_WITH_STAGE_LIMITATIONS",
+  "base_branch": "fix/codex-cloud-real-pilot",
+  "base_commit": "33972b750905148159497c27daae4b041291ef3a",
+  "feature_branch": "codex/bench-0001-real-pilot",
+  "scaffold_restored_from": "6e1dcee7a0df53a3511b2efdbcf1ed71adbbd406",
+  "fixture_manifest": {
+    "benchmark": "BENCH-0001",
+    "version": "cloud-0.2",
+    "seed": 42,
+    "notes": 1000,
+    "questions": 200,
+    "vault_sha256": "644b954c4ffe3dbe255e03fe3c24eb9e7bf7248db3790edfeba3ae2bc311e716"
+  },
+  "pilot_ids": [
+    "q00-exact-0",
+    "q01-exact-0",
+    "q02-exact-0",
+    "q03-exact-0",
+    "q00-semantic-0",
+    "q01-semantic-0",
+    "q02-semantic-0",
+    "q03-semantic-0",
+    "q00-multihop-0",
+    "q01-multihop-0",
+    "q02-multihop-0",
+    "q00-temporal-0",
+    "q01-temporal-0",
+    "q02-temporal-0",
+    "q00-negative-0",
+    "q01-negative-0",
+    "q02-negative-0",
+    "q00-isolation-0",
+    "q01-isolation-0",
+    "q02-isolation-0"
+  ],
+  "states": {
+    "basic-memory": {
+      "implementation": "IMPLEMENTED",
+      "retrieval": "RETRIEVAL_TESTED",
+      "answer": "NOT_RUN_COMPARABLE_TOOL_HARNESS_NOT_AVAILABLE",
+      "mcp": "BLOCKED_DEPENDENCY_COMPATIBILITY"
+    },
+    "cognee": {
+      "implementation": "ADAPTER_IMPLEMENTED",
+      "ingestion": "BLOCKED_TOKENIZER_ASSET_HTTP_403",
+      "retrieval": "NOT_MEASURED",
+      "backend_isolation": "NOT_TESTED",
+      "answer": "NOT_RUN",
+      "prior_attempt": "INVALID_CORPUS_AND_ZERO_SUCCESSFUL_QUERIES"
+    },
+    "graphiti": {
+      "implementation": "IMPLEMENTED_STRUCTURED_EPISODE_VARIANT",
+      "retrieval": "RETRIEVAL_TESTED",
+      "semantic_extraction": "NOT_RUN_NO_PROVIDER",
+      "answer": "NOT_RUN_COMPARABLE_TOOL_HARNESS_NOT_AVAILABLE"
+    },
+    "qdrant-native": {
+      "implementation": "IMPLEMENTED_NON_NEURAL_HYBRID",
+      "retrieval": "RETRIEVAL_TESTED",
+      "neural_embedding": "NOT_RUN",
+      "answer": "NOT_RUN_COMPARABLE_TOOL_HARNESS_NOT_AVAILABLE"
+    },
+    "luna-vault-direct": {
+      "implementation": "IMPLEMENTED_SCOPED_FILESYSTEM",
+      "retrieval_control": "NOT_RUN",
+      "answer": "ANSWER_TESTED_OBSERVATIONAL",
+      "strict_native_capability_isolation": "NOT_AVAILABLE"
+    }
+  },
+  "native_implementation_workers": 5,
+  "peak_implementation_concurrency": 5,
+  "final_successful_retrieval_queries": 60,
+  "final_native_answer_sessions": 20,
+  "valid_unique_questions_per_candidate": 20,
+  "final_native_answer_concurrency": 1,
+  "retrieval_only_pareto_axes": [
+    "recall@5 up",
+    "precision@5 up",
+    "superseded hits down",
+    "p50 ms down",
+    "p95 ms down"
+  ],
+  "retrieval_only_frontier": [
+    "basic-memory",
+    "graphiti"
+  ],
+  "end_to_end_frontier": null,
+  "native_baseline_totals": {
+    "completed_verified_answer_sessions": 20,
+    "verified_input_token_counters": 0,
+    "verified_cached_token_counters": 0,
+    "verified_output_token_counters": 0,
+    "verified_native_tool_counters": 0,
+    "token_coverage": 0.0,
+    "wrapper_calls": 21,
+    "source_file_reads": 2100,
+    "source_bytes_read": 536676,
+    "integrity_guard_file_reads": 42000,
+    "integrity_guard_bytes_scanned": 10691520,
+    "native_tool_calls": null,
+    "input_tokens": null,
+    "cached_input_tokens": null,
+    "output_tokens": null,
+    "cost_usd": null,
+    "session_latency_ms": null
+  },
+  "token_savings_vs_direct": null,
+  "native_tool_savings_vs_direct": null,
+  "ingest_token_and_usd_amortization": {
+    "20": null,
+    "200": null,
+    "2000": null,
+    "20000": null
+  },
+  "cache_policy": "First-scope and reused-adapter queries labelled; physical caches uncontrolled, no true cold-cache claim",
+  "corpus_incident": "corpus-integrity-incident.json",
+  "repeat_policy": "Only same frozen twenty IDs repeated after source security/integrity fixes; prior actual traces retained and qualified",
+  "full_read_benchmark": "NOT_RUN_NOT_AUTHORIZED",
+  "mutation_scenarios": "NOT_RUN_NOT_AUTHORIZED",
+  "load_tests": "NOT_RUN_NOT_AUTHORIZED",
+  "oracle_file_generated": false,
+  "external_inference_providers_used": [],
+  "nested_codex_cli_sessions": 0
+}

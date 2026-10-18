@@ -1,0 +1,10 @@
+{
+  "attempt": 2,
+  "reason": "Ingestion now rejects document IDs whose tenant/project prefix conflicts with metadata; top_k validation and a forged-ID regression test were added.",
+  "adapter_sha256": "a6af50c1a5589e8e7c8461c480c623d116587b58435555afd8e3f82c7b9b63ba",
+  "questions_executed": 20,
+  "successful_queries": 20,
+  "p50_ms": 22.82945199999631,
+  "p95_ms": 66.49775510022667,
+  "scoring": "NOT_RUN"
+}

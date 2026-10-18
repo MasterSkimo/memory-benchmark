@@ -1,0 +1,26 @@
+{
+  "benchmark": "BENCH-0001",
+  "protocol": "1.1",
+  "python": "3.12.14",
+  "network": "restricted package hosts usable; no inference attempted",
+  "docker": "available; Graphiti Neo4j service integration executed",
+  "native_delegation": {
+    "available": true,
+    "implementation_workers_spawned": 5,
+    "peak_implementation_concurrency": 5,
+    "requested_model": "gpt-6-luna",
+    "requested_effort": "medium",
+    "served_snapshot": null
+  },
+  "native_token_counters": "NOT_AVAILABLE",
+  "input_tokens": null,
+  "cached_input_tokens": null,
+  "output_tokens": null,
+  "native_tool_counter_export": null,
+  "remaining_subscription_quota": null,
+  "coordinator_requested": "SOL/high",
+  "coordinator_served_identity": null,
+  "nested_codex_cli_sessions": 0,
+  "external_inference_providers": [],
+  "source": "Observed successful setup, five native spawn calls, genuine candidate backend tests; no repeated nested-model preflight"
+}

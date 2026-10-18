@@ -1,0 +1,73 @@
+/workspace/memory-benchmark/implementations/qdrant-native/adapter.py:84: UserWarning: Payload indexes have no effect in the local Qdrant. Please use server Qdrant if you need payload indexes.
+  self.client.create_payload_index(self.collection, field, models.PayloadSchemaType.KEYWORD)
+{
+  "candidate": "qdrant-native",
+  "status": "RETRIEVAL_TESTED",
+  "questions_executed": 20,
+  "successful_queries": 20,
+  "status_counts": {
+    "ok": 20
+  },
+  "latency_ms": {
+    "p50": 22.46163100016929,
+    "p95": 24.95686064983147
+  },
+  "cache_groups": {
+    "first_scope_query": {
+      "queries": 4,
+      "p50_ms": 23.659006499656243
+    },
+    "reused_scope_adapter": {
+      "queries": 16,
+      "p50_ms": 22.08804049973878
+    }
+  },
+  "setups": [
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-01",
+      "factory_elapsed_ms": 273.7978469999689,
+      "ingest_file_reads": 1000,
+      "ingest_bytes_read": 254560,
+      "ingest_backend_calls": 1,
+      "ingest_embedding_calls": 0
+    },
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-02",
+      "factory_elapsed_ms": 275.28250700015633,
+      "ingest_file_reads": 1000,
+      "ingest_bytes_read": 254560,
+      "ingest_backend_calls": 1,
+      "ingest_embedding_calls": 0
+    },
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-03",
+      "factory_elapsed_ms": 258.4287999998196,
+      "ingest_file_reads": 1000,
+      "ingest_bytes_read": 254560,
+      "ingest_backend_calls": 1,
+      "ingest_embedding_calls": 0
+    },
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-04",
+      "factory_elapsed_ms": 290.03580200014767,
+      "ingest_file_reads": 1000,
+      "ingest_bytes_read": 254560,
+      "ingest_backend_calls": 1,
+      "ingest_embedding_calls": 0
+    }
+  ],
+  "setup_excluded_from_query_latency": true,
+  "process_peak_rss_kib": 126220,
+  "native_token_coverage": 0,
+  "native_token_counter_source": "NOT_AVAILABLE",
+  "questions_sha256": "dd64ea2da51246bd9a6ffa7b48d14d70d88bc5ffbbb9231ceb3d4513612a51ac",
+  "corpus_sha256": "644b954c4ffe3dbe255e03fe3c24eb9e7bf7248db3790edfeba3ae2bc311e716",
+  "corpus_integrity": "VERIFIED_BEFORE_SETUP_AFTER_EACH_FACTORY_AND_AFTER_RUN",
+  "integrity_check_io_excluded_from_query_metrics": true,
+  "adapter_sha256": "a6af50c1a5589e8e7c8461c480c623d116587b58435555afd8e3f82c7b9b63ba",
+  "scoring": "NOT_RUN: traces must close before separate evaluation"
+}

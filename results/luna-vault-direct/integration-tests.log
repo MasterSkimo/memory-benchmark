@@ -1,0 +1,11 @@
+test_frontmatter_cannot_spoof_a_foreign_document_id (test_scoped_vault.ScopedVaultTests.test_frontmatter_cannot_spoof_a_foreign_document_id) ... ok
+test_list_read_and_search_include_provenance_and_counts (test_scoped_vault.ScopedVaultTests.test_list_read_and_search_include_provenance_and_counts) ... ok
+test_mismatched_request_identity_is_rejected_before_io (test_scoped_vault.ScopedVaultTests.test_mismatched_request_identity_is_rejected_before_io) ... ok
+test_native_tool_audits_calls_and_enforces_question_call_limit (test_scoped_vault.ScopedVaultTests.test_native_tool_audits_calls_and_enforces_question_call_limit) ... ok
+test_symlink_source_and_directory_are_never_listed_or_read (test_scoped_vault.ScopedVaultTests.test_symlink_source_and_directory_are_never_listed_or_read) ... ok
+test_traversal_and_alternate_scope_identifiers_are_rejected (test_scoped_vault.ScopedVaultTests.test_traversal_and_alternate_scope_identifiers_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK

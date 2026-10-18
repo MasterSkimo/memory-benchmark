@@ -1,0 +1,28 @@
+{
+  "candidate": "cognee",
+  "status": "IMPLEMENTED; RETRIEVAL BLOCKED; PILOT INVALID FOR COMPARISON",
+  "sdk": "cognee==0.5.1",
+  "sdk_license": "Apache-2.0",
+  "sdk_source": "https://github.com/topoteretes/cognee",
+  "graph_backend": "kuzu==0.11.3",
+  "vector_backend": "lancedb==0.40.0",
+  "ingestion": "Cognee add -> cognify -> CHUNKS search; add blocked before returning dataset_id by unavailable tiktoken asset (configured proxy HTTP 403)",
+  "dataset_id_path": "unverified until Cognee add completes",
+  "extraction": "blocked unless explicit COGNEE_LOCAL_INFERENCE_OPT_IN=1 and both Ollama LLM/embedding endpoints pass loopback checks; external routes rejected",
+  "embedding": "not reached",
+  "rerank": "not used",
+  "tenant_filter": "dedicated Cognee dataset ID per organization/project, passed to backend search; question scope and source document_id prefix checked before retrieval/ingestion",
+  "telemetry": {"backend_calls": null, "embedding_calls": null, "model_tokens": null},
+  "pilot": {
+    "questions_executed": 20,
+    "successful_queries": 0,
+    "status": "INVALID_FOR_COMPARATIVE_RETRIEVAL",
+    "reason": "Shared corpus was modified before this attempt; see pilot-validity.json",
+    "questions_sha256": "dd64ea2da51246bd9a6ffa7b48d14d70d88bc5ffbbb9231ceb3d4513612a51ac",
+    "failed_attempt_adapter_sha256": "49225170e4d1625d9b6a6631e3aed23261fa59c58a243f8ea27f47d98cd99bcb",
+    "pilot_rerun_after_hardening": false
+  },
+  "live_adapter_sha256_after_hardening": "bfa698cccfe3ea95cbb52521fe8c0225caa2c74a4ee0e7c67bbed825b765b711",
+  "integration_tests": {"run": 6, "passed": 5, "skipped": 1, "stdout": "integration-test.log"},
+  "test_command": "implementations/cognee/.venv/bin/python -m unittest discover -s implementations/cognee -p 'test_*.py' -v"
+}
