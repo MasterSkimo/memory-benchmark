@@ -1,0 +1,48 @@
+{
+  "benchmark": "BENCH-0001",
+  "protocol": "1.1",
+  "base_branch": "fix/codex-cloud-real-pilot",
+  "base_commit": "33972b750905148159497c27daae4b041291ef3a",
+  "fixture_manifest": {
+    "benchmark": "BENCH-0001",
+    "version": "cloud-0.2",
+    "seed": 42,
+    "notes": 1000,
+    "questions": 200,
+    "vault_sha256": "644b954c4ffe3dbe255e03fe3c24eb9e7bf7248db3790edfeba3ae2bc311e716"
+  },
+  "pilot_ids": [
+    "q00-exact-0",
+    "q01-exact-0",
+    "q02-exact-0",
+    "q03-exact-0",
+    "q00-semantic-0",
+    "q01-semantic-0",
+    "q02-semantic-0",
+    "q03-semantic-0",
+    "q00-multihop-0",
+    "q01-multihop-0",
+    "q02-multihop-0",
+    "q00-temporal-0",
+    "q01-temporal-0",
+    "q02-temporal-0",
+    "q00-negative-0",
+    "q01-negative-0",
+    "q02-negative-0",
+    "q00-isolation-0",
+    "q01-isolation-0",
+    "q02-isolation-0"
+  ],
+  "file_sha256": {
+    "fixtures/manifest.json": "a4c335087f46e1603312ab26728a95c4d2fedff6b0baef76bb72bb93b1ef438c",
+    "fixtures/questions_public_pilot.jsonl": "dd64ea2da51246bd9a6ffa7b48d14d70d88bc5ffbbb9231ceb3d4513612a51ac",
+    "fixtures/questions_public.jsonl": "da22b32e55f32578c04c57f14c0bc5785471f4aca4ef6728c49a594c9db9c8f7",
+    "config/codex/worker-policy.txt": "7b90e93020b8e7216ee0a3bb8920444c6c10fd81c829ebc8f431caca6de72cf8",
+    "config/codex/pilot-budget.json": "de11db520a02efe13d5a26708b11e496f092f6d193570a694b6af920e4f23f1a",
+    "config/codex/answer-policy.txt": "e0a2c786105de9c76a4d9a721656a63ac84b47c4f2a98bed28ffac73ef26c17f"
+  },
+  "model_requested": "gpt-6-luna",
+  "effort_requested": "medium",
+  "model_snapshot": null,
+  "oracle_generated": false
+}

@@ -1,0 +1,14 @@
+{
+  "benchmark": "BENCH-0001",
+  "scope": "Transparent synthetic development evaluation; not blinded",
+  "retrieval_positive_questions": 14,
+  "recall": "macro intersection of returned IDs and required IDs / required IDs",
+  "precision_at_5": "macro relevant IDs / 5 on support-bearing questions",
+  "negative_R": "empty-result rate reported separately; not answer abstention",
+  "answer_strict": "casefolded whitespace-normalized exact equality",
+  "answer_components": "casefolded canonical components separated by semicolon must occur in answer; no human semantic claim",
+  "grounded_components": "component match AND all required citations with exact source revisions AND no out-of-scope citations; unsupported questions require empty answer and no citations",
+  "missing_observations": "no credit, never successful abstentions",
+  "code_sha256": "d44d42d9bdc8d2d8eee1c94bb2d14c811b97868257d0b7ef85fb37602384c5ab",
+  "timing": "written before coordinator reads/scorers consume any final answers; workers never receive grading output"
+}

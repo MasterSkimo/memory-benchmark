@@ -28,3 +28,14 @@ Python setup requires no API key, Docker, or nested Codex CLI. Candidate backend
 - Do not reuse results from the old `bench-0001-cloud-pilot-preflight` branch: it ran no candidate. It is kept solely for historical diagnosis.
 
 See [PROMPT-CODEX-CLOUD.md](PROMPT-CODEX-CLOUD.md), [BENCH-0001.md](BENCH-0001.md) and [WORKER-CONTRACT.md](WORKER-CONTRACT.md).
+
+## Executed implementation pilot
+
+The candidate source, integration tests and qualified results are now included.
+See [comparison](results/COMPARISON.md), [run manifest](results/run-manifest.json)
+and [ADR-0001](ADR-0001-memory-benchmark-decision.md). Saved final evidence can be
+checked without installing every backend using `python3 -m benchkit.validate_results`.
+Backend reproduction commands and exact pins live under `implementations/`.
+Basic Memory ingests a private copy because its Markdown sync writes metadata;
+the neutral runner rejects changes to the frozen public corpus. Only the fixed
+20-question pilot is authorized.

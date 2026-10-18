@@ -1,0 +1,16 @@
+{
+  "candidate": "luna-vault-direct",
+  "scope": "open synthetic pilot, not blind",
+  "policy": "results/evaluation-policy.json",
+  "answers": {
+    "observed_sessions": 20,
+    "planned_questions": 20,
+    "strict_string_match_fraction": 0.65,
+    "canonical_component_match_fraction": 1.0,
+    "grounded_component_correct_fraction": 1.0,
+    "out_of_scope_citations": 0,
+    "revision_mismatches": 0,
+    "verified_token_observations": 0,
+    "trace_sha256": "d6af9621193b189f979df6de51078d32ed0031ab7787ab88a68f7bce9f2597a1"
+  }
+}

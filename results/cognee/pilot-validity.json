@@ -1,0 +1,9 @@
+{
+  "status": "INVALID_FOR_COMPARATIVE_RETRIEVAL",
+  "attempted_questions": 20,
+  "successful_queries": 0,
+  "reason": "Shared fixture notes were modified by another worker before the pilot. The attempted scope reads totaled 27456 bytes; coordinator reports pristine corpus total 25556 bytes.",
+  "source_was_modified_by_cognee_adapter": false,
+  "failed_attempt_adapter_sha256": "49225170e4d1625d9b6a6631e3aed23261fa59c58a243f8ea27f47d98cd99bcb",
+  "pilot_rerun_after_hardening": false
+}

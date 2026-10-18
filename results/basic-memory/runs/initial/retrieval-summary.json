@@ -1,0 +1,68 @@
+{
+  "candidate": "basic-memory",
+  "status": "RETRIEVAL_TESTED",
+  "questions_executed": 20,
+  "successful_queries": 20,
+  "status_counts": {
+    "ok": 20
+  },
+  "latency_ms": {
+    "p50": 1.8271039998580818,
+    "p95": 2.8836204496201394
+  },
+  "cache_groups": {
+    "first_scope_query": {
+      "queries": 4,
+      "p50_ms": 2.721518999805994
+    },
+    "reused_scope_adapter": {
+      "queries": 16,
+      "p50_ms": 1.8189959998835548
+    }
+  },
+  "setups": [
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-01",
+      "factory_elapsed_ms": 1287.5655490001918,
+      "ingest_file_reads": null,
+      "ingest_bytes_read": null,
+      "ingest_backend_calls": null,
+      "ingest_embedding_calls": null
+    },
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-02",
+      "factory_elapsed_ms": 578.3862919997773,
+      "ingest_file_reads": null,
+      "ingest_bytes_read": null,
+      "ingest_backend_calls": null,
+      "ingest_embedding_calls": null
+    },
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-03",
+      "factory_elapsed_ms": 563.3126489997267,
+      "ingest_file_reads": null,
+      "ingest_bytes_read": null,
+      "ingest_backend_calls": null,
+      "ingest_embedding_calls": null
+    },
+    {
+      "organization_id": "org-alpha",
+      "knowledge_space_id": "project-04",
+      "factory_elapsed_ms": 558.0083909999303,
+      "ingest_file_reads": null,
+      "ingest_bytes_read": null,
+      "ingest_backend_calls": null,
+      "ingest_embedding_calls": null
+    }
+  ],
+  "setup_excluded_from_query_latency": true,
+  "process_peak_rss_kib": 85836,
+  "native_token_coverage": 0,
+  "native_token_counter_source": "NOT_AVAILABLE",
+  "questions_sha256": "dd64ea2da51246bd9a6ffa7b48d14d70d88bc5ffbbb9231ceb3d4513612a51ac",
+  "adapter_sha256": "db605a786dcb54b82b68828e0e1e4a89a7d167cd2e0ec3dda254dc4f300249f1",
+  "scoring": "NOT_RUN: traces must close before separate evaluation"
+}

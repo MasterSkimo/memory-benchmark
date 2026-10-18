@@ -1,0 +1,45 @@
+{
+  "candidate": "luna-vault-direct",
+  "implementation_status": "IMPLEMENTED",
+  "retrieval_status": "P1R_NOT_RUN",
+  "answer_status": "P1E_COMPLETED_20_FRESH_SESSIONS",
+  "source": "fixtures/vault",
+  "source_sha256": "644b954c4ffe3dbe255e03fe3c24eb9e7bf7248db3790edfeba3ae2bc311e716",
+  "questions": "fixtures/questions_public_pilot.jsonl (frozen 20-question pilot; execute one per invocation/session)",
+  "answer_policy": "config/codex/answer-policy.txt",
+  "runtime": "Python 3.12.14 standard library; no third-party dependencies",
+  "indexing": "none",
+  "retrieval": "filesystem list/read plus deterministic lexical scan at call time; scan is P1R control, not Luna",
+  "telemetry": {
+    "wrapper_calls": "measured; one successful search operation per question",
+    "wrapper_file_reads": "measured; 100 Markdown reads per search",
+    "wrapper_bytes_read": "measured; 25556 per search",
+    "wrapper_latency_ms": "measured in each wrapper event; this is tool duration, not full agent session wall time",
+    "session_walltime_ms": null,
+    "native_tool_calls": null,
+    "input_tokens": null,
+    "cached_input_tokens": null,
+    "output_tokens": null,
+    "reasoning_tokens": null
+  },
+  "limitations": [
+    "P1R was not separately run; these are native Luna answer sessions using the filesystem wrapper",
+    "Native tool schema cannot strictly restrict capabilities; prompts required wrapper-only access and observed wrapper calls are audited",
+    "Per-session end-to-end wall time and native token/tool counters were not exported"
+  ],
+  "served_code_version": "5d974e3fefcae3ef92c86d5628775a405ba2c29a3500daf2095f4777914e14e2",
+  "served_source_sha256": {
+    "implementations/luna-vault-direct/scoped_vault.py": "92eee5b398449f3bb8ebf27d0d31e47ff0a79e5a1b828344215c8a9317b08d66",
+    "implementations/luna-vault-direct/native_tool.py": "76ffb58de7fc043ead93eb1ca82410a2b625fb39dc2124cbf47fb068b1b88e5c",
+    "implementations/luna-vault-direct/run_one.py": "fcf40aa7658bef576a044d002151f40f589be6f8c36f3506f4eaf21d90579852"
+  },
+  "question_file_sha256": "dd64ea2da51246bd9a6ffa7b48d14d70d88bc5ffbbb9231ceb3d4513612a51ac",
+  "answer_policy_sha256": "e0a2c786105de9c76a4d9a721656a63ac84b47c4f2a98bed28ffac73ef26c17f",
+  "model": "gpt-6-luna",
+  "effort": "medium",
+  "fresh_sessions": 20,
+  "question_order": "fixtures/questions_public_pilot.jsonl line order; one agent session active at a time",
+  "answer_traces": "answer-traces.jsonl",
+  "wrapper_events": "events/<question_id>.jsonl",
+  "setup_attempts": "setup-attempts.jsonl"
+}
