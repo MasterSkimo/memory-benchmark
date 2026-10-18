@@ -1,13 +1,14 @@
-# Benchmark-only repository instructions
+# BENCH-0001 — Codex Cloud execution rules
 
-This is a scientific **Codex Cloud** evaluation, not production application code.
+This repository is a research implementation benchmark, not production compliance certification. The corpus is synthetic. **Implement candidates first; never make preflight the whole task.**
 
-- Follow BENCH-0001.md, WORKER-CONTRACT.md and PROMPT-CODEX-CLOUD.md.
-- Test with the same Codex Luna model/effort wherever the service actually exposes them; record model identifiers and versions. Do not invent immutable snapshot names.
-- Do not use OpenRouter, developer API keys or surprise paid inference services. Ask for approval if an external ingestion model is required.
-- Keep the evaluator answer oracle OUTSIDE the agent's filesystem and prompts. If no real isolation is available, mark ISOLATION_NOT_PROVEN.
-- Five independent candidate implementations, same public corpus, pilot first; coordinator integrates evidence and reports.
-- Preserve source revisions, benchmark manifests, tokens, tool calls, backend calls and failures. Never invent telemetry.
-- Do not run full 190-question or concurrent load testing before review of pilot.
-- Do not alter frozen questions or score criteria to improve results.
-- Include code comments and run integration tests.
+1. Read PROMPT-CODEX-CLOUD.md, BENCH-0001.md and WORKER-CONTRACT.md.
+2. Use native Codex SOL coordinator and native Luna subagents where available. Do NOT run nested authenticated Codex CLI to test model availability. Failure of a nested endpoint does not block implementation or retrieval tests.
+3. Delegate five **real implementation tasks** independently: Basic Memory, Cognee, Graphiti, Qdrant, Luna direct Markdown. Use separate owned directories/worktrees.
+4. The deterministic gold generator is public in this repository. This is a transparent development benchmark, **not a secret holdout**. Workers must not consult the gold generator, expected answers or competitors' outputs when constructing answers/retrieval logic. A withheld human-reviewed corpus is needed before product selection.
+5. Backend isolation across organizations/projects must be enforced by the retrieval API and tested. OS isolation between trusted synthetic-dataset implementation subagents is NOT a prerequisite for implementation.
+6. Record actual model usage and tool events only if exposed. Otherwise use null / NOT_AVAILABLE while proceeding with retrieval quality, citations, backend calls, I/O and latency.
+7. No paid external inference without approval, no real client documents, no network-policy bypass or credential copying.
+8. Never generate bulk NOT_RUN placeholder traces. One concise blocker record is enough. Include real source and tests for every implementation that can be built.
+9. Stop after the 20-question pilot, no full 190-question or load test without review.
+10. Commit source, tests and concise redacted evidence; omit secrets, environment dumps and auth traces.
