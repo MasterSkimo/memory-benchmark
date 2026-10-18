@@ -1,0 +1,15 @@
+# Generated benchmark inputs and outputs; no oracle in the source repository.
+fixtures/public/
+fixtures/private/
+results/*
+!results/.gitkeep
+!results/README.md
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.env.*
+.codex/
+.benchmark-run/
+*.raw.jsonl
