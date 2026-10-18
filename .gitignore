@@ -1,8 +1,10 @@
-# Generated benchmark inputs and outputs; no oracle in the source repository.
-fixtures/public/
+# Corpus is generated deterministically by cloud-setup.sh, not checked in.
+fixtures/vault/
+fixtures/questions_public.jsonl
+fixtures/questions_public_pilot.jsonl
+fixtures/manifest.json
 fixtures/private/
 results/*
-!results/.gitkeep
 !results/README.md
 .venv/
 __pycache__/
