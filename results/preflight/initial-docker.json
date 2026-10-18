@@ -1,0 +1,10 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "chunk_id": "7acab5",
+    "wall_time_seconds": 0,
+    "exit_code": 1,
+    "original_token_count": 138,
+    "output": "Client:\n Version:    28.4.0\n Context:    default\n Debug Mode: false\n Plugins:\n  buildx: Docker Buildx (Docker Inc.)\n    Version:  v0.31.0\n    Path:     /usr/libexec/docker/cli-plugins/docker-buildx\n  compose: Docker Compose (Docker Inc.)\n    Version:  v2.40.3\n    Path:     /usr/libexec/docker/cli-plugins/docker-compose\n\nServer:\npermission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get \"http://%2Fvar%2Frun%2Fdocker.sock/v1.51/info\": dial unix /var/run/docker.sock: connect: operation not permitted\n"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "chunk_id": "36b6af",
+    "wall_time_seconds": 0.014664527,
+    "exit_code": 0,
+    "original_token_count": 83,
+    "output": "{\"url\": \"https://pypi.org/pypi/basic-memory/json\", \"error_type\": \"URLError\", \"error\": \"<urlopen error [Errno 1] Operation not permitted>\", \"elapsed_ms\": 14.672}\n{\"url\": \"https://github.com/MasterSkimo/memory-benchmark\", \"error_type\": \"URLError\", \"error\": \"<urlopen error [Errno 1] Operation not permitted>\", \"elapsed_ms\": 0.185}\n"
+  }
+}

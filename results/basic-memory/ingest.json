@@ -1,0 +1,31 @@
+{
+  "candidate": "basic-memory",
+  "status": "NOT_RUN_BLOCKED",
+  "executed": false,
+  "elapsed_ms": null,
+  "bytes_read": null,
+  "backend_calls": null,
+  "llm_extraction": {
+    "calls": null,
+    "input_tokens": null,
+    "output_tokens": null,
+    "failures": null
+  },
+  "embeddings": {
+    "calls": null,
+    "tokens": null,
+    "failures": null
+  },
+  "reranking": {
+    "calls": null,
+    "tokens": null,
+    "failures": null
+  },
+  "retries": null,
+  "cost_usd": null,
+  "blockers": [
+    "NATIVE_ISOLATION_NOT_PROVEN",
+    "ISOLATED_CODEX_ENDPOINT_HTTP_403",
+    "PER_QUESTION_TELEMETRY_UNAVAILABLE"
+  ]
+}

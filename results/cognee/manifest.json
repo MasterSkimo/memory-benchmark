@@ -1,0 +1,35 @@
+{
+  "benchmark": "BENCH-0001",
+  "status": "BLOCKED",
+  "phase": "pilot-only",
+  "frozen_inputs": "../frozen-inputs.json",
+  "input_hash_map_sha256": "39b3003c231428e696c47820ff791bd77f9b428bf8132bdcd0938c49d2251e87",
+  "pilot_questions_per_candidate": 20,
+  "cache_conditions": [
+    "cold",
+    "warm"
+  ],
+  "planned_question_conditions_per_lane": 40,
+  "executed_question_conditions_per_lane": 0,
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning_effort": "medium",
+  "observed_model": null,
+  "observed_effort": null,
+  "engine_version": null,
+  "implementation_worker_launched": false,
+  "blockers": [
+    "NATIVE_ISOLATION_NOT_PROVEN",
+    "ISOLATED_CODEX_ENDPOINT_HTTP_403",
+    "PER_QUESTION_TELEMETRY_UNAVAILABLE"
+  ],
+  "measured_token_trace_count": 0,
+  "planned_token_trace_count": 40,
+  "planned_token_coverage": 0.0,
+  "executed_token_coverage": null,
+  "measured_tool_trace_count": 0,
+  "planned_tool_coverage": 0.0,
+  "executed_tool_coverage": null,
+  "scoring_executed": false,
+  "candidate": "cognee",
+  "purpose": "Cognee: graph/vector ingestion and retrieval"
+}

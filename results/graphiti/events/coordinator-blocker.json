@@ -1,0 +1,11 @@
+{
+  "source": "coordinator artifact generation, not a worker/provider trace",
+  "candidate": "graphiti",
+  "event": "NOT_LAUNCHED",
+  "blockers": [
+    "NATIVE_ISOLATION_NOT_PROVEN",
+    "ISOLATED_CODEX_ENDPOINT_HTTP_403",
+    "PER_QUESTION_TELEMETRY_UNAVAILABLE"
+  ],
+  "raw_capability_events": "../../preflight/luna-capability.jsonl"
+}

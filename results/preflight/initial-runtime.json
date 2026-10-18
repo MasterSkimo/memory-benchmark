@@ -1,0 +1,10 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "chunk_id": "e37736",
+    "wall_time_seconds": 0,
+    "exit_code": 1,
+    "original_token_count": 181,
+    "output": "{\"python\": \"3.12.14\", \"platform\": \"Linux-6.18.55-x86_64-with-glibc2.41\", \"cpu_count\": 3, \"packages\": {\"basic-memory\": null, \"cognee\": null, \"graphiti-core\": null, \"qdrant-client\": null, \"sentence-transformers\": null, \"fastembed\": null, \"openai\": null, \"mcp\": \"1.29.0\"}, \"uid\": 1000, \"gid\": 1000, \"limits\": {\"RLIMIT_NPROC\": [39796, 39796], \"RLIMIT_NOFILE\": [16384, 16384], \"RLIMIT_AS\": [-1, -1], \"RLIMIT_CPU\": [-1, -1]}, \"cli\": {\"codex\": \"/opt/codex/bin/codex\", \"docker\": \"/usr/local/bin/docker\", \"dockerd\": \"/usr/local/bin/dockerd\", \"podman\": null, \"bwrap\": \"/usr/bin/bwrap\", \"unshare\": \"/usr/bin/unshare\", \"setpriv\": \"/usr/bin/setpriv\", \"sudo\": null, \"gh\": \"/usr/bin/gh\"}}\nbwrap: setting up uid map: Read-only file system\n"
+  }
+}

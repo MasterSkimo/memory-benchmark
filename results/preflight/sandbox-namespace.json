@@ -1,0 +1,10 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "chunk_id": "5bc9ea",
+    "wall_time_seconds": 0.000022213,
+    "exit_code": 0,
+    "original_token_count": 28,
+    "output": "bwrap: setting up uid map: Read-only file system\nunshare: cannot open /proc/self/uid_map: Read-only file system\n"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "NOT_SCORED",
+  "accuracy": null,
+  "recall": null,
+  "precision": null,
+  "tenant_leaks": null,
+  "latency_ms": null,
+  "reason": "No executed observations or isolated evaluator; blocked is not abstention."
+}

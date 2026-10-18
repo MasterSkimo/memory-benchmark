@@ -1,0 +1,32 @@
+{
+  "coordinator": {
+    "self_declared_family": "GPT-6",
+    "requested": "SOL/high",
+    "runtime_model_id": null,
+    "runtime_reasoning_effort": null
+  },
+  "delegation": {
+    "tool": "collaboration.spawn_agent",
+    "available_model_overrides": [
+      "gpt-6.1-sol",
+      "gpt-6-astra",
+      "gpt-6-sol",
+      "gpt-6-luna",
+      "gpt-5.6-sol"
+    ],
+    "slots_including_coordinator": 7,
+    "requested_worker_model": "gpt-6-luna",
+    "requested_worker_reasoning_effort": "medium",
+    "filesystem": "shared directory",
+    "process_identity_selector": false,
+    "tool_scope_selector": false,
+    "usage_counters_in_return_schema": false
+  },
+  "limits": {
+    "remaining_subscription_quota": null,
+    "input_tokens": null,
+    "cached_input_tokens": null,
+    "output_tokens": null
+  },
+  "source": "Tool schemas and developer runtime declarations; no worker launched"
+}

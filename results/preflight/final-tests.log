@@ -1,0 +1,17 @@
+test_generated_dataset (test_cloud.CloudFixturesTest.test_generated_dataset)
+Generate and check public data counts. ... ok
+test_reproducibility (test_cloud.CloudFixturesTest.test_reproducibility)
+Same seed must produce identical content digests. ... ok
+test_completed_turn_cannot_be_reported_as_blocked (test_cloud_report.CloudEvidenceTest.test_completed_turn_cannot_be_reported_as_blocked)
+A completion requires review, even when earlier retries had 403s. ... ok
+test_frozen_prompt_change_rejected (test_cloud_report.CloudEvidenceTest.test_frozen_prompt_change_rejected)
+A changed prompt cannot silently reuse the same frozen run. ... ok
+test_exact_and_temporal (test_evaluator.TrustedEvaluatorTest.test_exact_and_temporal)
+Expected values must follow the public fixture's deterministic cases. ... ok
+test_isolation_has_no_answer (test_evaluator.TrustedEvaluatorTest.test_isolation_has_no_answer)
+Foreign-scope requests must abstain. ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.302s
+
+OK

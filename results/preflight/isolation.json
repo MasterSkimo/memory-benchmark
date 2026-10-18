@@ -1,0 +1,22 @@
+{
+  "native_same_uid_canary_readable": true,
+  "namespace_probe_exit_code": 0,
+  "namespace_stdout": "{\"allowed_read\": true, \"denied\": {\"/tmp/bench0001-boundary-tx73hbux/evaluator-canary\": true, \"/workspace/memory-benchmark\": true, \"/workspace/memory-benchmark/benchkit/trusted_evaluator.py\": true, \"/workspace/memory-benchmark/fixtures/private/oracle.jsonl\": true, \"/run/docker.sock\": true, \"/var/run/docker.sock\": true, \"/proc/1/root/workspace/memory-benchmark\": true}}\n",
+  "namespace_stderr": "",
+  "oracle_generated": false,
+  "native_isolation": "ISOLATION_NOT_PROVEN",
+  "controlled_cli_isolation": "PROVEN_FOR_TESTED_PATHS",
+  "fresh_home_login": {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Not logged in\n"
+  },
+  "managed_auth_login": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Logged in using ChatGPT\n"
+  },
+  "model_probe_exit_code": null,
+  "model_probe_timeout_seconds": 45,
+  "model_probe_elapsed_seconds": 45.00079107899998
+}

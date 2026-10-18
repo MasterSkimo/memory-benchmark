@@ -1,0 +1,7 @@
+{
+  "chunk_id": "c868cb",
+  "wall_time_seconds": 0,
+  "exit_code": 101,
+  "original_token_count": 83,
+  "output": "bwrap: Can't mkdir parents for /run/docker.sock/.git: Not a directory\n\nthread 'main' (856) panicked at linux-sandbox/src/linux_run_main.rs:1271:21:\nfailed to inspect synthetic bubblewrap mount target /run/docker.sock/.aws: Not a directory (os error 20)\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace\n"
+}

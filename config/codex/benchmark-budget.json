@@ -1,0 +1,22 @@
+{
+  "benchmark": "BENCH-0001",
+  "phase": "pilot-only",
+  "questions_per_candidate": 20,
+  "cache_conditions": ["cold", "warm"],
+  "retrieval_top_k": 5,
+  "answer_model": "gpt-6-luna",
+  "reasoning_effort": "medium",
+  "fresh_session_per_question": true,
+  "soft_input_tokens_per_question": 16000,
+  "soft_output_tokens_per_question": 1000,
+  "max_tool_calls_per_question": 16,
+  "max_retries_per_question": 1,
+  "max_wall_seconds_per_question": 90,
+  "max_worker_wall_seconds": 1800,
+  "external_paid_inference_allowed": false,
+  "full_dataset_allowed": false,
+  "load_testing_allowed": false,
+  "enforcement_status": "NOT_EXECUTABLE: isolated subscription endpoint denied; token/call controls require verified runner before use",
+  "temperature": null,
+  "immutable_model_snapshot": null
+}

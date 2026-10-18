@@ -1,0 +1,125 @@
+{
+  "benchmark": "BENCH-0001",
+  "status": "BLOCKED",
+  "candidate_ids": [
+    "basic-memory",
+    "cognee",
+    "graphiti",
+    "qdrant-native",
+    "luna-vault-direct"
+  ],
+  "input_hash_map_sha256": "39b3003c231428e696c47820ff791bd77f9b428bf8132bdcd0938c49d2251e87",
+  "base_commit": "6e1dcee7a0df53a3511b2efdbcf1ed71adbbd406",
+  "candidate_workers_launched": 0,
+  "candidate_peak_concurrency": 0,
+  "candidate_questions_executed": 0,
+  "planned_e_question_conditions": 200,
+  "verified_e_token_traces": 0,
+  "planned_token_coverage": 0.0,
+  "executed_token_coverage": null,
+  "r_lane": "NOT_RUN",
+  "e_lane": "NOT_RUN",
+  "full_questions": "NOT_RUN_NOT_AUTHORIZED",
+  "load_testing": "NOT_RUN_NOT_AUTHORIZED",
+  "mutation_scenarios": "NOT_RUN",
+  "oracle_generation": "NOT_RUN",
+  "candidate_version_freeze": "INCOMPLETE",
+  "blockers": [
+    "NATIVE_ISOLATION_NOT_PROVEN",
+    "ISOLATED_CODEX_ENDPOINT_HTTP_403",
+    "PER_QUESTION_TELEMETRY_UNAVAILABLE"
+  ],
+  "ingest_amortization": {
+    "20": {
+      "basic-memory": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "cognee": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "graphiti": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "qdrant-native": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "luna-vault-direct": {
+        "tokens": null,
+        "cost_usd": null
+      }
+    },
+    "200": {
+      "basic-memory": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "cognee": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "graphiti": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "qdrant-native": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "luna-vault-direct": {
+        "tokens": null,
+        "cost_usd": null
+      }
+    },
+    "2000": {
+      "basic-memory": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "cognee": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "graphiti": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "qdrant-native": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "luna-vault-direct": {
+        "tokens": null,
+        "cost_usd": null
+      }
+    },
+    "20000": {
+      "basic-memory": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "cognee": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "graphiti": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "qdrant-native": {
+        "tokens": null,
+        "cost_usd": null
+      },
+      "luna-vault-direct": {
+        "tokens": null,
+        "cost_usd": null
+      }
+    }
+  },
+  "pareto_frontier": null,
+  "token_savings_vs_direct": null,
+  "call_savings_vs_direct": null
+}
